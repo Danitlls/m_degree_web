@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
-import Home from './Home';
-import About from './About';
-import Header from './Header';
-import Footer from './Footer';
-import Cakes from './Cakes';
-import Baked from './Baked';
-import Plated from './Plated';
-import Press from './Press';
+import Home from './components/Home';
+import About from './components/About';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Cakes from './components/Cakes';
+import Baked from './components/Baked';
+import Plated from './components/Plated';
+import Press from './components/Press';
 
 function applyHeaderFooter(Content) {
   return () => (
