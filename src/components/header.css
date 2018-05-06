@@ -1,0 +1,36 @@
+.mdegree-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.mdegree-nav .nav-expanded{
+  display: none;
+}
+
+.mdegree-nav {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.nav-text-color a, .mdegree-nav .button-collapse {
+  color: black;
+}
+
+
+@media (min-width: 450px) {
+  .mdegree-nav .side-nav-button {
+    display: none !important;
+  }
+  .mdegree-nav.nav-expanded{
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  .mdegree-nav .hide-on-med-and-down {
+    display: block !important;
+  }
+  .mdegree-nav .button-collapse{
+    display: none !important;
+  }
+}

@@ -3,7 +3,6 @@ import { Route } from 'react-router-dom'
 import Home from './components/Home';
 import About from './components/About';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Cakes from './components/Cakes';
 import Baked from './components/Baked';
 import Plated from './components/Plated';
@@ -14,7 +13,6 @@ function applyHeaderFooter(Content) {
     <div>
       <Header />
       <Content />
-      <Footer />
     </div>
   );
 }
