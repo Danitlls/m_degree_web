@@ -4,10 +4,10 @@ import './header.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className="nav-container">
     <Navbar right className="mdegree-nav">
       <NavItem className="mdegree-logo" href='/'>
-        <img src="http://via.placeholder.com/100x100" />
+        <img src="/img/M_Degree-logo.png" />
       </NavItem>
       <NavItem href='/about' className="nav-text-color">About & Contact Us</NavItem>
       <NavItem href='/press' className="nav-text-color">Press & Collaborations</NavItem>

@@ -1,6 +1,10 @@
+.nav-container{
+  margin-bottom: 3rem;
+}
+
 .mdegree-logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .mdegree-nav .nav-expanded{

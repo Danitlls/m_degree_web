@@ -1,0 +1,15 @@
+.desserts-nav{
+  width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.desserts-link{
+  color: grey !important;
+}
+
+.selected-desserts-link {
+  color: red;
+}

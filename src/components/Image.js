@@ -6,16 +6,15 @@ function onClick(imageId){
   }
 }
 
-export default function Image({ image, width, height }) {
+export default function Image({ image }) {
   return (
     <div>
       <img
+        className={image.className}
         onClick={onClick(image.id)}
-        style={{ width, height }}
         src={image.imageUrl}
         name={image.name}
       />
-      <p>{image.name}</p>
     </div>
   );
 }

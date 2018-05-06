@@ -1,7 +1,18 @@
 .modal {
   max-height: none !important;
+  width: 80% !important;
 }
 
 .close-modal {
   cursor: pointer;
+}
+
+.secondary-image {
+  width: 150px;
+  height: 100px;
+}
+
+.rectangle-image-grid{
+  padding: 3%;
+  width: 100%;
 }

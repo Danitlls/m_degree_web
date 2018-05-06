@@ -1,27 +1,59 @@
 import React from 'react';
-import { Col , Card, Row } from 'react-materialize';
+
 import ImageGrid from './ImageGrid';
+import DessertNav from './DessertNav';
+
 
 const PlatedImages = [
   {
-    imageUrl:'/DSCF0322 2.jpg',
+    imageUrl:'/img/plated/GAI_1206.jpg',
     name: 'Name1',
     id: 'Something1',
+    className: 'rectangle-image-grid',
+    secondaryImages: [
+      {
+        imageUrl:'/img/plated/GAI_1210.jpg',
+        name: 'Name1',
+        id: 'Something2',
+        className: 'secondary-image'
+      },
+      {
+        imageUrl:'/img/plated/GAI_1210.jpg',
+        name: 'Name1',
+        id: 'Something2',
+        className: 'secondary-image'
+      }
+    ],
   },
   {
-    imageUrl:'/DSCF0322 2.jpg',
+    imageUrl:'/img/plated/DSCF0322.jpg',
     name: 'Name1',
     id: 'Something2',
+    className: 'rectangle-image-grid'
   },
   {
-    imageUrl:'/DSCF0322 2.jpg',
+    imageUrl:'/img/plated/DSCF1850.jpg',
     name: 'Name1',
     id: 'Something3',
+    className: 'rectangle-image-grid'
   },
   {
-    imageUrl:'/DSCF1887.jpg',
+    imageUrl:'/img/plated/DSCF1887.jpg',
     name: 'Name1',
     id: 'Something4',
+    className: 'rectangle-image-grid'
+  },
+  {
+    imageUrl:'/img/plated/GAI_1146-2.jpg',
+    name: 'Name1',
+    id: 'Something4',
+    className: 'rectangle-image-grid'
+  },
+  {
+    imageUrl:'/img/plated/DSCF1899.jpg',
+    name: 'Name1',
+    id: 'Something4',
+    className: 'rectangle-image-grid'
   },
 ];
 
@@ -29,10 +61,8 @@ const PlatedImages = [
 export default function Plated() {
   return (
     <div>
-      <div>
-        <h1>Plated!</h1>
-      </div>
       <ImageGrid images={PlatedImages} />
+      <DessertNav />
     </div>
   );
 }
