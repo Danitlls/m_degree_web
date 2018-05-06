@@ -25,6 +25,7 @@ const PlatedImages = [
   },
 ];
 
+
 export default function Plated() {
   return (
     <div>
