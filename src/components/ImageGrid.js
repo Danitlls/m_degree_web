@@ -11,18 +11,24 @@ function onClick(imageId) {
 
 export default function ImageGrid({ images }) {
   return (
-    <div style={{
-     border: '1px solid grey'
+    <div className="m-degree-container" style={{
+     // border: '1px solid grey'
     }}>
     <Row>
     {images.map(image => {
       return (
-        <Col s={6}  m={4} className='' style={{
-           border: '1px solid lightgrey'
+        <Col s={image.smCol || 6}  m={image.mCol || 4} className='' style={{
+           border: '0px solid lightgrey', padding: '5px 10px'
         }}>
           <Image image={image} />
-          <Modal className="modal-picture" id={image.id} actions={<div></div>}>
-            <div onClick={onClick(image.id)}>
+          <Modal modalOptions={{
+            opacity: 0.2,
+            outDuration: 300,
+            startingTop: '7rem',
+            endingTop: '7rem',
+            preventScrolling: false,
+          }} className="modal-picture" id={image.id} actions={<div></div>}>
+            <div className="right" onClick={onClick(image.id)}>
               <Icon className="close-modal">close</Icon>
             </div>
             <Image image={image} />

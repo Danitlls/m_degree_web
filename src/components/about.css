@@ -1,2 +1,87 @@
-.about-container {
-  background-color: #bb1212; }
+h1{
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.about-container{
+  position: relative;
+  border: 0px solid red;
+  padding-top: 2rem;
+}
+
+.contact-container img{
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 1rem;
+  padding: .2rem;
+  margin-top: 3rem;
+}
+
+.contact-container img:hover{
+  /* border: .1rem solid #404040; */
+  background-color: #cf3a6e;
+  border-radius: 3rem;
+}
+.text-container, .contact-container{
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-container h1{
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+
+.right-photo{
+  position: absolute;
+  top: 3rem;
+  right:-.7rem;
+  width: 125px;
+}
+
+.left-photo{
+  position: absolute;
+  top: 2rem;
+  left:-1.4rem;
+  width: 118px;
+}
+
+.right-photo img , .left-photo img{
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .text-container, .contact-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .text-container h1{
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .right-photo{
+    position: fixed;
+    top: 16rem;
+    right:-1rem;
+    width: 26%;
+  }
+
+  .left-photo{
+    position: fixed;
+    top: 14rem;
+    left:-2rem;
+    width: 25%;
+  }
+
+  .right-photo img , .left-photo img{
+    width: 100%;
+  }
+  .contact-container img{
+    margin-top: 6rem;
+  }
+
+}

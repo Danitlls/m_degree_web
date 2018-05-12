@@ -7,9 +7,27 @@
 }
 
 .desserts-link{
-  color: grey !important;
+  color: lightgrey !important;
+  font-weight: 300;
+}
+.desserts-link:hover{
+  color: black !important;
+  border-bottom: 2px solid hotpink;
+  font-weight: 300;
 }
 
 .selected-desserts-link {
-  color: red;
+  color: black;
+
+}
+
+@media (min-width: 600px) {
+  .desserts-nav{
+    width: 40%;
+  }
+  .desserts-nav-container{
+    width: 100%;
+    background-color: white;
+  }
+
 }

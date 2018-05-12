@@ -1,18 +1,60 @@
 .modal {
   max-height: none !important;
-  width: 80% !important;
+  width: 94% !important;
+  transform: scale(1) !important;
+  box-shadow: none !important;
+}
+.modal-content{
+  padding: .1rem 2rem !important;
 }
 
+.right{
+  text-align: right;
+}
 .close-modal {
   cursor: pointer;
 }
 
 .secondary-image {
-  width: 150px;
-  height: 100px;
+  width: 120px;
+  height: 84px;
+  margin-right: .5rem;
+  margin-top: 1rem;
 }
 
 .rectangle-image-grid{
-  padding: 3%;
   width: 100%;
+}
+
+@media (min-width: 600px) {
+  .modal {
+    width: 80% !important;
+    transform: scale(.9) !important;
+  }
+  .m-degree-container{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .secondary-image {
+    width: 190px;
+    height: 110px;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal{
+    top: 3rem !important;
+    width: 70vw !important;
+    /* max-height: 85vh !important; */
+  }
+  .modal .modal-content {
+    max-height: 83vh !important;
+  }
+  .m-degree-container{
+    width: 70%;
+    margin-left: 15%;
+  }
+
 }

@@ -7,6 +7,7 @@ import Cakes from './components/Cakes';
 import Baked from './components/Baked';
 import Plated from './components/Plated';
 import Press from './components/Press';
+import HomeIntro from './components/HomeIntro';
 
 function applyHeaderFooter(Content) {
   return () => (
@@ -20,6 +21,11 @@ function applyHeaderFooter(Content) {
 export default function Routes() {
   return (
     <div>
+      <Route
+        exact
+        path="/intro"
+        render={(HomeIntro)}
+      />
       <Route
         exact
         path="/"

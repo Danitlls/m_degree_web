@@ -1,0 +1,56 @@
+/* LOGO ANIMABLE */
+.logo-animable-container{
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto;
+}
+.logo-animable{
+  transform: scale(.6);
+}
+
+/*  DESSERTS NAV */
+.home-desserts-container{
+  display: flex;
+  justify-content: space-around;
+  border: 0px solid red;
+  text-align: center;
+}
+.home-desserts-container  a {
+  color: black;
+  font-family: 'Kiona', sans-serif;
+
+}
+
+.card-dessert{
+  width: 32%;
+  padding: 0;
+}
+.card-dessert img{
+  border-radius: 3px;
+  width: 100%;
+}
+
+.card-dessert:hover img{
+  opacity: .7;
+}
+.home-desserts-container:hover  a {
+  opacity: .7;
+}
+
+@media (min-width: 600px) {
+  .card-dessert{
+    width: 30%;
+
+  }
+}
+
+@media (min-width: 900px) {
+  .home-desserts-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .card-dessert{
+    width: 30%;
+    padding: 0rem;
+  }
+}

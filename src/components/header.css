@@ -1,11 +1,28 @@
-.nav-container{
-  margin-bottom: 3rem;
+@font-face {
+  font-family: 'Kiona', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kiona'), local('Kiona'),
+       url('/fonts/Kiona-Regular.ttf')
 }
 
-.mdegree-logo {
-  width: 80px;
-  height: 80px;
+h2{
+  font-family: 'Kiona', sans-serif;
+  font-size: 1.5rem;
+  color: darkgrey;
+  text-align: center;
 }
+
+.nav-container{
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.mdegree-logo-container {
+  text-align: center;
+  height: 120px;
+}
+
 
 .mdegree-nav .nav-expanded{
   display: none;
@@ -15,12 +32,58 @@
   background: transparent !important;
   box-shadow: none !important;
 }
+.top-nav-mdegree a{
+  margin-top: 1rem;
+  padding: 0;
+}
+.top-nav-mdegree a:hover{
+  border-bottom: 2px solid  #cf3a6e;
+}
 
+nav ul a:hover{
+  background-color: transparent;
+}
 .nav-text-color a, .mdegree-nav .button-collapse {
   color: black;
+  padding-top: 1rem;
+  line-height: 1.3rem !important;
+  margin-right: 2rem;
+}
+.side-nav {
+  width: 16rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+.side-nav a {
+  margin-right: 0;
+}
+.side-nav .mdegree-logo-container a:hover {
+  background-color: transparent;
+  border-bottom: none;
+}
+ .side-nav li.hide-on-med-and-up{
+  border-bottom: none;
 }
 
 
+.second-logo-c{
+  position: fixed;
+  top:.2rem;
+  right:.5rem;
+}
+.second-logo {
+  transform: scale(.7);
+}
+
+
+
+
+
+@media (min-width: 321px) {
+  .mdegree-logo {
+    transform: scale(.7);
+  }
+}
 @media (min-width: 450px) {
   .mdegree-nav .side-nav-button {
     display: none !important;
@@ -28,13 +91,43 @@
   .mdegree-nav.nav-expanded{
     display: block;
   }
+  .mdegree-logo {
+    transform: scale(1);
+  }
+
 }
 
 @media (min-width: 600px) {
+  .nav-text-color a, .mdegree-nav .button-collapse {
+    font-size: .9rem;
+  }
+
   .mdegree-nav .hide-on-med-and-down {
-    display: block !important;
+    display: flex !important;
+    width: 100%;
+    text-align: right;
+    justify-content: flex-end;
+    position: relative;
   }
   .mdegree-nav .button-collapse{
     display: none !important;
+  }
+
+  .mdegree-logo-container {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+  }
+  .mdegree-logo {
+    transform: scale(.8);
+    position: absolute;
+    left: -50%;
+  }
+}
+
+@media (min-width: 750px) {
+  ul.mdegree-nav.right.hide-on-med-and-down > li:nth-child(3){
+    margin-right: 3rem;
   }
 }

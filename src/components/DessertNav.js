@@ -11,10 +11,12 @@ function isSelectedLink(locationPath, path) {
 function DessertNav(props) {
   const location = props.location.pathname;
   return (
-    <div className="desserts-nav">
-      <Link to='/cakes' className={isSelectedLink(location, '/cakes')}>Cakes</Link>
-      <Link to='/plated' className={isSelectedLink(location, '/plated')}>Plated Desserts</Link>
-      <Link to='/baked' className={isSelectedLink(location, '/baked')}>Baked</Link>
+    <div className="desserts-nav-container">
+      <div className="desserts-nav">
+        <Link to='/cakes' className={isSelectedLink(location, '/cakes')}>Cakes</Link>
+        <Link to='/plated' className={isSelectedLink(location, '/plated')}>Plated Desserts</Link>
+        <Link to='/baked' className={isSelectedLink(location, '/baked')}>Baked</Link>
+      </div>
     </div>
   );
 }
