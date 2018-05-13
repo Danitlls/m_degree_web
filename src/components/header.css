@@ -12,15 +12,21 @@ h2{
   color: darkgrey;
   text-align: center;
 }
+h3{
+  font-family: 'Kiona', sans-serif;
+  font-size: 1.5rem;
+  color: grey;
+  text-align: center;
+}
 
 .nav-container{
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   margin-top: 0;
 }
 
 .mdegree-logo-container {
   text-align: center;
-  height: 120px;
+  height: 100px;
 }
 
 
@@ -31,6 +37,7 @@ h2{
 .mdegree-nav {
   background: transparent !important;
   box-shadow: none !important;
+  height: 100px;
 }
 .top-nav-mdegree a{
   margin-top: 1rem;
@@ -114,8 +121,8 @@ nav ul a:hover{
   }
 
   .mdegree-logo-container {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     left: 50%;
   }
@@ -129,5 +136,12 @@ nav ul a:hover{
 @media (min-width: 750px) {
   ul.mdegree-nav.right.hide-on-med-and-down > li:nth-child(3){
     margin-right: 3rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav-container {
+    width: 95%;
+    margin: 0 2.5%;
   }
 }

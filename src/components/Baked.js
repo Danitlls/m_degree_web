@@ -27,7 +27,7 @@ const BakedImages = [
     mCol: 2,
   },
   {
-    imageUrl:'/img/baked/chikalicious7566.jpg',
+    imageUrl:'/img/baked/baked-main.jpg',
     name: 'Name1',
     id: 'Something5',
     className: 'rectangle-image-grid',
@@ -38,7 +38,7 @@ const BakedImages = [
     name: 'Name1',
     id: 'Something6',
     className: 'rectangle-image-grid',
-    mCol: 3,
+    mCol: 4,
   },
 
   {
@@ -47,7 +47,7 @@ const BakedImages = [
     id: 'Something4',
     className: 'rectangle-image-grid',
     smCol: 12,
-    mCol: 6,
+    mCol: 4,
   },
 
 

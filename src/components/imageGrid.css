@@ -1,8 +1,13 @@
+.desserts-container{
+  padding-top: 1rem;
+}
+
 .modal {
-  max-height: none !important;
   width: 94% !important;
   transform: scale(1) !important;
   box-shadow: none !important;
+  padding-bottom: 0px;
+  max-height: 85vh !important;
 }
 .modal-content{
   padding: .1rem 2rem !important;
@@ -25,11 +30,23 @@
 .rectangle-image-grid{
   width: 100%;
 }
-
+.m-degree-modal-footer{
+  margin-bottom: 3rem;
+}
+.modal-footer{
+  display: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
 @media (min-width: 600px) {
+  .desserts-container{
+    margin-top: 2rem;
+    width: 94%;
+    margin: 1rem auto;
+  }
   .modal {
     width: 80% !important;
-    transform: scale(.9) !important;
   }
   .m-degree-container{
     width: 90%;

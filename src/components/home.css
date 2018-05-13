@@ -1,11 +1,15 @@
+.home-container{
+  margin: 0 1rem;
+}
+
 /* LOGO ANIMABLE */
 .logo-animable-container{
   display: flex;
   justify-content: center;
-  margin: 4rem auto;
+  margin: 5rem auto;
 }
 .logo-animable{
-  transform: scale(.6);
+  transform: scale(.8);
 }
 
 /*  DESSERTS NAV */
@@ -18,7 +22,7 @@
 .home-desserts-container  a {
   color: black;
   font-family: 'Kiona', sans-serif;
-
+  padding: 1rem 0;
 }
 
 .card-dessert{

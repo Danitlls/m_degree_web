@@ -20,14 +20,14 @@ export default function PressGrid({ images }) {
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.mCol || 4}  className='press-card' style={{
              border: '0px solid red' , }}>
              <div style={{
-                border: '0px solid yellow', padding: '1rem 1rem', background : 'white',}}>
+                border: '0px solid yellow', padding: '1rem 1rem', background : '#f7f3f3',  background : '#efefef',}}>
               <Image image={image} />
 
-              <Modal modalOptions={{
+              <Modal className="modal" modalOptions={{
                 opacity: 0.2,
                 outDuration: 300,
-                startingTop: '7rem',
-                endingTop: '7rem',
+                startingTop: '4rem',
+                endingTop: '3rem',
                 preventScrolling: false,
               }} className="modal-picture" id={image.id} actions={<div></div>}>
                 <div className="right" onClick={onClick(image.id)}>
@@ -41,13 +41,14 @@ export default function PressGrid({ images }) {
                     name={image.name}
                     />);
                   })}
-                <Image image={image.secondaryImages[0]} />
 
-                <h5>{image.name}</h5>
-                <p>{image.date}</p>
-                <p>{image.type}</p>
-                <p>{image.description}</p>
-                <p></p>
+                <div className="m-degree-modal-footer">
+                  <h5>{image.name}</h5>
+                  <p>{image.date}</p>
+                  <p>{image.type}</p>
+                  <p>{image.description}</p>
+                  <p></p>
+                </div>
               </Modal>
               <h5>{image.name}</h5>
               <p>{image.date}</p>
@@ -56,7 +57,7 @@ export default function PressGrid({ images }) {
         );
       })}
       </Row>
-      <h2>Press & Collaborations</h2>
+      <h3>Press & Collaborations</h3>
     </div>
   );
 }

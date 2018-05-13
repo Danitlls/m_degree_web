@@ -1,9 +1,12 @@
 body .press {
-  background-color: #f5f4f9;
   height: 100vh;
   padding-top: 2rem;
+  background-color: white;
 }
 
+.press-card {
+  background-color: white;
+}
 .press-card h5{
   font-family: 'Kiona', sans-serif;
   font-size: 1.2rem;

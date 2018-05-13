@@ -9,7 +9,7 @@ const PlatedImages = [
     name: 'Name1',
     id: 'Something1',
     className: 'rectangle-image-grid',
-    mCol: 6,
+    mCol: 7,
     smCol: 12,
     secondaryImages: [
       {
@@ -30,7 +30,8 @@ const PlatedImages = [
     imageUrl:'/img/plated/DSCF0322.jpg',
     name: 'Name1',
     id: 'Something4',
-    className: 'rectangle-image-grid'
+    className: 'rectangle-image-grid',
+    mCol: 4,
   },
   {
     imageUrl:'/img/plated/DSCF1850.jpg',
@@ -45,7 +46,7 @@ const PlatedImages = [
     name: 'Name1',
     id: 'Something6',
     className: 'rectangle-image-grid',
-    mCol: 3,
+    mCol: 4,
   },
   {
     imageUrl:'/img/plated/GAI_1146-2.jpg',
@@ -60,7 +61,7 @@ const PlatedImages = [
     name: 'Name1',
     id: 'Something8',
     className: 'rectangle-image-grid',
-    mCol: 6,
+    mCol: 4,
     smCol: 12,
 
   },

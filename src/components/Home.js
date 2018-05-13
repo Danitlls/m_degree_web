@@ -5,10 +5,10 @@ import './home.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className="home-container">
       <div>
         <div className="logo-animable-container">
-          <img className="logo-animable" src="/img/M_Degree-logo-black.svg" />
+          <img className="logo-animable" src="/img/second-logo.svg" />
         </div>
       </div>
       <div className="home-desserts-container">
@@ -21,8 +21,11 @@ export default function Home() {
           <Link to='/plated'>Plated Desserts</Link>
         </div>
         <div className="card-dessert">
-          <img src="/img/baked/baked-main.jpg" />
-          <Link to='/baked'>Baked</Link>
+
+          <Link to='/baked'>
+            <img src="/img/baked/baked-main.jpg" />
+            Baked
+          </Link>
         </div>
       </div>
     </div>

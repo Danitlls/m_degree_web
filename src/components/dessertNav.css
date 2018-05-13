@@ -1,6 +1,6 @@
 .desserts-nav{
   width: 70%;
-  margin: 1rem auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: space-between;
 
@@ -13,7 +13,6 @@
 .desserts-link:hover{
   color: black !important;
   border-bottom: 2px solid hotpink;
-  font-weight: 300;
 }
 
 .selected-desserts-link {
