@@ -1,0 +1,27 @@
+
+.logo-animable-container {
+  border: 1px solid red;
+
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0.01);
+  }
+  34% {
+
+  }
+  37% {
+    /* transform: translateY(150px); */
+  }
+  100% {
+    /* transform: translateY(150px); */
+      transform: scale(.8);
+  }
+}
+
+.logo-animable {
+  animation: popup ease;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}

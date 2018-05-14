@@ -1,0 +1,32 @@
+.desserts-nav{
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.desserts-link{
+  color: lightgrey !important;
+  font-weight: 300;
+}
+.desserts-link:hover{
+  color: black !important;
+  border-bottom: 2px solid hotpink;
+}
+
+.selected-desserts-link {
+  color: black;
+
+}
+
+@media (min-width: 600px) {
+  .desserts-nav{
+    width: 40%;
+  }
+  .desserts-nav-container{
+    width: 100%;
+    background-color: white;
+  }
+
+}

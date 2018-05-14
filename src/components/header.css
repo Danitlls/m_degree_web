@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Kiona', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kiona'), local('Kiona'),
+       url('/fonts/Kiona-Regular.ttf')
+}
+h1{
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Kiona', sans-serif;
+}
+
+h2{
+  font-family: 'Kiona', sans-serif;
+  font-size: 1.5rem;
+  color: darkgrey;
+  text-align: center;
+}
+h3{
+  font-family: 'Kiona', sans-serif;
+  font-size: 1.5rem;
+  color: grey;
+  text-align: center;
+}
+
+.nav-container{
+  margin-bottom: 0rem;
+  margin-top: 0;
+  height: 85px;
+}
+
+.mdegree-logo-container {
+  text-align: center;
+  height: 100px;
+}
+
+
+.mdegree-nav .nav-expanded{
+  display: none;
+}
+
+.mdegree-nav {
+  background: white !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  position: fixed;
+  height: 85px;
+  z-index: 99;
+}
+.top-nav-mdegree a{
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  border-bottom: 2px solid  white;
+  transition: border-bottom .4s;
+}
+.top-nav-mdegree a:hover{
+  border-bottom: 2px solid  #cf3a6e;
+}
+
+nav ul a:hover{
+  background-color: transparent;
+}
+.nav-text-color a, .mdegree-nav .button-collapse {
+  color: black;
+  padding-top: 1rem;
+  line-height: 1.3rem !important;
+  margin-right: 2rem;
+}
+.side-nav {
+  width: 16rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+.side-nav a {
+  margin-right: 0;
+}
+.side-nav .mdegree-logo-container a:hover {
+  background-color: transparent;
+  border-bottom: none;
+}
+ .side-nav li.hide-on-med-and-up{
+  border-bottom: none;
+}
+
+
+.second-logo-c{
+  position: fixed;
+  top:0rem;
+  right:.5rem;
+  z-index: 999;
+}
+.second-logo {
+  transform: scale(.7);
+}
+
+
+
+
+
+@media (min-width: 321px) {
+  .mdegree-logo {
+    transform: scale(.7);
+  }
+}
+@media (min-width: 450px) {
+  .mdegree-nav .side-nav-button {
+    display: none !important;
+  }
+  .mdegree-nav.nav-expanded{
+    display: block;
+  }
+  .mdegree-logo {
+    transform: scale(1);
+  }
+
+}
+
+@media (min-width: 600px) {
+  nav ul a{
+    padding: 0;
+  }
+  .nav-text-color a, .mdegree-nav .button-collapse {
+    font-size: .9rem;
+  }
+
+  .mdegree-nav .hide-on-med-and-down {
+    display: flex !important;
+    width: 100%;
+    text-align: right;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .mdegree-nav .button-collapse{
+    display: none !important;
+  }
+
+  .mdegree-logo-container {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    padding-top: .7rem;
+  }
+  .mdegree-logo {
+    height: 80px;
+    margin-left: -50%;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+  }
+  .mdegree-logo:hover {
+    transform: scale(.9);
+    /* background-color: #f9f9f9; */
+
+
+  }
+}
+
+@media (min-width: 750px) {
+  ul.mdegree-nav.right.hide-on-med-and-down > li:nth-child(3){
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav-container {
+    width: 100%;
+  }
+}

@@ -3,18 +3,17 @@ import { Route } from 'react-router-dom'
 import Home from './components/Home';
 import About from './components/About';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Cakes from './components/Cakes';
 import Baked from './components/Baked';
 import Plated from './components/Plated';
 import Press from './components/Press';
+import HomeIntro from './components/HomeIntro';
 
 function applyHeaderFooter(Content) {
   return () => (
     <div>
       <Header />
       <Content />
-      <Footer />
     </div>
   );
 }
@@ -22,6 +21,11 @@ function applyHeaderFooter(Content) {
 export default function Routes() {
   return (
     <div>
+      <Route
+        exact
+        path="/intro"
+        render={(HomeIntro)}
+      />
       <Route
         exact
         path="/"
