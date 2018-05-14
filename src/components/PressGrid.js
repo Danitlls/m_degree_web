@@ -24,7 +24,7 @@ export default function PressGrid({ images }) {
                 border: '0px solid yellow', padding: '1rem 1rem', background : '#f7f3f3',  background : '#efefef',}}>
               <Image image={image} />
 
-              <Modal className="modal" modalOptions={{
+              <Modal className="modal modal-press" modalOptions={{
                 opacity: 0.2,
                 outDuration: 300,
                 startingTop: '7rem',
@@ -35,10 +35,10 @@ export default function PressGrid({ images }) {
                   <Icon className="close-modal">close</Icon>
                 </div>
                 <div className="row">
-                  <div className="col s12 m8">
+                  <div className="col s12 l8">
                     <Image image={image} />
                   </div>
-                  <div className=" col m4 m-degree-press-modal-footer">
+                  <div className=" col m6 l4 m-degree-press-modal-footer">
                     <h5>{image.name}</h5>
                     <p>{image.description}</p>
                     <p style={{
@@ -49,7 +49,7 @@ export default function PressGrid({ images }) {
                       margin: 0,
                     }}>{image.date}</p>
                   </div>
-                  <div className="col m4 ">
+                  <div className="col m6 l4 ">
                   {(image.secondaryImages || []).map(image => {
                     return (<img
                       className={image.className}

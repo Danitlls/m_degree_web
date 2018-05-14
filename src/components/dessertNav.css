@@ -9,6 +9,8 @@
 .desserts-link{
   color: lightgrey !important;
   font-weight: 300;
+  border-bottom: 2px solid white;
+  transition: all .3s;
 }
 .desserts-link:hover{
   color: black !important;

@@ -84,6 +84,7 @@ a.button-collapse {
   background-color: white;
   padding-bottom: 1rem;
   position: fixed;
+  z-index: 3;
   right: .2rem;
 }
 nav .button-collapse i {
@@ -126,6 +127,7 @@ div.empty{
   width: 100%;
   height: 90px;
   background-color: white;
+  z-index: 2;
 }
 
 
@@ -157,6 +159,10 @@ div.empty{
     font-size: .9rem;
     padding-top: 0;
   }
+  div.empty{
+    z-index: -2;
+    position: absolute;
+  }
 
   .mdegree-nav .hide-on-med-and-down {
     display: flex !important;
@@ -165,6 +171,7 @@ div.empty{
     justify-content: flex-end;
     position: relative;
     padding-top: 0 !important;
+    margin-right: 0;
   }
   .mdegree-nav .button-collapse{
     display: none !important;

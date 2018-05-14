@@ -81,7 +81,7 @@ const CakesImages = [
     name: 'Name1',
     id: 'cake6',
     className: 'rectangle-image-grid',
-    mCol: 4,
+    mCol: 6,
     smCol: 12,
   },
 

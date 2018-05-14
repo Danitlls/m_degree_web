@@ -17,11 +17,11 @@ export default function ImageGrid({ images }) {
     <Row className="desserts-container">
     {images.map(image => {
       return (
-        <Col s={image.smCol || 6}  m={image.mCol || 4} className='' style={{
-           border: '0px solid lightgrey', padding: '5px 10px'
+        <Col s={image.smCol || 6}  m={image.mCol || 6}  l={image.lCol || 4}  style={{
+           border: '0px solid lightgrey', padding: '3px 6px'
         }}>
           <Image image={image} />
-          <Modal className="modal" modalOptions={{
+          <Modal className="modal modal-desserts" modalOptions={{
             opacity: 0.2,
             outDuration: 300,
             startingTop: '7rem',
@@ -32,17 +32,29 @@ export default function ImageGrid({ images }) {
             <div className="right" onClick={onClick(image.id)}>
               <Icon className="close-modal">close</Icon>
             </div>
-            <Image image={image} />
-            <div className= "m-degree-modal-footer">
-              <h5>{image.name}</h5>
-              <p>{image.description}</p>
-              {(image.secondaryImages || []).map(image => {
-                return (<img
-                  className={image.className}
-                  src={image.imageUrl}
-                  name={image.name}
-                />);
-              })}
+            <div className="row">
+              <div className="col s12 l9">
+                <Image image={image} />
+              </div>
+              <div className= "col s12 m7 l3 m-degree-modal-footer">
+                <h5>{image.name}</h5>
+                <p>{image.description}</p>
+              </div>
+              <div className= "col s12 m5 l3">
+                <div className="row">
+                  <div className="col s12"  style={{
+                   padding: '0',
+                  }}>
+                    {(image.secondaryImages || []).map(image => {
+                      return (<img
+                        className={image.className}
+                        src={image.imageUrl}
+                        name={image.name}
+                      />);
+                    })}
+                  </div>
+                </div>
+              </div>
             </div>
           </Modal>
         </Col>

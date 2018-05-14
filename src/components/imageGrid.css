@@ -13,6 +13,7 @@
   padding: .1rem 2rem !important;
 }
 
+
 .right{
   text-align: right;
 }
@@ -55,28 +56,31 @@
   .m-degree-container{
     width: 90%;
     margin-left: 5%;
+    padding-top: 1rem;
   }
   .secondary-image {
-    width: 190px;
-    height: 110px;
+    width: 100%;
+    height: auto;
     margin-right: 1.5rem;
     margin-top: 1rem;
   }
-
-
+}
+@media (min-width: 995px) {
+  .modal {
+    width: 80% !important;
+  }
+  .modal h5{
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1200px) {
-  .modal{
-    width: 70vw !important;
-    max-height: 85vh !important;
-  }
   .modal .modal-content {
     max-height: 85vh !important;
   }
   .m-degree-container{
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
   }
   .secondary-image {
     width: 100%;

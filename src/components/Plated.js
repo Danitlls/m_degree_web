@@ -12,6 +12,7 @@ const PlatedImages = [
     description: 'Puffed amaranth tuile, milky oolong tea cream, sweet potato sorbet and chips with lemon-tequila agar agar',
     mCol: 6,
     smCol: 12,
+    lCol: 4,
     secondaryImages: [
       {
         imageUrl:'/img/plated/plated-5.jpg',
@@ -27,6 +28,7 @@ const PlatedImages = [
     id: 'plated3',
     className: 'rectangle-image-grid',
     mCol: 3,
+    lCol: 4,
   },
   {
     imageUrl:'/img/plated/GAI_1146-2.jpg',
@@ -35,6 +37,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     description: 'Balsamic glaze compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
     mCol: 3,
+    lCol: 4,
 
   },
   {
@@ -44,6 +47,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     description: '32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
     mCol: 3,
+    lCol: 6,
   },
 
   {
@@ -53,7 +57,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     description: 'Fresh summer watermelon compressed with mint and consommé with Lemon sorbet',
     mCol: 3,
-
+    lCol: 3,
   },
   {
     imageUrl:'/img/plated/DSCF1850.jpg',
@@ -62,6 +66,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     description: 'Pineapple compressed and granita, apple compressed and sorbet, with lemon and basil gel',
     mCol: 3,
+    lCol: 3,
   },
 
   {
@@ -71,6 +76,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint vei',
     mCol: 3,
+    lCol: 3,
 
   },
   {
@@ -81,6 +87,7 @@ const PlatedImages = [
     description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange yuzu agar agar, and lemonade sorbet',
     mCol: 6,
     smCol: 12,
+    lCol: 3,
   },
 
 ];
