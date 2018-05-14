@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from './Image';
 import { Modal, Icon, Row, Col } from 'react-materialize';
-import './imageGrid.css';
+import './pressGrid.css';
 
 function onClick(imageId) {
   return function() {
@@ -34,21 +34,30 @@ export default function PressGrid({ images }) {
                 <div className="right" onClick={onClick(image.id)}>
                   <Icon className="close-modal">close</Icon>
                 </div>
-                <Image image={image} />
-                {(image.secondaryImages || []).map(image => {
-                  return (<img
-                    className={image.className}
-                    src={image.imageUrl}
-                    name={image.name}
-                    />);
-                  })}
-
-                <div className="m-degree-modal-footer">
-                  <h5>{image.name}</h5>
-                  <p>{image.date}</p>
-                  <p>{image.type}</p>
-                  <p>{image.description}</p>
-                  <p></p>
+                <div className="row">
+                  <div className="col s12 m8">
+                    <Image image={image} />
+                  </div>
+                  <div className=" col m4 m-degree-press-modal-footer">
+                    <h5>{image.name}</h5>
+                    <p>{image.description}</p>
+                    <p style={{
+                      fontSize: '.7rem',
+                      margin: 0,
+                    }}>{image.type}</p>
+                    <p style={{
+                      margin: 0,
+                    }}>{image.date}</p>
+                  </div>
+                  <div className="col m4 ">
+                  {(image.secondaryImages || []).map(image => {
+                    return (<img
+                      className={image.className}
+                      src={image.imageUrl}
+                      name={image.name}
+                      />);
+                    })}
+                  </div>
                 </div>
               </Modal>
               <h5>{image.name}</h5>

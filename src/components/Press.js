@@ -10,21 +10,15 @@ const PressArticles = [
     id: 'Something1',
     className: 'rectangle-image-grid',
     date: 2017,
-    type: 'Press',
+    type: 'Magazine Article',
     description: 'This is the description of the press or collaboration',
     secondaryImages: [
       {
         imageUrl:'/img/press/elle-place-full.png',
         name: 'Name1',
         id: 'Something2-1',
-        className: 'secondary-image'
+        className: 'secondary-press-image'
       },
-      {
-        imageUrl:'/img/press/elle-place.png',
-        name: 'Name1',
-        id: 'Something2',
-        className: 'secondary-image'
-      }
     ],
   },
   {
@@ -40,14 +34,8 @@ const PressArticles = [
         imageUrl:'/img/press/elle-place-full.png',
         name: 'Name1',
         id: 'Something2-1',
-        className: 'secondary-image'
+        className: 'secondary-press-image'
       },
-      {
-        imageUrl:'/img/press/elle-place.png',
-        name: 'Name1',
-        id: 'Something2',
-        className: 'secondary-image'
-      }
     ],
 
   },
@@ -64,14 +52,8 @@ const PressArticles = [
         imageUrl:'/img/press/elle-place-full.png',
         name: 'Name1',
         id: 'Something2-1',
-        className: 'secondary-image'
+        className: 'secondary-press-image'
       },
-      {
-        imageUrl:'/img/press/elle-place.png',
-        name: 'Name1',
-        id: 'Something2',
-        className: 'secondary-image'
-      }
     ],
   },
 ];
