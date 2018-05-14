@@ -12,6 +12,7 @@ function onClick(imageId) {
 export default function PressGrid({ images }) {
   return (
     <div className="m-degree-container" >
+      <h3>Press & Collaborations</h3>
       <Row style={{
        margin: '.5rem auto',
       }}>
@@ -57,7 +58,7 @@ export default function PressGrid({ images }) {
         );
       })}
       </Row>
-      <h3>Press & Collaborations</h3>
+
     </div>
   );
 }

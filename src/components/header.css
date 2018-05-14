@@ -76,13 +76,16 @@ nav ul a:hover{
 a.button-collapse {
   color: #1f1f1f;
   margin-top: .4rem;
-  font-size: 30px;
   padding: 0 1rem;
   background-color: white;
   padding-bottom: 1rem;
   position: fixed;
+  right: .2rem;
 }
-
+nav .button-collapse i {
+    font-size: 35px;
+    color: #656565;
+}
 .side-nav {
   width: 16rem;
   padding-top: 1rem;
@@ -103,7 +106,7 @@ a.button-collapse {
 .second-logo-c{
   position: fixed;
   top:0rem;
-  right:.5rem;
+  left:.5rem;
   z-index: 10;
 }
 .second-logo {

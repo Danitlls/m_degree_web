@@ -32,14 +32,14 @@
 .card-dessert img{
   border-radius: 3px;
   width: 100%;
+  opacity: 1;
+  transition: opacity .3s;
 }
 
-.card-dessert:hover img{
-  opacity: .7;
+.card-dessert:hover img, .card-dessert:hover a{
+  opacity: .8;
 }
-.home-desserts-container:hover  a {
-  opacity: .7;
-}
+
 
 @media (min-width: 600px) {
   .card-dessert{

@@ -4,27 +4,27 @@ import DessertNav from './DessertNav';
 
 const BakedImages = [
   {
-    imageUrl:'/img/baked/chikalicious7552.jpg',
+    imageUrl:'/img/baked/chikalicious7551.jpg',
     name: 'Coffee cake muffin',
     id: 'Baked1',
     className: 'rectangle-image-grid',
     mCol: 4,
     smCol: 12,
-    secondaryImages: [
-      {
-        imageUrl:'/img/baked/chikalicious7551.jpg',
-        name: 'Name1',
-        id: 'Baked9',
-        className: 'secondary-image'
-      },
-    ],
+    // secondaryImages: [
+    //   {
+    //     imageUrl:'/img/baked/chikalicious7552.jpg',
+    //     name: 'Name1',
+    //     id: 'Baked9',
+    //     className: 'secondary-image'
+    //   },
+    // ],
   },
   {
     imageUrl:'/img/baked/chikalicious7668.jpg',
     name: 'Chocolate Kuigh Amann',
     id: 'Baked2',
     className: 'rectangle-image-grid',
-    mCol: 6,
+    mCol: 4,
     secondaryImages: [
       {
         imageUrl:'/img/baked/chikalicious7663.jpg',
@@ -39,7 +39,7 @@ const BakedImages = [
     name: 'Banana Pecan Muffin',
     id: 'Baked3',
     className: 'rectangle-image-grid',
-    mCol: 2,
+    mCol: 4,
     secondaryImages: [
       {
         imageUrl:'/img/baked/chikalicious7496111.jpg',
@@ -54,7 +54,7 @@ const BakedImages = [
     name: 'Muffins',
     id: 'Baked5',
     className: 'rectangle-image-grid',
-    mCol: 3,
+    mCol: 4,
   },
   {
     imageUrl:'/img/baked/chikalicious7526.jpg',
