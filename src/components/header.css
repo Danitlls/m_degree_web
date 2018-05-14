@@ -5,6 +5,12 @@
   src: local('Kiona'), local('Kiona'),
        url('/fonts/Kiona-Regular.ttf')
 }
+h1{
+  color: black;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: 'Kiona', sans-serif;
+}
 
 h2{
   font-family: 'Kiona', sans-serif;
@@ -22,6 +28,7 @@ h3{
 .nav-container{
   margin-bottom: 0rem;
   margin-top: 0;
+  height: 85px;
 }
 
 .mdegree-logo-container {
@@ -35,13 +42,19 @@ h3{
 }
 
 .mdegree-nav {
-  background: transparent !important;
+  background: white !important;
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  height: 100px;
+  position: fixed;
+  height: 85px;
+  z-index: 99;
 }
 .top-nav-mdegree a{
+  margin: 0;
   margin-top: 1rem;
   padding: 0;
+  border-bottom: 2px solid  white;
+  transition: border-bottom .4s;
 }
 .top-nav-mdegree a:hover{
   border-bottom: 2px solid  #cf3a6e;
@@ -75,8 +88,9 @@ nav ul a:hover{
 
 .second-logo-c{
   position: fixed;
-  top:.2rem;
+  top:0rem;
   right:.5rem;
+  z-index: 999;
 }
 .second-logo {
   transform: scale(.7);
@@ -105,6 +119,9 @@ nav ul a:hover{
 }
 
 @media (min-width: 600px) {
+  nav ul a{
+    padding: 0;
+  }
   .nav-text-color a, .mdegree-nav .button-collapse {
     font-size: .9rem;
   }
@@ -121,27 +138,38 @@ nav ul a:hover{
   }
 
   .mdegree-logo-container {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     position: absolute;
     left: 50%;
+    padding-top: .7rem;
   }
   .mdegree-logo {
-    transform: scale(.8);
+    height: 80px;
+    margin-left: -50%;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    border-radius: 50%;
     position: absolute;
-    left: -50%;
+    left: 0;
+  }
+  .mdegree-logo:hover {
+    transform: scale(.9);
+    /* background-color: #f9f9f9; */
+
+
   }
 }
 
 @media (min-width: 750px) {
   ul.mdegree-nav.right.hide-on-med-and-down > li:nth-child(3){
-    margin-right: 3rem;
+    margin-right: 4rem;
   }
 }
 
 @media (min-width: 900px) {
   .nav-container {
-    width: 95%;
-    margin: 0 2.5%;
+    width: 100%;
   }
 }

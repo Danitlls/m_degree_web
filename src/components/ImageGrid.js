@@ -24,8 +24,8 @@ export default function ImageGrid({ images }) {
           <Modal className="modal" modalOptions={{
             opacity: 0.2,
             outDuration: 300,
-            startingTop: '3rem',
-            endingTop: '3rem',
+            startingTop: '7rem',
+            endingTop: '7rem',
             preventScrolling: false,
             fixedFooter: false,
           }} className="modal-picture" id={image.id} actions={<div></div>}>

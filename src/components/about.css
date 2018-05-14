@@ -1,8 +1,4 @@
-h1{
-  color: black;
-  font-size: 2rem;
-  font-weight: lighter;
-}
+
 .about-container{
   position: relative;
   border: 0px solid red;
@@ -65,14 +61,14 @@ h1{
 
   .right-photo{
     position: fixed;
-    top: 16rem;
+    top: 13rem;
     right:-1rem;
     width: 26%;
   }
 
   .left-photo{
     position: fixed;
-    top: 14rem;
+    top: 12rem;
     left:-2rem;
     width: 25%;
   }
@@ -81,7 +77,7 @@ h1{
     width: 100%;
   }
   .contact-container img{
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
 }
