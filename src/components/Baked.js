@@ -5,49 +5,100 @@ import DessertNav from './DessertNav';
 const BakedImages = [
   {
     imageUrl:'/img/baked/chikalicious7552.jpg',
-    name: 'Name1',
-    id: 'Something1',
+    name: 'Coffee cake muffin',
+    id: 'Baked1',
     className: 'rectangle-image-grid',
     mCol: 4,
     smCol: 12,
-
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7551.jpg',
+        name: 'Name1',
+        id: 'Baked9',
+        className: 'secondary-image'
+      },
+    ],
   },
   {
     imageUrl:'/img/baked/chikalicious7668.jpg',
-    name: 'Name1',
-    id: 'Something2',
+    name: 'Chocolate Kuigh Amann',
+    id: 'Baked2',
     className: 'rectangle-image-grid',
     mCol: 6,
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7663.jpg',
+        name: 'Chocolate Kuigh Amann',
+        id: 'Baked13',
+        className: 'secondary-image'
+      },
+    ],
   },
   {
-    imageUrl:'/img/baked/chikalicious7496111.jpg',
-    name: 'Name1',
-    id: 'Something3',
+    imageUrl:'/img/baked/chikalicious7494.jpg',
+    name: 'Banana Pecan Muffin',
+    id: 'Baked3',
     className: 'rectangle-image-grid',
     mCol: 2,
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7496111.jpg',
+        name: 'Name1',
+        id: 'Baked4',
+        className: 'secondary-image'
+      },
+    ],
   },
   {
     imageUrl:'/img/baked/baked-main.jpg',
-    name: 'Name1',
-    id: 'Something5',
+    name: 'Muffins',
+    id: 'Baked5',
     className: 'rectangle-image-grid',
     mCol: 3,
   },
   {
     imageUrl:'/img/baked/chikalicious7526.jpg',
-    name: 'Name1',
-    id: 'Something6',
+    name: 'Roasted corn muffin',
+    id: 'Baked7',
     className: 'rectangle-image-grid',
     mCol: 4,
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7527.jpg',
+        name: 'Roasted corn muffin',
+        id: 'Baked8',
+        className: 'secondary-image'
+      },
+    ],
   },
 
   {
     imageUrl:'/img/baked/chikalicious7651.jpg',
-    name: 'Name1',
-    id: 'Something4',
+    name: 'Dark chocolate brownie',
+    id: 'Baked4',
     className: 'rectangle-image-grid',
     smCol: 12,
     mCol: 4,
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7640.jpg',
+        name: 'Dark chocolate brownie',
+        id: 'Baked10',
+        className: 'secondary-image'
+      },
+      {
+        imageUrl:'/img/baked/chikalicious7646.jpg',
+        name: 'Dark chocolate brownie',
+        id: 'Baked11',
+        className: 'secondary-image'
+      },
+      {
+        imageUrl:'/img/baked/chikalicious7658.jpg',
+        name: 'Dark chocolate brownie',
+        id: 'Baked12',
+        className: 'secondary-image'
+      },
+    ],
   },
 
 

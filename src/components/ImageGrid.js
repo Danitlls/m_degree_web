@@ -34,7 +34,8 @@ export default function ImageGrid({ images }) {
             </div>
             <Image image={image} />
             <div className= "m-degree-modal-footer">
-              <p>{image.name}</p>
+              <h5>{image.name}</h5>
+              <p>{image.description}</p>
               {(image.secondaryImages || []).map(image => {
                 return (<img
                   className={image.className}
