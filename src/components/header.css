@@ -68,6 +68,10 @@ h5{
   border-bottom: 2px solid  #cf3a6e;
 }
 
+.nav-link-border a {
+  border-bottom: 2px solid  #cf3a6e;
+}
+
 nav ul a:hover{
   background-color: transparent;
 }

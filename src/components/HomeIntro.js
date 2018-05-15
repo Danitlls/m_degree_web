@@ -1,5 +1,4 @@
-import React, { PropTypes } from 'react';
-import {  withRouter } from 'react-router-dom';
+import React from 'react';
 import './homeintro.css';
 
 export default function HomeIntro() {

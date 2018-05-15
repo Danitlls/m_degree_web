@@ -19,18 +19,18 @@ export default function PressGrid({ images }) {
       {images.map(image => {
         return (
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.mCol || 4}  className='press-card' style={{
-             border: '0px solid red' , }}>
+             border: '0px solid red'}}>
              <div style={{
-                border: '0px solid yellow', padding: '1rem 1rem', background : '#f7f3f3',  background : '#efefef',}}>
+                border: '0px solid yellow', padding: '1rem 1rem', background : '#efefef'}}>
               <Image image={image} />
 
-              <Modal className="modal modal-press" modalOptions={{
+              <Modal className="modal modal-press modal-picture" modalOptions={{
                 opacity: 0.2,
                 outDuration: 300,
                 startingTop: '7rem',
                 endingTop: '7rem',
                 preventScrolling: false,
-              }} className="modal-picture" id={image.id} actions={<div></div>}>
+              }} id={image.id} actions={<div></div>}>
                 <div className="right" onClick={onClick(image.id)}>
                   <Icon className="close-modal">close</Icon>
                 </div>
@@ -38,7 +38,7 @@ export default function PressGrid({ images }) {
                   <div className="col s12 l8">
                     <Image image={image} />
                   </div>
-                  <div className=" col m6 l4 m-degree-press-modal-footer">
+                  <div className="col m6 l4 m-degree-press-modal-footer">
                     <h5>{image.name}</h5>
                     <p>{image.description}</p>
                     <p style={{

@@ -9,14 +9,17 @@
   width: 3.5rem;
   height: 3.5rem;
   margin: 1rem;
-  padding: .2rem;
+  padding: .3rem;
   margin-top: 3rem;
+  border-radius: 3rem;
+  transition: all .3s;
+  border: .1rem solid white;
+  border-radius: 50%;
 }
 
 .contact-container img:hover{
-  /* border: .1rem solid #404040; */
-  background-color: #cf3a6e;
-  border-radius: 3rem;
+  border: .1rem solid grey;
+  /* background-color: #cf3a6e; */
 }
 .text-container, .contact-container{
   width: 85%;
@@ -32,27 +35,32 @@
 
 .right-photo{
   position: absolute;
-  top: 3rem;
-  right:-.7rem;
-  width: 125px;
+  top: 2.9rem;
+  right:-1rem;
+  width: 129px;
 }
 
 .left-photo{
   position: absolute;
-  top: 2rem;
-  left:-1.4rem;
-  width: 118px;
+  top: 3rem;
+  left:-.7rem;
+  width: 138px;
 }
 
 .right-photo img , .left-photo img{
   width: 100%;
 }
 
+
 @media (min-width: 600px) {
   .text-container, .contact-container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
+  }
+  .text-container{
+    position: relative;
+    background-color: #ffffffab;
   }
   .text-container h1{
     padding-top: 1rem;
@@ -61,16 +69,16 @@
 
   .right-photo{
     position: fixed;
-    top: 13rem;
-    right:-1rem;
-    width: 26%;
+    top: 11.9rem;
+    right:-2rem;
+    width: 195px;
   }
 
   .left-photo{
     position: fixed;
     top: 12rem;
-    left:-2rem;
-    width: 25%;
+    left:-1.5rem;
+    width: 210px;
   }
 
   .right-photo img , .left-photo img{
@@ -80,4 +88,24 @@
     margin-top: 4rem;
   }
 
+}
+
+@media screen and (min-width: 1200px) {
+  .about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .right-photo{
+    position: fixed;
+    top: 13.4rem;
+    right:0rem;
+    width: 195px;
+  }
+
+  .left-photo{
+    position: fixed;
+    top: 13.5rem;
+    left:0rem;
+    width: 210px;
+  }
 }

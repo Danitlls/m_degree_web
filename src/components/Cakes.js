@@ -13,7 +13,8 @@ const CakesImages = [
     name: 'Santo Domingo ',
     id: 'cake1',
     className: 'rectangle-image-grid',
-    description: 'Dark chocolate - coffee- dulce the leche- hazelnut',
+    secondaryImageClassName: 'secondary-image',
+    description: 'Dark chocolate, coffee, dulce de leche and hazelnut',
     mCol: 3,
     smCol: 12,
     secondaryImages: [
@@ -21,7 +22,8 @@ const CakesImages = [
         imageUrl:'/img/cakes/IMG_7222.JPG',
         name: 'Santo Domingo',
         id: 'cake11',
-        className: 'secondary-image'
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
       },
     ],
   },
@@ -30,13 +32,15 @@ const CakesImages = [
     name: 'Cheese cake-cassis- lemon',
     id: 'cake2',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     mCol: 6,
     secondaryImages: [
       {
         imageUrl:'/img/cakes/IMG_7235.JPG',
         name: 'Cheese cake-cassis- lemon',
         id: 'cake22',
-        className: 'secondary-image'
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
       },
     ],
   },
@@ -45,13 +49,15 @@ const CakesImages = [
     name: 'Strawberry short cake',
     id: 'cake3',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     mCol: 3,
     secondaryImages: [
       {
         imageUrl:'/img/cakes/IMG_7227.JPG',
         name: 'Cheese cake-cassis- lemon',
         id: 'cake33',
-        className: 'secondary-image'
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
       },
     ],
   },
@@ -60,6 +66,7 @@ const CakesImages = [
     name: 'Belgium dark chocolate cake',
     id: 'cake4',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     mCol: 3,
   },
   {
@@ -67,12 +74,14 @@ const CakesImages = [
     name: 'White chocolate earl grey mousse with raspberry gelee',
     id: 'cake5',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     secondaryImages: [
       {
         imageUrl:'/img/cakes/IMG_7238.JPG',
         name: 'Cheese cake-cassis- lemon',
         id: 'cake55',
-        className: 'secondary-image'
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
       },
     ],
   },
@@ -81,6 +90,7 @@ const CakesImages = [
     name: 'Name1',
     id: 'cake6',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     mCol: 6,
     smCol: 12,
   },

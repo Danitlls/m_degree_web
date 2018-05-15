@@ -18,6 +18,12 @@ const PlatedImages = [
         imageUrl:'/img/plated/plated-5.jpg',
         name: 'Amaranth-Oolong-Sweet potato',
         id: 'plated2',
+        className: ' secondary-image'
+      },
+      {
+        imageUrl:'/img/plated/GAI_1206.jpg',
+        name: 'Amaranth-Oolong-Sweet potato',
+        id: 'plated22',
         className: 'secondary-image'
       },
     ],
