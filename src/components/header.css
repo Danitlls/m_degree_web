@@ -11,9 +11,10 @@ body{
 }
 h1{
   color: black;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: lighter;
   font-family: 'Kiona', sans-serif;
+  text-align: center;
 }
 
 h2{

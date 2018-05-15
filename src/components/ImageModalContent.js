@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Image from './Image';
 import { Icon } from 'react-materialize';
+import './imageModalcontent.css';
 
 export default class ImageModalContent extends Component {
 
@@ -53,16 +54,16 @@ export default class ImageModalContent extends Component {
           <Icon className="close-modal">close</Icon>
         </div>
         <div className="row">
-          <div className="col s12 l9">
+          <div className="col s12 l9 main-image">
             <Image image={selectedImage} />
           </div>
-          <div className= "col s12 m7 l3 m-degree-modal-footer">
+          <div className= "col s12 m12 l3 m-degree-modal-footer">
             <h5>{image.name}</h5>
             <p>{image.description}</p>
           </div>
-          <div className= "col s12 m5 l3">
-            <div className="row">
-              <div className="col s12"  style={{ padding: '0' }}>
+          <div className= "col s12 m12 l3">
+            <div className="">
+              <div className="row-of-images" >
                 {(secondaryImages).map(secondaryImage => {
                   return (
                     <img

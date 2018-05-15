@@ -10,7 +10,10 @@
   max-height: 85vh !important;
 }
 .modal-content{
-  padding: .1rem 2rem !important;
+  padding: .1rem 1.2rem !important;
+}
+.modal-content p{
+  margin: 0!important;
 }
 
 
@@ -21,18 +24,13 @@
   cursor: pointer;
 }
 
-.secondary-image {
-  width: 120px;
-  height: 84px;
-  margin-right: .5rem;
-  margin-top: 1rem;
-}
+
 
 .rectangle-image-grid{
   width: 100%;
 }
 .desserts-container .m-degree-modal-footer{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .modal-footer{
   display: none;
@@ -50,24 +48,18 @@
     width: 70% !important;
   }
   .modal-content .rectangle-image-grid{
-    padding-top: 1rem !important;
-    margin-top: 1rem;
+    padding-top: .5rem !important;
+    margin-top: 0rem;
   }
   .m-degree-container{
     width: 90%;
     margin-left: 5%;
     padding-top: 1rem;
   }
-  .secondary-image {
-    width: 100%;
-    height: auto;
-    margin-right: 1.5rem;
-    margin-top: 1rem;
-  }
 }
-@media (min-width: 995px) {
+@media (min-width: 993px) {
   .modal {
-    width: 80% !important;
+    width: 85% !important;
   }
   .modal h5{
     margin-top: 0;
@@ -81,10 +73,6 @@
   .m-degree-container{
     width: 80%;
     margin-left: 10%;
-  }
-  .secondary-image {
-    width: 100%;
-    height: auto;
   }
 
 }
