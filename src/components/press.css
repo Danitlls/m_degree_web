@@ -6,52 +6,79 @@ body .press {
 
 .press-card {
   background-color: white;
+  text-align: center;
+  max-width: 400px;
+  padding: 1rem .8rem;
+  margin: 1rem auto;
+  transition: all .3s;
+  cursor: pointer;
 }
+
 .press-card h5{
   font-family: 'Kiona', sans-serif;
   font-size: 1.2rem;
 }
-
+.press-card span{
+  border: 1px solid black;
+  padding: .5rem 4rem;
+}
+.brand-image img{
+  width: 60%;
+  margin: 0rem auto;
+}
 .press-card p{
   font-size: .8rem;
   color: darkgrey;
 }
 
-.press-card{
-  max-width: 400px;
-  padding: 1rem .8rem;
-  margin: 1rem auto;
-  transition: all .3s;
-}
-.press-card:hover{
-  transform: scale(1);
-}
-
-.press-card img{
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  transform: scale(1);
+.press-card  img.rectangle-image-grid {
   opacity: 1;
   transition: all .3s;
 }
 
-.press-card:hover img{
-  transition: transform .3s;
-  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(20%);
-  opacity: 0.7;
-}
-
-
-.press-card img:hover{
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  transform: scale(1);
-}
-
-
-@media (max-width: 600px) {
+@media (min-width: 10px ) and (max-width: 600px){
   .press .row .col {
     float: none;
+  }
+}
+
+@media (min-width: 601px) {
+  .m-degree-c .row{
+    width: 90%;
+    margin-left: 5% !important;
+  }
+
+  .press-card  img.rectangle-image-grid {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transform: scale(1);
+    opacity: .7;
+    transition: all .3s;
+  }
+  .press-card:hover img.rectangle-image-grid {
+    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);
+    opacity: 1;
+  }
+  .press-card:hover span{
+     background-color: black;
+     color: white;
+  }
+  .brand-image img{
+    width: 70%;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 1350px) {
+  .m-degree-c .row{
+    width: 80%;
+    margin-left: 10% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .press-card {
+    padding: 0;
   }
 }

@@ -1,5 +1,12 @@
 .desserts-container{
   padding-top: 1rem;
+  margin: 3rem 0 !important;
+}
+
+
+.desserts-container img:hover{
+  cursor: pointer;
+  opacity: .7;
 }
 
 .modal {
@@ -16,15 +23,12 @@
   margin: 0!important;
 }
 
-
 .right{
   text-align: right;
 }
 .close-modal {
   cursor: pointer;
 }
-
-
 
 .rectangle-image-grid{
   width: 100%;
@@ -40,9 +44,11 @@
 }
 @media (min-width: 600px) {
   .desserts-container{
-    margin-top: 3rem;
-    width: 94%;
-    margin: 1rem auto;
+    margin-top: 4rem !important;
+    /* width: 94%; display with margin
+    margin: 1rem auto; */
+    width: 100%;
+    margin: 0rem auto;
   }
   .modal {
     width: 70% !important;
@@ -52,9 +58,12 @@
     margin-top: 0rem;
   }
   .m-degree-container{
-    width: 90%;
+    /* width: 90%;
     margin-left: 5%;
-    padding-top: 1rem;
+    padding-top: 1rem; */
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 0rem;
   }
 }
 @media (min-width: 993px) {
@@ -71,8 +80,10 @@
     max-height: 85vh !important;
   }
   .m-degree-container{
-    width: 80%;
-    margin-left: 10%;
+    /* width: 80%;
+    margin-left: 10%; */
+    width: 100%;
+    margin-left: 0%;
   }
 
 }

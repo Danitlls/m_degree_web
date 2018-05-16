@@ -96,13 +96,13 @@ const BakedImages = [
         className: 'secondary-image',
         secondaryImageClassName: 'secondary-image',
       },
-      {
-        imageUrl:'/img/baked/chikalicious7646.jpg',
-        name: 'Dark chocolate brownie',
-        id: 'Baked11',
-        className: 'secondary-image',
-        secondaryImageClassName: 'secondary-image',
-      },
+      // {
+      //   imageUrl:'/img/baked/chikalicious7646.jpg',
+      //   name: 'Dark chocolate brownie',
+      //   id: 'Baked11',
+      //   className: 'secondary-image',
+      //   secondaryImageClassName: 'secondary-image',
+      // },
       // {
       //   imageUrl:'/img/baked/chikalicious7658.jpg',
       //   name: 'Dark chocolate brownie',

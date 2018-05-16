@@ -10,6 +10,7 @@ const PressArticles = [
     id: 'Press1',
     className: 'rectangle-image-grid',
     date: 2018,
+    brandImage: '/img/press/dandg.png',
     type: 'collaboration',
     description: 'This is the description of the press or collaboration',
     secondaryImages: [
@@ -27,6 +28,7 @@ const PressArticles = [
     id: 'Press2',
     className: 'rectangle-image-grid',
     date: 2017,
+    brandImage: '/img/press/ellebrand.png',
     type: 'Magazine Article',
     description: 'This is the description of the press or collaboration',
     secondaryImages: [
@@ -44,7 +46,8 @@ const PressArticles = [
     id: 'Press3',
     className: 'rectangle-image-grid',
     date: 2017,
-    type: 'Press',
+    brandImage: '/img/press/elle2brand.png',
+    type: 'Magazine Article',
     description: 'This is the description of the press or collaboration',
     secondaryImages: [
       {
@@ -68,6 +71,7 @@ const PressArticles = [
     id: 'Press4',
     className: 'rectangle-image-grid',
     date: 2016,
+    brandImage: '/img/press/swirebrand.png',
     type: 'collaboration',
     description: 'This is the description of the press or collaboration',
     secondaryImages: [
@@ -80,13 +84,14 @@ const PressArticles = [
     ],
   },
   {
-    imageUrl:'/img/press/tart-2.jpg',
+    imageUrl:'/img/press/tart-2.png',
     name: 'Strawberry cream tart',
     id: 'Press5',
     className: 'rectangle-image-grid',
     date: 2016,
+    brandImage: '/img/press/chicalogo.png',
     type: 'collaboration',
-    description: 'This is the description of the press or collaboration',
+    description: "Our tart for Chinese Valentine's Day",
     secondaryImages: [
       {
         imageUrl:'/img/press/plated-8-png.png',
@@ -101,7 +106,6 @@ const PressArticles = [
 export default function Press() {
   return (
     <div className="press">
-
       <PressGrid images={PressArticles} />
     </div>
   );

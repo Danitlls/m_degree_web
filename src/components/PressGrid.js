@@ -11,17 +11,20 @@ function onClick(imageId) {
 
 export default function PressGrid({ images }) {
   return (
-    <div className="m-degree-container" >
-      <h1>Press & Collaborations</h1>
+    <div className="m-degree-c" >
+
       <Row style={{
        margin: '.5rem auto',
       }}>
       {images.map(image => {
         return (
-          <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.mCol || 4}  className='press-card' style={{
-             border: '0px solid red'}}>
+          <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.lCol || 4}
+          className='press-card'
+          style={{
+             border: '0px solid red',
+           }}>
              <div style={{
-                border: '0px solid yellow', padding: '1rem 1rem', background : '#efefef'}}>
+                border: '0px solid yellow', padding: '1rem 1rem', background : 'white'}}>
               <Image image={image} />
 
               <Modal className="modal modal-press modal-picture" modalOptions={{
@@ -60,8 +63,12 @@ export default function PressGrid({ images }) {
                   </div>
                 </div>
               </Modal>
-              <h5>{image.name}</h5>
+              <h6>{image.type}</h6>
               <p>{image.date}</p>
+              <div className="brand-image">
+                <img src={image.brandImage} />
+              </div>
+              <span>See More</span>
             </div>
           </Col>
         );

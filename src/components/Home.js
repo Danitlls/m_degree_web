@@ -43,7 +43,7 @@ export default function Home() {
             <div className="image-container" >
               <img src="/img/press/working.JPG" />
             </div>
-            <span>About Us</span>
+            <span>About & Contact Us</span>
           </Link>
         </div>
         <div className="card-mm col s12 m6">
@@ -51,7 +51,7 @@ export default function Home() {
             <div className="image-container" >
               <img src="/img/press/swire-2.png" />
             </div>
-            <span>Press & <br/>Collaborations</span>
+            <span>Press & Collaborations</span>
           </Link>
         </div>
       </div>

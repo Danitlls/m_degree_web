@@ -17,7 +17,10 @@ export default function ImageGrid({ images }) {
               l={image.lCol || 4}
               style={{
                 border: '0px solid lightgrey',
-                padding: '3px 6px'
+                // padding: '3px 6px'
+                padding: '0',
+                margin: ' -3px 0',
+                overflow: 'hidden'
               }}
             >
               <Image image={image} />

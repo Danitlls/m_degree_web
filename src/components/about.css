@@ -25,6 +25,7 @@
   width: 85%;
   margin: 0 auto;
   text-align: center;
+  text-transform: none;
 }
 
 .text-container h1{
@@ -54,13 +55,15 @@
 
 @media (min-width: 600px) {
   .text-container, .contact-container{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
   }
   .text-container{
     position: relative;
     background-color: #ffffffab;
+
+    font-size: .9rem;
   }
   .text-container h1{
     padding-top: 1rem;

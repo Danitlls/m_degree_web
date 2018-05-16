@@ -30,7 +30,7 @@ const PlatedImages = [
     id: 'plated3',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    mCol: 3,
+    mCol: 6,
     lCol: 4,
   },
   {
@@ -40,7 +40,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: 'Balsamic glaze compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
-    mCol: 3,
+    mCol: 6,
     lCol: 4,
 
   },
@@ -51,7 +51,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: '32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
-    mCol: 3,
+    mCol: 6,
     lCol: 6,
   },
 
@@ -62,7 +62,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: 'Fresh summer watermelon compressed with mint and consommé with Lemon sorbet',
-    mCol: 3,
+    mCol: 6,
     lCol: 3,
   },
   {
@@ -72,7 +72,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: 'Pineapple compressed and granita, apple compressed and sorbet, with lemon and basil gel',
-    mCol: 3,
+    mCol: 6,
     lCol: 3,
   },
 
@@ -83,7 +83,7 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint vei',
-    mCol: 3,
+    mCol: 6,
     lCol: 3,
 
   },
