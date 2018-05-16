@@ -11,23 +11,47 @@ export default function Home() {
           <img className="logo-animable" src="/img/second-logo.svg" />
         </div>
       </div>
-      <div className="home-desserts-container">
-        <div className="card-dessert">
-          <Link to='/cakes'>
-            <img src="/img/cakes/IMG_7221.JPG" />
+      <div className="row home-desserts-container">
+      <Link to='/cakes'>
+          <div className="card-mm col s12 m4">
+            <div className="image-container" >
+              <img src="/img/cakes/IMG_7221.JPG" />
+            </div>
             <span>Cakes</span>
-          </Link>
-        </div>
-        <div className="card-dessert">
-          <Link to='/plated'>
-            <img src="/img/plated/plated-5.JPG" />
+          </div>
+        </Link>
+        <Link to='/plated'>
+          <div className="card-mm  col s12 m4">
+            <div className="image-container" >
+              <img src="/img/plated/DSCF1887.jpg" />
+            </div>
             <span>Plated Desserts</span>
+          </div>
+        </Link>
+        <Link to='/baked'>
+          <div className="card-mm  col s12 m4">
+            <div className="image-container" >
+              <img src="/img/baked/baked-main.jpg" />
+            </div>
+            <span>Baked</span>
+          </div>
+        </Link>
+      </div>
+      <div className="row home-desserts-container">
+        <div className="card-mm  col s12 m6">
+          <Link to='/about'>
+            <div className="image-container" >
+              <img src="/img/press/working.JPG" />
+            </div>
+            <span>About Us</span>
           </Link>
         </div>
-        <div className="card-dessert">
-          <Link to='/baked'>
-            <img src="/img/baked/baked-main.jpg" />
-            <span>Baked</span>
+        <div className="card-mm col s12 m6">
+          <Link to='/press'>
+            <div className="image-container" >
+              <img src="/img/press/swire-2.png" />
+            </div>
+            <span>Press & <br/>Collaborations</span>
           </Link>
         </div>
       </div>

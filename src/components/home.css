@@ -1,5 +1,9 @@
 .home-container{
-  margin: 0 1rem;
+  margin: 0 0rem;
+}
+.row{
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* LOGO ANIMABLE */
@@ -7,6 +11,7 @@
   display: flex;
   justify-content: center;
   margin: 5rem auto;
+  position: relative;
 }
 .logo-animable{
   transform: scale(.8);
@@ -14,47 +19,89 @@
 
 /*  DESSERTS NAV */
 .home-desserts-container{
-  display: flex;
-  justify-content: space-around;
-  border: 0px solid red;
   text-align: center;
+  padding:  0 !important;
+  margin: 0 !important;
+}
+.home-desserts-container .col{
+  padding: 0 !important;
+  margin: 0;
+  position: relative;
+  /* margin-top: -10px !important; */
+  overflow: hidden;
+
+}
+.home-desserts-container .col img{
+  width: 100%;
+  opacity: .65;
+  transition: all .4s;
+}
+.home-desserts-container .col span{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom:40%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  z-index: 2;
+  opacity: 1;
 }
 .home-desserts-container  a {
-  color: black;
+  color: white;
+  text-shadow: 1px 1px 1px grey;
   font-family: 'Kiona', sans-serif;
-  padding: 1rem 0;
+  font-size: 1.5rem;
+  padding:  0 !important;
+  margin: 0;
+}
+.image-container{
+  overflow: hidden;
+  margin-bottom: -10px;
+  background-color: grey;
 }
 
-.card-dessert{
-  width: 32%;
-  padding: 0;
+.card-mm:hover img{
+  opacity: .6;
+  transform: scale(1.1);
 }
-.card-dessert img{
-  border-radius: 3px;
-  width: 100%;
+.card-mm:focus a, .card-mm:focus span{
   opacity: 1;
-  transition: opacity .3s;
+  text-shadow: 1px 1px 1px grey;
+  display: block;
 }
 
-.card-dessert:hover img, .card-dessert:hover a{
-  opacity: .8;
-}
+@media (min-width: 601px) {
+  .home-desserts-container .col img{
 
+    opacity: .95;
+  }
+  .home-desserts-container .col span{
+    bottom:40%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+  }
 
-@media (min-width: 600px) {
-  .card-dessert{
-    width: 30%;
-
+  .card-mm:hover img{
+    opacity: .6;
+    transform: scale(1.1);
+  }
+  .card-mm:hover a, .card-mm:hover span, .card-mm:focus a, .card-mm:focus span{
+    opacity: 1;
+    text-shadow: 1px 1px 1px grey;
+    display: block;
   }
 }
+
 
 @media (min-width: 900px) {
   .home-desserts-container{
-    width: 90%;
+
     margin: 0 auto;
   }
   .card-dessert{
-    width: 30%;
+
     padding: 0rem;
   }
 }

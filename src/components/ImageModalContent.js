@@ -62,20 +62,18 @@ export default class ImageModalContent extends Component {
             <p>{image.description}</p>
           </div>
           <div className= "col s12 m12 l3">
-            <div className="">
-              <div className="row-of-images" >
-                {(secondaryImages).map(secondaryImage => {
-                  return (
-                    <img
-                      key={secondaryImage.id}
-                      onClick={this.changeImage(secondaryImage)}
-                      className={secondaryImage.secondaryImageClassName}
-                      src={secondaryImage.imageUrl}
-                      name={secondaryImage.name}
-                    />
-                  );
-                })}
-              </div>
+            <div className="row-of-images" >
+              {(secondaryImages).map(secondaryImage => {
+                return (
+                  <img
+                    key={secondaryImage.id}
+                    onClick={this.changeImage(secondaryImage)}
+                    className={secondaryImage.secondaryImageClassName}
+                    src={secondaryImage.imageUrl}
+                    name={secondaryImage.name}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
