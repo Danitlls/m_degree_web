@@ -19,12 +19,9 @@ export default function PressGrid({ images }) {
       {images.map(image => {
         return (
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.lCol || 4}
-          className='press-card'
-          style={{
-             border: '0px solid red',
-           }}>
+          className='press-card'>
              <div style={{
-                border: '0px solid yellow', padding: '1rem 1rem', background : 'white'}}>
+                border: '0px solid yellow', padding: '0rem', background : 'white', position: 'relative'}}>
               <Image image={image} />
 
               <Modal className="modal modal-press modal-picture" modalOptions={{
@@ -63,11 +60,11 @@ export default function PressGrid({ images }) {
                   </div>
                 </div>
               </Modal>
+              <div className="brand-image">
+              <img src={image.brandImage} />
+              </div>
               <h6>{image.type}</h6>
               <p>{image.date}</p>
-              <div className="brand-image">
-                <img src={image.brandImage} />
-              </div>
               <span>See More</span>
             </div>
           </Col>

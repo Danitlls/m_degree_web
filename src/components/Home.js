@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
+import About from './About';
 
 
 export default function Home() {
@@ -54,6 +55,9 @@ export default function Home() {
             <span>Press & Collaborations</span>
           </Link>
         </div>
+      </div>
+      <div>
+        <About />
       </div>
     </div>
   );

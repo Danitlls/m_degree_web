@@ -12,13 +12,13 @@
   padding: .3rem;
   margin-top: 3rem;
   border-radius: 3rem;
-  transition: all .3s;
+  /* transition: all .3s; */
   border: .1rem solid white;
   border-radius: 50%;
 }
 
 .contact-container img:hover{
-  border: .1rem solid grey;
+  border: .05rem solid #f95c5c;
   /* background-color: #cf3a6e; */
 }
 .text-container, .contact-container{
@@ -58,12 +58,12 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    font-family: sans-serif;
   }
   .text-container{
     position: relative;
     background-color: #ffffffab;
-
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .text-container h1{
     padding-top: 1rem;
@@ -71,14 +71,14 @@
   }
 
   .right-photo{
-    position: fixed;
+    position: absolute;
     top: 11.9rem;
     right:-2rem;
     width: 195px;
   }
 
   .left-photo{
-    position: fixed;
+    position: absolute;
     top: 12rem;
     left:-1.5rem;
     width: 210px;
@@ -95,19 +95,17 @@
 
 @media screen and (min-width: 1200px) {
   .about-container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
   }
   .right-photo{
-    position: fixed;
-    top: 13.4rem;
+    bottom: 0;
     right:0rem;
     width: 195px;
   }
 
   .left-photo{
-    position: fixed;
-    top: 13.5rem;
+    bottom: 0;
     left:0rem;
     width: 210px;
   }

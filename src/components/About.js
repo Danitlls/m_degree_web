@@ -8,7 +8,7 @@ export default function About() {
         <img  src="/img/maya.png" />
       </div>
       <div className="left-photo">
-        <img  src="/img/mauro.png" />
+        <img  src="/img/mauro-final.png" />
       </div>
       <div className="text-container">
         <h1>Who We Are</h1>

@@ -3,37 +3,48 @@ body .press {
   padding-top: 2rem;
   background-color: white;
 }
+.row .col {
+  padding: 0 !important;
+}
 
 .press-card {
   background-color: white;
   text-align: center;
-  max-width: 400px;
-  padding: 1rem .8rem;
-  margin: 1rem auto;
+  /* max-width: 400px;
+  padding: 1rem .8rem; */
+  margin: 2rem auto;
   transition: all .3s;
+  margin-bottom: 4rem;
   cursor: pointer;
 }
 
-.press-card h5{
-  font-family: 'Kiona', sans-serif;
-  font-size: 1.2rem;
-}
 .press-card span{
   border: 1px solid black;
-  padding: .5rem 4rem;
+  padding: .5rem 5rem;
 }
 .brand-image img{
   width: 60%;
-  margin: 0rem auto;
+  margin: .5rem auto;
+}
+.press-card h6{
+  margin: 0 auto;
+  font-size: .9rem;
+  color: grey;
 }
 .press-card p{
-  font-size: .8rem;
-  color: darkgrey;
+  font-size: .7rem;
+  margin-top: .2rem;
+  margin-bottom: 1rem;
+  color: grey;
 }
 
 .press-card  img.rectangle-image-grid {
   opacity: 1;
   transition: all .3s;
+}
+.brand-image img{
+  width: 45%;
+  margin: .5rem auto;
 }
 
 @media (min-width: 10px ) and (max-width: 600px){
@@ -44,10 +55,14 @@ body .press {
 
 @media (min-width: 601px) {
   .m-degree-c .row{
-    width: 90%;
-    margin-left: 5% !important;
+    /* width: 95%;
+    margin-left: 2.5% !important; */
+    width: 100%;
+    margin-left: 0% !important;
   }
-
+  .press-card {
+    margin: 2rem 0;
+  }
   .press-card  img.rectangle-image-grid {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
@@ -65,8 +80,8 @@ body .press {
      color: white;
   }
   .brand-image img{
-    width: 70%;
-    margin: 1rem auto;
+    width: 50%;
+    margin: .7rem auto;
   }
 }
 

@@ -20,10 +20,15 @@ export default function ImageGrid({ images }) {
                 // padding: '3px 6px'
                 padding: '0',
                 margin: ' -3px 0',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                position: 'relative'
+
               }}
             >
               <Image image={image} />
+              <div className="plus hide-on-med-and-up" >
+                <i class="material-icons">fullscreen</i>
+              </div>
               <Modal
                 className="modal modal-desserts modal-picture"
                 id={image.id}
