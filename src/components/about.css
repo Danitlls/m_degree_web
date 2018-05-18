@@ -3,6 +3,7 @@
   position: relative;
   border: 0px solid red;
   padding-top: 2rem;
+
 }
 
 .contact-container img{
@@ -53,12 +54,13 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
   .text-container, .contact-container{
     width: 50%;
     margin: 0 auto;
     text-align: center;
     font-family: sans-serif;
+
   }
   .text-container{
     position: relative;
@@ -72,16 +74,18 @@
 
   .right-photo{
     position: absolute;
-    top: 11.9rem;
-    right:-2rem;
-    width: 195px;
+    bottom: 0;
+    top: auto;
+    right:-2.7rem;
+    width: 245px;
   }
 
   .left-photo{
     position: absolute;
-    top: 12rem;
-    left:-1.5rem;
-    width: 210px;
+    bottom: 0;
+    top: auto;
+    left:-2rem;
+    width: 270px;
   }
 
   .right-photo img , .left-photo img{
@@ -101,12 +105,12 @@
   .right-photo{
     bottom: 0;
     right:0rem;
-    width: 195px;
+    width: 255px;
   }
 
   .left-photo{
     bottom: 0;
     left:0rem;
-    width: 210px;
+    width: 270px;
   }
 }
