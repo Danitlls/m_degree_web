@@ -4,6 +4,12 @@ import { Modal, Row, Col } from 'react-materialize';
 import ImageModalContent from './ImageModalContent';
 import './imageGrid.css';
 
+function onClick(imageId){
+  return function() {
+    global.$(`#${imageId}`).modal('open');
+  }
+}
+
 export default function ImageGrid({ images }) {
   return (
     <div className="m-degree-container">
@@ -15,20 +21,16 @@ export default function ImageGrid({ images }) {
               s={image.smCol || 6}
               m={image.mCol || 6}
               l={image.lCol || 4}
-              style={{
-                border: '0px solid lightgrey',
-                // padding: '3px 6px'
-                padding: '0',
-                margin: ' -3px 0',
-                overflow: 'hidden',
-                position: 'relative'
-
-              }}
+              className='dessert-image'
             >
               <Image image={image} />
               <div className="plus hide-on-med-and-up" >
                 <i class="material-icons">fullscreen</i>
               </div>
+              <span
+              onClick={onClick(image.id)}
+              >See more</span>
+
               <Modal
                 className="modal modal-desserts modal-picture"
                 id={image.id}

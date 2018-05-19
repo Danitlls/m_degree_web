@@ -19,13 +19,11 @@ export default function About() {
         The diverse backgrounds brought Mauro (from Argentina) and Maya (from Thailand, raised in the U.S.) together to express their work in a different way. His exposure of high-level professional experience in pastry and her unique perspective as a well-trained designer allowed them to pay attention to the finer details. The chef couple balance and blend their visions together onto their desserts and the experience around it. They believe in the beauty of simplicity. The talented duo focuses on the freshness of the seasonal ingredients. They let the ingredients speak.
         </p>
         <p>
-        In M Degree, Mauro and Maya offers a unique consulting service dedicated specially in pastry for restaurants,  hotels, pastry shops and collaboration events around the world with only one goal in mind..<strong>a sweet experience</strong>
+        In M Degree, Mauro and Maya offers a unique consulting service dedicated specially in pastry for restaurants,  hotels, pastry shops and collaboration events around the world with only one goal in mind,<br/><strong>a sweet experience.</strong>
         </p>
       </div>
       <div className="contact-container">
-        <a href="#"><img src="/img/instagram-logo.svg"/></a>
-        <a href="#"><img src="/img/facebook-logo-button.svg"/></a>
-        <a href="#"><img src="/img/new-email-outline-symbol-in-black-circular-button.svg"/></a>
+        <a href="mailto:mayasitti@gmail.com"><img src="/img/new-email-outline-symbol-in-black-circular-button.svg"/></a>
       </div>
     </div>
   );

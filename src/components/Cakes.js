@@ -28,21 +28,13 @@ const CakesImages = [
     ],
   },
   {
-    imageUrl:'/img/cakes/IMG_7225.JPG',
-    name: 'Cheese cake-cassis- lemon',
-    id: 'cake2',
+    imageUrl:'/img/cakes/IMG_7230.JPG',
+    name: 'Carrot Cake',
+    id: 'cake6',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     mCol: 6,
-    secondaryImages: [
-      {
-        imageUrl:'/img/cakes/IMG_7235.JPG',
-        name: 'Cheese cake-cassis- lemon',
-        id: 'cake22',
-        className: 'secondary-image',
-        secondaryImageClassName: 'secondary-image',
-      },
-    ],
+    smCol: 6,
   },
   {
     imageUrl:'/img/cakes/DSCF3798.jpg',
@@ -62,14 +54,6 @@ const CakesImages = [
     ],
   },
   {
-    imageUrl:'/img/cakes/IMG_7233.JPG',
-    name: 'Belgium dark chocolate cake',
-    id: 'cake4',
-    className: 'rectangle-image-grid',
-    secondaryImageClassName: 'secondary-image',
-    mCol: 6,
-  },
-  {
     imageUrl:'/img/cakes/IMG_7237.JPG',
     name: 'White chocolate earl grey mousse with raspberry gelee',
     id: 'cake5',
@@ -86,14 +70,32 @@ const CakesImages = [
     ],
   },
   {
-    imageUrl:'/img/cakes/IMG_7230.JPG',
-    name: 'Name1',
-    id: 'cake6',
+    imageUrl:'/img/cakes/IMG_7233.JPG',
+    name: 'Belgium dark chocolate cake',
+    id: 'cake4',
+    className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
+    mCol: 6,
+  },
+  {
+    imageUrl:'/img/cakes/IMG_7225.JPG',
+    name: 'Cheese cake-cassis-lemon',
+    id: 'cake2',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     mCol: 6,
     smCol: 12,
-  },
+    secondaryImages: [
+      {
+        imageUrl:'/img/cakes/IMG_7235.JPG',
+        name: 'Cheese cake-cassis- lemon',
+        id: 'cake22',
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
+      },
+    ],
+  }
+
 
 ];
 

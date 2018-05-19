@@ -41,8 +41,14 @@
     justify-content: flex-end;
   }
   .secondary-image {
-    width: 90%;
+    width: 95%;
     height: auto;
     margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .secondary-image {
+    width: 100%;
   }
 }

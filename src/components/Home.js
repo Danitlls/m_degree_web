@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home-container">
       <div>
         <div className="logo-animable-container">
-          <img className="logo-animable" src="/img/second-logo.svg" />
+          <img className="logo-animable" src="/img/second-logo1.svg" />
         </div>
       </div>
       <div className="row home-desserts-container">

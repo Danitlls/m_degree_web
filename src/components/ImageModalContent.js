@@ -60,8 +60,6 @@ export default class ImageModalContent extends Component {
           <div className= "col s12 m12 l3 m-degree-modal-footer">
             <h5>{image.name}</h5>
             <p>{image.description}</p>
-          </div>
-          <div className= "col s12 m12 l3">
             <div className="row-of-images" >
               {(secondaryImages).map(secondaryImage => {
                 return (

@@ -19,12 +19,14 @@ function Header({ location }) {
   const topNavPressLinkStyle = applyBorderBottom(pathname, '/press');
   const aboutUsStyles = `${topNavAbouUsLinkStyle} top-nav-mdegree nav-text-color hide-on-small-only`;
   const pressStyles = `${topNavPressLinkStyle} top-nav-mdegree nav-text-color hide-on-small-only`;
+  const canShowLogo = !isHome(pathname) ||
+  (isHome(pathname) && global.window.innerWidth <= 600);
   return (
     <div>
       <div className="empty"></div>
       <div className="nav-container">
         <Navbar right className="mdegree-nav">
-        {!isHome(pathname) &&
+        {canShowLogo &&
           <NavItem  className="mdegree-logo-container" href='/'>
             <img className="mdegree-logo"  src="/img/m-degree-logo-med.svg" />
           </NavItem>
@@ -43,7 +45,9 @@ function Header({ location }) {
         </Navbar>
 
         <div className="second-logo-c hide-on-med-and-up" >
-          <Link to='/' ><img src="/img/m-degree-logo-small.svg" className="second-logo" /></Link>
+        {!isHome(pathname) &&
+          <Link to='/' ><img src="/img/m-degree-logo-med.svg" className="second-logo" /></Link>
+        }
         </div>
       </div>
     </div>
