@@ -62,23 +62,18 @@ body .press {
   }
   .press-card {
     margin: 2rem 0;
-  }
-  .press-card  img.rectangle-image-grid {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-    transform: scale(1);
-    opacity: .85;
     transition: all .3s;
   }
-  .press-card:hover img.rectangle-image-grid {
-    -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(20%);
+  .press-card  img.rectangle-image-grid {
+    transform: scale(1);
+    opacity: .85;
+  }
+  .press-card img.rectangle-image-grid:hover, .press-card  span:hover {
     opacity: 1;
+   background-color: black;
+   color: white;
   }
-  .press-card:hover span{
-     background-color: black;
-     color: white;
-  }
+
   .brand-image img{
     width: 50%;
     margin: .7rem auto;

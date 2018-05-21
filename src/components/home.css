@@ -33,7 +33,7 @@
 }
 .home-desserts-container .col img{
   width: 100%;
-  opacity: .7;
+  opacity: 1;
   transition: all .4s;
 }
 .home-desserts-container .col span{

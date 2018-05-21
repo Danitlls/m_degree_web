@@ -12,6 +12,7 @@
   height: 70px;
   margin-right: .5rem;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .main-image .secondary-image {

@@ -16,7 +16,7 @@
 }
 .desserts-link:hover{
   color: black !important;
-  border-bottom: 2px solid hotpink;
+  border-bottom: 2px solid  #f37e61;
 }
 
 .selected-desserts-link {

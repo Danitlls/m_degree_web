@@ -3,9 +3,15 @@ import Image from './Image';
 import { Modal, Icon, Row, Col } from 'react-materialize';
 import './pressGrid.css';
 
+
 function onClick(imageId) {
   return function() {
     global.$(`#${imageId}`).modal('close');
+  }
+}
+function onClickModal(imageId){
+  return function() {
+    global.$(`#${imageId}`).modal('open');
   }
 }
 
@@ -65,7 +71,7 @@ export default function PressGrid({ images }) {
               </div>
               <h6>{image.type}</h6>
               <p>{image.date}</p>
-              <span>See More</span>
+              <span onClick={onClickModal(image.id)}>See More</span>
             </div>
           </Col>
         );
