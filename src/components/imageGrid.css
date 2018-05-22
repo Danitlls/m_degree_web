@@ -1,3 +1,6 @@
+/* <div className="plus hide-on-med-and-up" >
+  <i class="material-icons">fullscreen</i>
+</div> */
 .desserts-container{
   padding-top: 1rem;
   margin: 3rem 0 !important;
@@ -89,7 +92,7 @@
 }
 
 .modal .rectangle-image-grid{
-  padding: .2rem 1rem;
+  padding: 0;
 }
 .desserts-container .m-degree-modal-footer{
   margin-bottom: 1rem;
@@ -121,6 +124,7 @@
     width: 70% !important;
   }
   .modal-content .rectangle-image-grid{
+    padding: .2rem 1rem;
     padding-top: .5rem !important;
     margin-top: 0rem;
   }

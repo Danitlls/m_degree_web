@@ -18,15 +18,13 @@ export default function ImageGrid({ images }) {
           return (
             <Col
               key={image.id}
-              s={image.smCol || 6}
+              s={image.smCol || 12}
               m={image.mCol || 6}
               l={image.lCol || 4}
               className='dessert-image'
             >
               <Image image={image} />
-              <div className="plus hide-on-med-and-up" >
-                <i class="material-icons">fullscreen</i>
-              </div>
+
               <span
               onClick={onClick(image.id)}
               >See more</span>

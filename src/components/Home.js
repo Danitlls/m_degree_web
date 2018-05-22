@@ -56,9 +56,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div>
-        <About />
-      </div>
     </div>
   );
 }

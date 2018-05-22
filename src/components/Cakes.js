@@ -16,7 +16,6 @@ const CakesImages = [
     secondaryImageClassName: 'secondary-image',
     description: 'Dark chocolate, coffee, dulce de leche and hazelnut',
     mCol: 6,
-    smCol: 12,
     secondaryImages: [
       {
         imageUrl:'/img/cakes/IMG_7222.JPG',
@@ -34,7 +33,6 @@ const CakesImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     mCol: 6,
-    smCol: 6,
   },
   {
     imageUrl:'/img/cakes/DSCF3798.jpg',
@@ -84,7 +82,6 @@ const CakesImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     mCol: 6,
-    smCol: 12,
     secondaryImages: [
       {
         imageUrl:'/img/cakes/IMG_7235.JPG',
