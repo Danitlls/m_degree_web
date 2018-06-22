@@ -7,8 +7,8 @@
   justify-content: center;
 }
 .secondary-image {
-  /* width: 44%;
-  height: 44%; */
+  width: 44%;
+  height: 44%;
   width: 100px;
   height: 70px;
   /* margin-right: .5rem;
@@ -29,9 +29,10 @@
   .secondary-image {
     width: 120px;
     height: 90px;
+    padding: 0 .3rem;
   }
   .main-image .secondary-image{
-    padding: .2rem 1rem;
+    padding: 0rem;
   }
 }
 
@@ -43,17 +44,15 @@
     justify-content: center;
   }
   .secondary-image {
-    padding: .8rem .2rem;
-    width: 95%;
-    height: auto;
-    margin:  0;
-    margin-bottom: .5rem;
+
+    width: 20%;
+    height: 20%;
   }
 
 }
 
-@media (min-width: 1300px) {
+/* @media (min-width: 1300px) {
   .secondary-image {
     width: 100%;
   }
-}
+} */

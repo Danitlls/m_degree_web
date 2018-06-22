@@ -3,7 +3,7 @@
 </div> */
 .desserts-container{
   padding-top: 1rem;
-  margin: 3rem 0 !important;
+  margin: 1.5rem 0 !important;
 }
 .plus {
   position: absolute;
@@ -120,7 +120,7 @@
 }
 .modal h5{
   margin-top: .2rem !important;
-  padding: 0 1rem !important;
+  padding: 0 0.6rem !important;
   font-size: 1.3rem;
 }
   
@@ -152,7 +152,7 @@
 }
 @media (min-width: 993px) {
   .modal {
-    padding-top: 1rem !important;
+    padding-top: 0rem !important;
     width: 80% !important;
   }
 }
