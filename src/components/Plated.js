@@ -27,6 +27,7 @@ const PlatedImages = [
     id: 'plated3',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    description: '-----------------------',
   },
   {
     imageUrl:'/img/plated/GAI_1146-2.jpg',
@@ -34,7 +35,7 @@ const PlatedImages = [
     id: 'plated4',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    description: 'Balsamic glaze compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
+    description: 'Balsamic reduction, compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
   },
   {
     imageUrl:'/img/plated/DSCF1887.jpg',
@@ -42,7 +43,7 @@ const PlatedImages = [
     id: 'plated5',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    description: '32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
+    description: 'Valrhona 32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
   },
 
   {
@@ -55,7 +56,7 @@ const PlatedImages = [
   },
   {
     imageUrl:'/img/plated/DSCF1850.jpg',
-    name: 'Pineapple-Apple-Basil',
+    name: 'Pineapple-Apple-Basil-lemon',
     id: 'plated7',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
@@ -68,15 +69,15 @@ const PlatedImages = [
     id: 'plated8',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint vei',
+    description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint veil and caramelized almonds',
   },
   {
     imageUrl:'/img/plated/DSCF1899.jpg',
-    name: 'Carrot-Brown sugar-Lemon',
+    name: 'Carrot-Ginger-Brown sugar-Lemon',
     id: 'plated9',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange yuzu agar agar, and lemonade sorbet',
+    description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange fluid gel, ginger agar agar, and lemonade sorbet',
   },
 
 ];

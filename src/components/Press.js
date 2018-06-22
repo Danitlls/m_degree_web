@@ -67,7 +67,7 @@ const PressArticles = [
   },
   {
     imageUrl:'/img/press/swire-1.jpg',
-    name: 'Swire Hotels',
+    name: 'K.W.Würtz + The opposite House Hotel',
     id: 'Press4',
     className: 'rectangle-image-grid',
     date: 2016,

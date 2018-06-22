@@ -31,7 +31,7 @@ function Header({ location }) {
             <img className="mdegree-logo"  src="/img/m-degree-logo-med.svg" />
           </NavItem>
         }
-          <NavItem href='/about' className={aboutUsStyles}>About & <br />
+          <NavItem href='/about' id="about" className={aboutUsStyles}>About & <br />
           Contact Us
           </NavItem>
           <NavItem href='/press' className={pressStyles}>Press & <br />Collaborations</NavItem>

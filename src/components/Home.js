@@ -16,7 +16,7 @@ export default function Home() {
       <Link to='/cakes'>
           <div className="card-mm col s12 m4">
             <div className="image-container" >
-              <img src="/img/cakes/IMG_7221.JPG" />
+              <img src="/img/cakes02small.jpg" />
             </div>
             <span>Cakes</span>
           </div>
@@ -32,7 +32,7 @@ export default function Home() {
         <Link to='/baked'>
           <div className="card-mm  col s12 m4">
             <div className="image-container" >
-              <img src="/img/baked/baked-main.jpg" />
+              <img src="/img/blk_sesame_puff1.jpg" />
             </div>
             <span>Baked</span>
           </div>
@@ -42,7 +42,8 @@ export default function Home() {
         <div className="card-mm  col s12 m6">
           <Link to='/about'>
             <div className="image-container" >
-              <img src="/img/press/working.JPG" />
+            <img src="/img/work2-home.JPG" />
+
             </div>
             <span>About & Contact Us</span>
           </Link>
@@ -50,7 +51,7 @@ export default function Home() {
         <div className="card-mm col s12 m6">
           <Link to='/press'>
             <div className="image-container" >
-              <img src="/img/press/swire-2.png" />
+              <img src="/img/press-home.JPG" />
             </div>
             <span>Press & Collaborations</span>
           </Link>
