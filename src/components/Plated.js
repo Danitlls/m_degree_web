@@ -23,11 +23,11 @@ const PlatedImages = [
   },
   {
     imageUrl:'/img/plated/DSCF0322.jpg',
-    name: 'Green tea Matcha Tiramisu',
+    name: 'Green tea (Matcha) Tiramisu',
     id: 'plated3',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
-    description: '-----------------------',
+    description: 'Matcha syrup soaked Savoiardi sponge, black sesame praline, mascarpone mousse, and matcha ice cream',
   },
   {
     imageUrl:'/img/plated/GAI_1146-2.jpg',

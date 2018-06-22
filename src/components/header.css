@@ -87,7 +87,7 @@ span {
 }
 .top-nav-mdegree a{
   margin: 0;
-  margin-top: 1.2rem;
+  margin-top: 1.7rem;
   padding: 0;
   border-bottom: 2px solid #fff8f8;
   transition: border-bottom .2s;
@@ -111,7 +111,7 @@ nav ul a:hover{
 }
 .nav-text-color a, .mdegree-nav  {
   color: black;
-  padding-top: 1.2rem;
+  padding-top: .6rem;
   line-height: 1.1rem !important;
 }
 
@@ -236,14 +236,14 @@ div.empty{
   }
   .mdegree-logo {
     height: 60px;
-        /* margin-left: -50%; */
-        -webkit-transition: all .6s;
-        -o-transition: all .6s;
-        transition: all .6s;
-        border-radius: 50%;
-        position: absolute;
-        left: 1.6rem;
-        top: .4rem;
+    /* margin-left: -50%; */
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    border-radius: 50%;
+    position: absolute;
+    left: 2rem;
+    top: .7rem;
   }
     .mdegree-logo {
       opacity: .8;

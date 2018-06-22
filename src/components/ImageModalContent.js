@@ -54,10 +54,10 @@ export default class ImageModalContent extends Component {
           <Icon className="close-modal">close</Icon>
         </div>
         <div className="row">
-          <div className="col s12 l9 main-image">
+          <div className="col s12 main-image">
             <Image image={selectedImage} />
           </div>
-          <div className= "col s12 m12 l3 m-degree-modal-footer">
+          <div className= "col s12 m12 m-degree-modal-footer">
             <h5>{image.name}</h5>
             <p>{image.description}</p>
             <div className="row-of-images" >
