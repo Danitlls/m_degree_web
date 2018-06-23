@@ -13,6 +13,7 @@ const PressArticles = [
     brandImage: '/img/press/dandg.png',
     type: 'collaboration',
     description: 'This is the description of the press or collaboration',
+    country: 'China',
     secondaryImages: [
       {
         imageUrl:'/img/press/dolce-2.jpg',
@@ -31,6 +32,7 @@ const PressArticles = [
     brandImage: '/img/press/ellebrand.png',
     type: 'Magazine Article',
     description: 'This is the description of the press or collaboration',
+    country: 'China',
     secondaryImages: [
       {
         imageUrl:'/img/press/elle-decoration-cover-PNG.png',
@@ -49,6 +51,7 @@ const PressArticles = [
     brandImage: '/img/press/elle2brand.png',
     type: 'Magazine Article',
     description: 'This is the description of the press or collaboration',
+    country: 'China',
     secondaryImages: [
       {
         imageUrl:'/img/press/elle-place-full.png',
@@ -74,6 +77,7 @@ const PressArticles = [
     brandImage: '/img/press/swirebrand.png',
     type: 'collaboration',
     description: 'This is the description of the press or collaboration',
+    country: 'China',
     secondaryImages: [
       {
         imageUrl:'/img/press/swire-hotel-jpg.jpg',
@@ -92,6 +96,7 @@ const PressArticles = [
     brandImage: '/img/press/chicalogo.png',
     type: 'collaboration',
     description: "Our tart for Chinese Valentine's Day",
+    country: 'China',
     secondaryImages: [
       {
         imageUrl:'/img/press/plated-8-png.png',

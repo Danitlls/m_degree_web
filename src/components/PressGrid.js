@@ -47,6 +47,7 @@ export default function PressGrid({ images }) {
                   <div className="col m6 l4 m-degree-press-modal-footer">
                     <h5>{image.name}</h5>
                     <p>{image.description}</p>
+                    <p>{image.country}</p>
                     <p style={{
                       fontSize: '.7rem',
                       margin: 0,

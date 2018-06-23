@@ -47,8 +47,13 @@
   cursor: pointer;
 
 }
-.dessert-image:hover  span{
+.dessert-image  span{
+  transform: translateY(-20px);
+  transition: all .4s;
+}
+.dessert-image:hover span{
   display: inline-block;
+  transform: translateY(0px);
 }
 .desserts-container img:hover{
   cursor: pointer;
@@ -81,7 +86,7 @@
   font-size: .9rem;
   letter-spacing: .05rem;
   font-weight: lighter;
-  padding: 0 1rem !important;
+  padding: 0 .7rem !important;
 }
 
 .right{
