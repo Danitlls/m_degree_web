@@ -37,7 +37,8 @@
   text-align: center;
   z-index: 2;
   opacity: 1;
-  background-color: rgba(0,0,0,0.3);
+  background-color: #502f1f8f;
+  /* background-color: rgba(0,0,0,0.3); */
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
