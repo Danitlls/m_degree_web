@@ -1,14 +1,14 @@
 body .press {
   height: 100vh;
   padding-top: 2rem;
-  background-color: white;
+  background-color: #fff8f8 ;
 }
 .row .col {
   padding: 0 !important;
 }
 
 .press-card {
-  background-color: white;
+  background-color:  #fff8f8 ;
   text-align: center;
   /* max-width: 400px;
   padding: 1rem .8rem; */
@@ -22,9 +22,13 @@ body .press {
   border: 1px solid black;
   padding: .5rem 5rem;
 }
-.brand-image img{
-  width: 60%;
+.brand-image{
+  max-height: 55px;
   margin: .5rem auto;
+}
+.brand-image img{
+  height: 55px;
+
 }
 .press-card h6{
   margin: 0 auto;
@@ -44,7 +48,6 @@ body .press {
 }
 .brand-image img{
   width: 45%;
-  margin: .5rem auto;
 }
 
 @media (min-width: 10px ) and (max-width: 600px){
@@ -66,17 +69,20 @@ body .press {
   }
   .press-card  img.rectangle-image-grid {
     transform: scale(1);
-    opacity: .85;
+    /* opacity: .85; */
   }
   .press-card img.rectangle-image-grid:hover, .press-card  span:hover {
     opacity: 1;
    background-color: black;
    color: white;
   }
+  .brand-image {
+
+    margin: .7rem auto;
+  }
 
   .brand-image img{
     width: 50%;
-    margin: .7rem auto;
   }
 }
 

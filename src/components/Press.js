@@ -5,6 +5,26 @@ import PressGrid from './PressGrid';
 
 const PressArticles = [
   {
+    imageUrl:'/img/press/brick1.jpg',
+    name: 'The Brick Hotel',
+    id: 'Press5',
+    className: 'rectangle-image-grid',
+    date: 2018,
+    brandImage: '/img/press/brick-brand.jpg',
+    type: '6 hands dinner collaboration',
+    description: '',
+    country: 'Buenos Aires, Argentina',
+    brand: '/img/press/brick-brand.jpg',
+    // secondaryImages: [
+    //   {
+    //     imageUrl:'',
+    //     name: 'The Brick Kitchen',
+    //     id: 'Press55',
+    //     className: 'secondary-press-image'
+    //   },
+    // ],
+  },
+  {
     imageUrl:'/img/press/dolce-1.jpg',
     name: 'Dolce & Gabbana',
     id: 'Press1',
@@ -12,7 +32,7 @@ const PressArticles = [
     date: 2018,
     brandImage: '/img/press/dandg.png',
     type: 'collaboration',
-    description: 'This is the description of the press or collaboration',
+    description: '',
     country: 'China',
     secondaryImages: [
       {
@@ -29,9 +49,9 @@ const PressArticles = [
     id: 'Press2',
     className: 'rectangle-image-grid',
     date: 2017,
-    brandImage: '/img/press/ellebrand.png',
+    brandImage: '/img/press/elle2brand.png',
     type: 'Magazine Article',
-    description: 'This is the description of the press or collaboration',
+    description: '',
     country: 'China',
     secondaryImages: [
       {
@@ -50,7 +70,7 @@ const PressArticles = [
     date: 2017,
     brandImage: '/img/press/elle2brand.png',
     type: 'Magazine Article',
-    description: 'This is the description of the press or collaboration',
+    description: '',
     country: 'China',
     secondaryImages: [
       {
@@ -75,9 +95,8 @@ const PressArticles = [
     className: 'rectangle-image-grid',
     date: 2016,
     brandImage: '/img/press/swirebrand.png',
-    type: 'collaboration',
-    description: 'This is the description of the press or collaboration',
-    country: 'China',
+    type: 'Artist & chefs collaboration',
+    country: 'Beijing, China',
     secondaryImages: [
       {
         imageUrl:'/img/press/swire-hotel-jpg.jpg',

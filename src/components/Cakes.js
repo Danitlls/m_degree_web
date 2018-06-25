@@ -191,7 +191,7 @@ const CakesImages = [
   },
   {
     imageUrl:'/img/cakes/cakes01.jpg',
-    name: 'Cakes',
+    name: 'Our Cakes',
     id: 'cake14',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
@@ -199,7 +199,7 @@ const CakesImages = [
     secondaryImages: [
       {
         imageUrl:'/img/cakes/cakes02.jpg',
-        name: 'Cakes',
+        name: 'Our Cakes',
         id: 'cake144',
         className: 'secondary-image',
         secondaryImageClassName: 'secondary-image',

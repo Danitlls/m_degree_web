@@ -27,7 +27,7 @@ export default function PressGrid({ images }) {
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.lCol || 4}
           className='press-card'>
              <div style={{
-                border: '0px solid yellow', padding: '0rem', background : 'white', position: 'relative'}}>
+                border: '0px solid yellow', padding: '0rem', position: 'relative'}}>
               <Image image={image} />
 
               <Modal className="modal modal-press modal-picture" modalOptions={{
