@@ -14,7 +14,7 @@ body{
   color: #010101;
   font-weight: lighter;
   font-size: 1rem;
-  background-color: #fff8f8;
+  background-color: #fff;
 }
 h1{
   color: black;
@@ -80,7 +80,7 @@ span {
 }
 
 .mdegree-nav {
-  background: #fff8f8 !important;
+  background: #fff !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   height: 85px;
@@ -89,7 +89,7 @@ span {
   margin: 0;
   margin-top: 1.7rem;
   padding: 0;
-  border-bottom: 2px solid #fff8f8;
+  border-bottom: 2px solid #fcfbfb;
   transition: border-bottom .2s;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -111,7 +111,7 @@ nav ul a:hover{
 }
 .nav-text-color a, .mdegree-nav  {
   color: black;
-  padding-top: .6rem;
+  padding-top: 0rem;
   line-height: 1.1rem !important;
 }
 
@@ -123,7 +123,7 @@ a.button-collapse {
   color: #1f1f1f;
   /* padding-top: 1rem; */
   padding: 0 1rem;
-  background-color: #fff8f8;
+  background-color: #fcfbfb;
   /* padding-bottom: 1rem; */
   position: fixed;
   top: 1.5rem;
@@ -181,7 +181,7 @@ div.empty{
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #fff8f8;;
+  background-color: #fff;
   z-index: 20;
 }
 
@@ -242,8 +242,8 @@ div.empty{
     transition: all .6s;
     border-radius: 50%;
     position: absolute;
-    left: 2rem;
-    top: .6rem;
+    left: 2.5rem;
+    top: .5rem;
   }
     .mdegree-logo {
       opacity: .8;

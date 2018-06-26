@@ -32,7 +32,7 @@ export default function Home() {
         <Link to='/baked'>
           <div className="card-mm  col s12 m4">
             <div className="image-container" >
-              <img src="/img/blk_sesame_puff1.jpg" />
+              <img src="/img/baked/croi1.jpg" />
             </div>
             <span>Baked</span>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="card-mm  col s12 m6">
           <Link to='/about'>
             <div className="image-container" >
-            <img src="/img/work2-home.JPG" />
+            <img src="/img/market-home.JPG" />
 
             </div>
             <span>About & Contact Us</span>

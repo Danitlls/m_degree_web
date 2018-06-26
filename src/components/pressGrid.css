@@ -1,24 +1,32 @@
 .desserts-container{
   padding-top: 1rem;
 }
-
-.secondary-press-image {
+/*
+.row-of-images img{
   width: 150px;
   height:104px;
-  margin-right: .5rem;
-  margin-top: 1rem;
-  padding: .5rem 1rem;
+  padding: .5rem 0;
+} */
+ div.row > div.col.s12.main-image > div > img{
+  width: 100%;
+  height: 100%;
 }
-
-
-.m-degree-press-modal-footer{
-  /* margin-bottom: 3rem; */
+.card-img div{
+  max-height: 270px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
+/* .row-of-images img{
+  max-width: 160px;
+  max-height: 130px;
+} */
 
 @media (min-width: 601px) {
   .secondary-press-image {
-    width: 100%;
+    width: 40%;
     height: auto;
     padding: .5rem 0rem;
     padding-left: 1rem;
@@ -35,7 +43,7 @@
 
 @media (min-width: 900px) {
   .m-degree-press-modal-footer{
-    width: 30% !important;
+    width: 100% !important;
   }
   .secondary-press-image {
     padding: 0;

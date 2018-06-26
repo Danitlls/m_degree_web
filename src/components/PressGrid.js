@@ -2,6 +2,7 @@ import React from 'react';
 import Image from './Image';
 import { Modal, Icon, Row, Col } from 'react-materialize';
 import './pressGrid.css';
+import ImageModalContent from './ImageModalContent';
 
 
 function onClick(imageId) {
@@ -26,8 +27,7 @@ export default function PressGrid({ images }) {
         return (
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.lCol || 4}
           className='press-card'>
-             <div style={{
-                border: '0px solid yellow', padding: '0rem', position: 'relative'}}>
+             <div className='card-img'>
               <Image image={image} />
 
               <Modal className="modal modal-press modal-picture" modalOptions={{
@@ -41,10 +41,14 @@ export default function PressGrid({ images }) {
                   <Icon className="close-modal">close</Icon>
                 </div>
                 <div className="row">
-                  <div className="col s12 l8">
-                    <Image image={image} />
-                  </div>
-                  <div className="col m6 l4 m-degree-press-modal-footer">
+
+                <ImageModalContent
+                  image={image}
+                  secondaryImages={image.secondaryImages}
+                />
+
+                  <div className="col s12 m-degree-press-modal-footer">
+
                     <h5>{image.name}</h5>
                     <p>{image.description}</p>
                     <p>{image.country}</p>
@@ -55,18 +59,13 @@ export default function PressGrid({ images }) {
                     <p style={{
                       margin: 0,
                     }}>{image.date}</p>
-                  </div>
-                  <div className="col m6 l4 ">
-                  {(image.secondaryImages || []).map(image => {
-                    return (<img
-                      className={image.className}
-                      src={image.imageUrl}
-                      name={image.name}
-                      />);
-                    })}
+                    <div className="brand-image">
+                    <img src={image.brandImage} />
+                    </div>
                   </div>
                 </div>
               </Modal>
+
               <div className="brand-image">
               <img src={image.brandImage} />
               </div>

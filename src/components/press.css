@@ -1,14 +1,14 @@
 body .press {
-  height: 100vh;
-  padding-top: 2rem;
-  background-color: #fff8f8 ;
+  min-height: 100vh;
+  padding-top: 0rem;
+  background-color: #fff ;
 }
 .row .col {
   padding: 0 !important;
 }
 
 .press-card {
-  background-color:  #fff8f8 ;
+  background-color:  #fff ;
   text-align: center;
   /* max-width: 400px;
   padding: 1rem .8rem; */
@@ -23,8 +23,10 @@ body .press {
   padding: .5rem 5rem;
 }
 .brand-image{
-  max-height: 55px;
+  height: 55px;
+  width: 100%;
   margin: .5rem auto;
+  text-align: center;
 }
 .brand-image img{
   height: 55px;
@@ -32,8 +34,9 @@ body .press {
 }
 .press-card h6{
   margin: 0 auto;
-  font-size: .9rem;
+  font-size: .8rem;
   color: grey;
+  letter-spacing: .2rem;
 }
 .press-card p{
   font-size: .7rem;
@@ -82,7 +85,10 @@ body .press {
   }
 
   .brand-image img{
-    width: 50%;
+    width: 40%;
+  }
+  .modal .brand-image img{
+    width: 20%;
   }
 }
 

@@ -38,7 +38,8 @@
   z-index: 2;
   opacity: 1;
   background-color: #502f1f8f;
-  /* background-color: rgba(0,0,0,0.3); */
+  /* background-color: #6a749652; */
+  /* background-color: rgba(0,0,0,0.5); */
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -75,7 +76,7 @@
 }
 .modal-content{
   padding: 0 !important;
-  padding-bottom: 0rem !important;
+  padding-bottom: 1rem !important;
 
 }
 .modal-content h4 {
@@ -94,8 +95,8 @@
   text-align: right;
   background-color: #8e828287;
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 15px;
+  top: 15px;
   border-radius: 20px;
   height: 25px;
   width: 25px;
@@ -125,9 +126,12 @@
   line-height: 0;
 }
 .modal h5{
-  margin-top: .2rem !important;
+  margin-top: 0rem !important;
   padding: 0 0.6rem !important;
   font-size: 1.3rem;
+  margin-bottom: .6rem;
+  color: #d2d2d2;
+
 }
   
 @media (min-width: 600px) {
@@ -139,7 +143,7 @@
     margin: 0rem auto;
   }
   .modal {
-    width: 70% !important;
+    width: 65% !important;
   }
   .modal-content .rectangle-image-grid{
     padding: .2rem 1rem;
@@ -159,7 +163,7 @@
 @media (min-width: 993px) {
   .modal {
     padding-top: 0rem !important;
-    width: 80% !important;
+    width: 65% !important;
   }
 }
 

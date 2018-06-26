@@ -1,8 +1,8 @@
 .row-of-images{
 
   max-height: 100%;
-  margin-top: .8rem ;
-  margin-bottom: .7rem;
+  margin-top: 1.5rem ;
+
   display: flex;
   justify-content: center;
 }
@@ -21,6 +21,12 @@
   margin-top: 0rem;
 }
 
+.main-image {
+  max-height: 70vh;
+}
+
+
+/* text color#bdbdbd */
 
 
 @media (min-width: 600px) {

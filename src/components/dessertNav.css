@@ -10,23 +10,25 @@
 .desserts-link{
   color: lightgrey !important;
   font-weight: 300;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid  #fff8f8;
   transition: all .3s;
-
+  letter-spacing: 0.3rem;
+  font-size: .8rem;
 }
 .desserts-link:hover{
   color: black !important;
+  /* letter-spacing: .1rem; */
   border-bottom: 2px solid  #f37e61;
 }
 
 .selected-desserts-link {
   color: black;
-
+  font-size: .8rem;
 }
 
 @media (min-width: 600px) {
   .desserts-nav{
-    width: 40%;
+    width: 50%;
   }
   .desserts-nav-container{
     width: 100%;

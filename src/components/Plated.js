@@ -11,15 +11,15 @@ const PlatedImages = [
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
     description: 'Puffed amaranth tuile, milky oolong tea cream, sweet potato sorbet and chips with lemon-tequila agar agar',
-    secondaryImages: [
-      {
-        imageUrl:'/img/plated/plated-5.jpg',
-        name: 'Amaranth-Oolong-Sweet potato',
-        id: 'plated2',
-        secondaryImageClassName: 'secondary-image',
-        className: ' secondary-image'
-      },
-    ],
+    // secondaryImages: [
+    //   {
+    //     imageUrl:'/img/plated/plated-5.jpg',
+    //     name: 'Amaranth-Oolong-Sweet potato',
+    //     id: 'plated2',
+    //     secondaryImageClassName: 'secondary-image',
+    //     className: ' secondary-image'
+    //   },
+    // ],
   },
   {
     imageUrl:'/img/plated/DSCF0322.jpg',

@@ -37,7 +37,7 @@ export default function ImageGrid({ images }) {
                   opacity: 0.6,
                   outDuration: 300,
                   startingTop: '9rem',
-                  endingTop: '7.5rem',
+                  endingTop: '2rem',
                   preventScrolling: false,
                   fixedFooter: false,
                 }}
