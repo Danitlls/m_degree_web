@@ -67,72 +67,16 @@
   border: 2px solid #d4d4d4;
 }
 
-.modal {
-  width: 94% !important;
-  transform: scale(1) !important;
-  box-shadow: none !important;
-  padding-bottom: 0px;
-  max-height: 85vh !important;
-}
-.modal-content{
-  padding: 0 !important;
-  padding-bottom: 1rem !important;
-
-}
-.modal-content h4 {
-  margin: 0 !important;
-}
-.modal-content p{
-  margin: 0 !important;
-  color: #a7a2a2;
-  font-size: .9rem;
-  letter-spacing: .05rem;
-  font-weight: lighter;
-  padding: 0 .7rem !important;
-}
-
-.right{
-  text-align: right;
-  background-color: #8e828287;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  border-radius: 20px;
-  height: 25px;
-  width: 25px;
-  color: #efeeee;
-}
-.close-modal {
-  cursor: pointer;
-}
 .rectangle-image-grid{
   width: 100%;
 }
-
-.modal .rectangle-image-grid{
+.rectangle-image-grid{
   padding: 0;
 }
-.desserts-container .m-degree-modal-footer{
+.desserts-container {
   margin-bottom: 1rem;
 }
-.m-degree-modal-footer{
-  border: 0px solid red;
 
-}
-.modal-footer{
-  display: none;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-}
-.modal h5{
-  margin-top: 0rem !important;
-  padding: 0 0.6rem !important;
-  font-size: 1.3rem;
-  margin-bottom: .6rem;
-  color: #d2d2d2;
-
-}
   
 @media (min-width: 600px) {
   .desserts-container{
@@ -142,15 +86,6 @@
     width: 100%;
     margin: 0rem auto;
   }
-  .modal {
-    width: 65% !important;
-  }
-  .modal-content .rectangle-image-grid{
-    padding: .2rem 1rem;
-    padding-top: .5rem !important;
-    margin-top: 0rem;
-  }
-
   .m-degree-container{
     /* width: 90%;
     margin-left: 5%;
@@ -160,26 +95,3 @@
     padding-top: 0rem;
   }
 }
-@media (min-width: 993px) {
-  .modal {
-    padding-top: 0rem !important;
-    width: 65% !important;
-  }
-}
-
-/* @media (min-width: 1200px) {
-  .modal .modal-content {
-    max-height: 85vh !important;
-  }
-   .modal-content .col.l3 {
-
-     min-height: 480px;
-   }
-  .m-degree-container{
-    /* width: 80%;
-    margin-left: 10%;
-    width: 100%;
-    margin-left: 0%;
-  }
-
-} */

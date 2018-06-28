@@ -79,6 +79,15 @@ const PlatedImages = [
     secondaryImageClassName: 'secondary-image',
     description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange fluid gel, ginger agar agar, and lemonade sorbet',
   },
+  {
+    imageUrl:'/img/press/IMG_1953.PNG',
+    name: 'Tiramisu',
+    id: 'plated18',
+    className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
+    description: '',
+  },
+
 
 ];
 

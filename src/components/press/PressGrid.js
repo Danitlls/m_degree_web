@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from './Image';
+import Image from '../Image';
 import { Modal, Icon, Row, Col } from 'react-materialize';
 import './pressGrid.css';
-import ImageModalContent from './ImageModalContent';
+import PressImageModalContent from './PressImageModalContent';
 
 
 function onClick(imageId) {
@@ -34,7 +34,7 @@ export default function PressGrid({ images }) {
                 opacity: 0.2,
                 outDuration: 300,
                 startingTop: '7rem',
-                endingTop: '7rem',
+                endingTop: '3rem',
                 preventScrolling: false,
               }} id={image.id} actions={<div></div>}>
                 <div className="right" onClick={onClick(image.id)}>
@@ -42,35 +42,28 @@ export default function PressGrid({ images }) {
                 </div>
                 <div className="row">
 
-                <ImageModalContent
+                <PressImageModalContent
                   image={image}
                   secondaryImages={image.secondaryImages}
                 />
 
                   <div className="col s12 m-degree-press-modal-footer">
 
-                    <h5>{image.name}</h5>
-                    <p>{image.description}</p>
-                    <p>{image.country}</p>
-                    <p style={{
-                      fontSize: '.7rem',
-                      margin: 0,
-                    }}>{image.type}</p>
-                    <p style={{
-                      margin: 0,
-                    }}>{image.date}</p>
-                    <div className="brand-image">
-                    <img src={image.brandImage} />
-                    </div>
+
+
                   </div>
                 </div>
               </Modal>
 
               <div className="brand-image">
-              <img src={image.brandImage} />
+                <img src={image.brandImage} />
               </div>
               <h6>{image.type}</h6>
-              <p>{image.date}</p>
+              <div className="text-press">
+                <p>{image.country}</p>
+                <p>{image.date}</p>
+              </div>
+
               <span onClick={onClickModal(image.id)}>See More</span>
             </div>
           </Col>

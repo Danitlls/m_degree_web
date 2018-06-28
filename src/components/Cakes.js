@@ -173,7 +173,7 @@ const CakesImages = [
     ],
   },
   {
-    imageUrl:'/img/cakes/milkchoc_nuts02.jpg',
+    imageUrl:'/img/cakes/milkchoc_nuts01.jpg',
     name: 'Jivara Milk Chocolate - Praline',
     id: 'cake13',
     className: 'rectangle-image-grid',
@@ -181,7 +181,7 @@ const CakesImages = [
     mCol: 6,
     secondaryImages: [
       {
-        imageUrl:'/img/cakes/milkchoc_nuts01.jpg',
+        imageUrl:'/img/cakes/milkchoc_nuts02.jpg',
         name: 'Jivara Milk Chocolate - Praline',
         id: 'cake133',
         className: 'secondary-image',

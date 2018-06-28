@@ -11,7 +11,7 @@ const PressArticles = [
     id: 'Press7',
     className: 'rectangle-image-grid',
     date: 2018,
-    brandImage: '/img/press/perfect-logo1.png',
+    brandImage: '/img/press/perfect-logo1.JPG',
     type: 'Magazine Article',
     description: '',
     country: 'San Francisco, USA',

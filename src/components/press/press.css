@@ -1,3 +1,15 @@
+/* // <h5>{image.name}</h5>
+// <p>{image.description}</p>
+// <p>{image.country}</p>
+// <p style={{
+//   fontSize: '.7rem',
+//   margin: 0,
+// }}>{image.type}</p>
+// <p style={{
+//   margin: 0,
+// }}>{image.date}</p> */
+
+
 body .press {
   min-height: 100vh;
   padding-top: 0rem;
@@ -52,6 +64,11 @@ body .press {
 .brand-image img{
   width: 45%;
 }
+.m-degree-press-modal-footer span{
+  color: #272727;
+font-size: .6rem;
+font-weight: lighter;
+}
 
 @media (min-width: 10px ) and (max-width: 600px){
   .press .row .col {
@@ -85,7 +102,8 @@ body .press {
   }
 
   .brand-image img{
-    width: 40%;
+    width: 35%;
+    height: 80%;
   }
   .modal .brand-image img{
     width: 20%;

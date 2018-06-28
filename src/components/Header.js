@@ -31,12 +31,12 @@ function Header({ location }) {
             <img className="mdegree-logo"  src="/img/m-degree-logo-med.svg" />
           </NavItem>
         }
-          <NavItem href='/about' id="about" className={aboutUsStyles}>About & <br />
-          Contact Us
+          <NavItem href='/about' id="about" className={aboutUsStyles}>About Us & <br />
+          Contact
           </NavItem>
           <NavItem href='/press' className={pressStyles}>Press & <br />Collaborations</NavItem>
 
-          <NavItem href='/about' className="nav-text-color hide-on-med-and-up">About & Contact Us</NavItem>
+          <NavItem href='/about' className="nav-text-color hide-on-med-and-up">About Us & Contact </NavItem>
           <NavItem href='/press' className="nav-text-color hide-on-med-and-up">Press & Collaborations</NavItem>
           <NavItem className="subheader color-grey  hide-on-med-and-up">Our Work</NavItem>
           <NavItem href='/cakes' className="hide-on-med-and-up">Cakes</NavItem>

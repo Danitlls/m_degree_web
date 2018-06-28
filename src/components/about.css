@@ -14,8 +14,8 @@
   padding: .3rem;
   margin-top: 3rem;
   border-radius: 3rem;
-  /* transition: all .3s; */
-  border: .1rem solid white;
+  transition: border .3s;
+  border: .05rem solid white;
   border-radius: 50%;
 }
 

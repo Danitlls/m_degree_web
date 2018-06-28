@@ -1,0 +1,46 @@
+
+
+.press-row-of-images {
+  text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.press-row-of-images img{
+  max-height: 150px;
+  padding: .5rem;
+}
+
+.modal .m-degree-press-modal-footer h5{
+  margin-top: .1rem !important;
+  color: #242735;
+  text-shadow: none;
+  margin-bottom: 0rem;
+}
+
+.press-card h6{
+  color: #2d2d2d;
+}
+
+
+
+.text-press {
+  padding: 1rem;
+}
+
+.text-press p{
+  margin: 0;
+}
+
+
+@media (min-width: 900px) {
+  div.row > div.col.s12.main-image > div {
+    text-align: center;
+    max-height: 65vh;
+    width: auto;
+  }
+  div.row > div.col.s12.main-image > div > img{
+    width: auto;
+    max-height: 60vh !important;
+  }
+}
