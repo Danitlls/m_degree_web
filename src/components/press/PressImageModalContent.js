@@ -53,13 +53,13 @@ export default class ImageModalContent extends Component {
         <div className="right" onClick={this.closeModal(image.id)}>
           <Icon className="close-modal">close</Icon>
         </div>
-        <div className="row">
+        <div className="row press-1">
           <div className="col s12 main-image">
             <Image image={selectedImage} />
           </div>
           <div className= "col s12 m12 m-degree-press-modal-footer">
-            <h5>{image.name}</h5>
-            <p>{image.description}<span>/{image.date}</span></p>
+            <h5>{image.name}<span> / {image.date}</span></h5>
+            <p>{image.description}</p>
             <div className="press-row-of-images" >
               {(secondaryImages).map(secondaryImage => {
                 return (

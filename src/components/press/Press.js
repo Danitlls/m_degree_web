@@ -136,13 +136,13 @@ const PressArticles = [
   },
   {
     imageUrl:'/img/press/IMG_1954.PNG',
-    name: 'K.W.Würtz + The opposite House Hotel',
+    name: 'K.W.Würtz, Mauro & Maya at The opposite House Hotel',
     id: 'Press4',
     className: 'rectangle-image-grid',
-    date: 2016,
+    date: 2017,
     brandImage: '/img/press/theophouse-logo.png',
     type: 'Artist & chefs collaboration',
-    description: '',
+    description: '“We love to present new and interesting events to the Beijing community,” says Mark Passmore, General Manager of The Opposite House. “We are very excited to host Mauro & Maya x K.H. Würtz pop-up, where the beautifully crafted desserts work in concert with timelessly designed plates, making it a perfect fit towards our hotel’s core of providing quality and unique experiences”.',
     country: 'Beijing, China',
     secondaryImages: [
       {

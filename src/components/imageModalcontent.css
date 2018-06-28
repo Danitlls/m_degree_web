@@ -40,10 +40,12 @@
 .row-of-images{
   width: 100%;
   max-height: 100%;
-  margin: 1.4rem 0 1rem;
+  margin: .6rem 0 1rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 1.7rem;
+  padding-top: 1rem;
 }
 .secondary-image {
   width: 100px;
@@ -71,9 +73,9 @@
   line-height: 0;
 }
 .modal h5{
-  margin-top: -2.4rem !important;
+  margin-top: -2rem !important;
   padding: 0 0.6rem !important;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-bottom: .6rem;
   color: #fafafa;
   text-shadow: 1px 1px 1px #848484;
@@ -113,7 +115,7 @@
     }
   .row-of-images{
     max-height: 125px;
-    align-items: center;
+    /* align-items: center; */
     overflow: hidden;
     display: flex;
     justify-content: center;

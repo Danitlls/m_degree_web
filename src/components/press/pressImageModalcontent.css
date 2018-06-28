@@ -22,7 +22,9 @@
   color: #2d2d2d;
 }
 
-
+.m-degree-press-modal-footer p{
+  margin-top: .5rem !important;
+}
 
 .text-press {
   padding: 1rem;
@@ -34,12 +36,12 @@
 
 
 @media (min-width: 900px) {
-  div.row > div.col.s12.main-image > div {
+  div.row .press-1> div.col.s12.main-image > div {
     text-align: center;
     max-height: 65vh;
     width: auto;
   }
-  div.row > div.col.s12.main-image > div > img{
+  div.row .press-1 > div.col.s12.main-image > div > img{
     width: auto;
     max-height: 60vh !important;
   }
