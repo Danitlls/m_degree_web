@@ -26,6 +26,8 @@
   .press-card .card-img div{
     max-height: 230px;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
   }
   .secondary-press-image {
     width: 40%;
