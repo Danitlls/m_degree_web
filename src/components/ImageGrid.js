@@ -23,11 +23,11 @@ export default function ImageGrid({ images }) {
               l={image.lCol || 4}
               className='dessert-image'
             >
-              <Image image={image} />
-
               <span
               onClick={onClick(image.id)}
-              >See more</span>
+              ><p>See more</p></span>
+              <Image image={image} />
+
 
               <Modal
                 className="modal modal-desserts modal-picture"
@@ -37,7 +37,7 @@ export default function ImageGrid({ images }) {
                   opacity: 0.6,
                   outDuration: 300,
                   startingTop: '9rem',
-                  endingTop: '2rem',
+                  endingTop: '6rem',
                   preventScrolling: false,
                   fixedFooter: false,
                 }}

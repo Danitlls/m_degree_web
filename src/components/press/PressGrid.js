@@ -28,8 +28,8 @@ export default function PressGrid({ images }) {
           <Col s={image.smCol || 12}  m={image.mCol || 6} l={image.lCol || 4}
           className='press-card'>
              <div className='card-img'>
-              <Image image={image} />
-
+              <img src={image.coverPhoto} onClick={onClickModal(image.id)} />
+</div>
               <Modal className="modal modal-press modal-picture" modalOptions={{
                 opacity: 0.2,
                 outDuration: 300,
@@ -46,11 +46,7 @@ export default function PressGrid({ images }) {
                   image={image}
                   secondaryImages={image.secondaryImages}
                 />
-
                   <div className="col s12 m-degree-press-modal-footer">
-
-
-
                   </div>
                 </div>
               </Modal>
@@ -65,7 +61,7 @@ export default function PressGrid({ images }) {
               </div>
 
               <span onClick={onClickModal(image.id)}>See More</span>
-            </div>
+
           </Col>
         );
       })}

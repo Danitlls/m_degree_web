@@ -4,6 +4,7 @@
 .desserts-container{
   padding-top: 1rem;
   margin: 1.5rem 0 !important;
+
 }
 .plus {
   position: absolute;
@@ -13,24 +14,28 @@
   padding-left: 2%;
   opacity: .5;
   color: white;
+
 }
 .desserts-container img{
   cursor: pointer;
   opacity: 1;
+  /* padding: 4px; */
 }
 .desserts-container .dessert-image {
-  border: 0px solid lightgrey;
+  border: 3px solid white;
   padding: 0;
   margin:  -3px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
-.desserts-container  span{
+.dessert-image  span{
   display: none;
   position: absolute;
-  margin: 0 auto;
-  padding: 35% 0 !important;
-  bottom: 6px;
+  margin: 0;
+  padding: 0 ;
+  bottom: 3px;
+  justify-content: center;
+  align-items: center;
   left: 0%;
   width: 100%;
   height: 100%;
@@ -47,14 +52,14 @@
   font-style: normal;
   letter-spacing: .2rem;
   cursor: pointer;
-
+  border: 1.5px solid #fff;
 }
 .dessert-image  span{
   transform: translateY(-20px);
   transition: all .4s;
 }
 .dessert-image:hover span{
-  display: inline-block;
+  display: flex;
   transform: translateY(0px);
 }
 .desserts-container img:hover{
@@ -79,19 +84,25 @@
 
   
 @media (min-width: 600px) {
+  .desserts-container  span{
+    /* padding: 31% 0 !important;
+    bottom: 9px;
+    border: 2px solid #d4d4d4;
+    border-top: 1px solid red; */
+  }
+
   .desserts-container{
     margin-top: 4rem !important;
-    /* width: 94%; display with margin
-    margin: 1rem auto; */
-    width: 100%;
-    margin: 0rem auto;
+
+
   }
   .m-degree-container{
+    width: 90% !important;
     /* width: 90%;
     margin-left: 5%;
     padding-top: 1rem; */
-    width: 100%;
-    margin-left: 0%;
-    padding-top: 0rem;
+
+    /* margin-left: 0%;
+    padding-top: 0rem; */
   }
 }

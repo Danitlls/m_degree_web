@@ -23,7 +23,7 @@ export default function About() {
         </p>
       </div>
       <div className="contact-container">
-        <a href="mailto:mayasitti@gmail.com"><img src="/img/new-email-outline-symbol-in-black-circular-button.svg"/></a>
+        <a href="mailto:mauro-maya@mmdegree.com"><img src="/img/new-email-outline-symbol-in-black-circular-button.svg"/></a>
         <a href="https://www.instagram.com/mdegree.mauromaya" target="_blank" ><img src="/img/instagram-logo.svg"/></a>
         <a href="https://www.facebook.com/mmdegree" target="_blank" ><img src="/img/facebook-logo-button.svg"/></a>
       </div>
