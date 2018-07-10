@@ -1,38 +1,55 @@
 .desserts-nav{
-  width: 90%;
-  margin: 2rem auto;
+  width: 100%;
+  margin-top: .8rem;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  padding: 0 5%;
+  z-index: 20;
 }
 
 .desserts-link{
   color: lightgrey !important;
   font-weight: 300;
-  border-bottom: 2px solid  #fff8f8;
-  transition: all .3s;
+  border-bottom: 2px solid  #fff;
+  transition: all .4s;
   letter-spacing: 0.3rem;
   font-size: .8rem;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 .desserts-link:hover{
   color: black !important;
   /* letter-spacing: .1rem; */
   border-bottom: 2px solid  #f37e61;
 }
+.desserts-link:focus{
+  color: grey;
+  font-weight: bolder;
+  letter-spacing: .1rem;
+  border-bottom: 2px solid  #f37e61;
+}
 
 .selected-desserts-link {
   color: black;
   font-size: .8rem;
+  padding: 10px;
+
 }
 
 @media (min-width: 600px) {
   .desserts-nav{
-    width: 50%;
-  }
-  .desserts-nav-container{
     width: 100%;
-    /* background-color: white; */
+    justify-content: space-around;
+    padding: 0 20%;
   }
-
+  .desserts-link{
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
 }
