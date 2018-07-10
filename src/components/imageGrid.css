@@ -1,11 +1,8 @@
 /* <div className="plus hide-on-med-and-up" >
   <i class="material-icons">fullscreen</i>
 </div> */
-.desserts-container{
-  padding-top: 1rem;
-  margin: 1.5rem 0 !important;
-}
-.plus {
+
+/* .plus {
   position: absolute;
   bottom: 5%;
   width: 100%;
@@ -13,24 +10,39 @@
   padding-left: 2%;
   opacity: .5;
   color: white;
-}
+
+} */
 .desserts-container img{
   cursor: pointer;
   opacity: 1;
+  /* padding: 4px; */
 }
-.desserts-container .dessert-image {
-  border: 0px solid lightgrey;
-  padding: 0;
-  margin:  -3px 0;
-  overflow: hidden;
+
+.dessert-image {
+  border: 2px solid white;
+  border-bottom: 0px;
+  border-top: 0px;
+  padding: 0 !important;
+  margin: -3px 0;
+  position: relative;
+  margin-bottom: .1rem;
+}
+
+.desserts-container{
+  /* padding-top: 1rem; */
+  margin: 2rem 1.6rem !important;
+  margin-bottom: 1rem;
   position: relative;
 }
-.desserts-container  span{
+
+.dessert-image  span{
   display: none;
   position: absolute;
-  margin: 0 auto;
-  padding: 35% 0 !important;
-  bottom: 6px;
+  margin: 0;
+  padding: 0 ;
+  bottom: 3px;
+  justify-content: center;
+  align-items: center;
   left: 0%;
   width: 100%;
   height: 100%;
@@ -47,14 +59,17 @@
   font-style: normal;
   letter-spacing: .2rem;
   cursor: pointer;
-
+  border: 2px solid #fff;
+  /* border-left: none; */
+  /* border-right: none; */
+  /* border-radius: 5px; */
 }
 .dessert-image  span{
   transform: translateY(-20px);
   transition: all .4s;
 }
 .dessert-image:hover span{
-  display: inline-block;
+  display: flex;
   transform: translateY(0px);
 }
 .desserts-container img:hover{
@@ -73,25 +88,41 @@
 .rectangle-image-grid{
   padding: 0;
 }
-.desserts-container {
-  margin-bottom: 1rem;
-}
+
 
   
 @media (min-width: 600px) {
   .desserts-container{
-    margin-top: 4rem !important;
-    /* width: 94%; display with margin
-    margin: 1rem auto; */
-    width: 100%;
-    margin: 0rem auto;
+    padding-top: 1rem;
+    margin: 2rem 1.6rem !important;
+    margin-bottom: 1rem;
+    position: relative;
   }
+
+  .desserts-container{
+    padding-top: 0rem;
+    margin: 0rem !important;
+    margin-bottom: 0rem;
+
+  }
+  /* .dessert-image, .row .col{
+    margin-bottom: 0rem !important;
+    padding: 0 !important;
+  } */
+
   .m-degree-container{
+    width: 90% !important;
     /* width: 90%;
     margin-left: 5%;
     padding-top: 1rem; */
-    width: 100%;
-    margin-left: 0%;
-    padding-top: 0rem;
+
+    /* margin-left: 0%;
+    padding-top: 0rem; */
+  }
+  .dessert-container span {
+    border: 5px solid #fff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid white;
+    /* border-radius: 10px; */
   }
 }

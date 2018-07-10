@@ -15,8 +15,8 @@ body .press {
   padding-top: 0rem;
   background-color: #fff ;
 }
-.row .col {
-  padding: 0 !important;
+.press > .row .col {
+  padding: 0 !important ;
 }
 
 .press-card {
@@ -29,13 +29,17 @@ body .press {
   margin-bottom: 4rem;
   cursor: pointer;
 }
+div.press > div > div > div.press-card{
+  padding: 2px !important;
+
+}
 
 .press-card span{
   border: 1px solid black;
   padding: .5rem 5rem;
 }
 .brand-image{
-  height: 55px;
+  height: 65px;
   width: 100%;
   margin: .5rem auto;
   text-align: center;
@@ -65,9 +69,12 @@ body .press {
   width: 45%;
 }
 .m-degree-press-modal-footer span{
-  color: #272727;
+  color: #e0e0e0;
 font-size: .6rem;
 font-weight: lighter;
+}
+.modal-overlay{
+  opacity: 1 !important;
 }
 
 @media (min-width: 10px ) and (max-width: 600px){

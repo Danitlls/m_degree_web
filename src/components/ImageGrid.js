@@ -23,22 +23,22 @@ export default function ImageGrid({ images }) {
               l={image.lCol || 4}
               className='dessert-image'
             >
-              <Image image={image} />
-
               <span
               onClick={onClick(image.id)}
-              >See more</span>
+              ><p>See more</p></span>
+              <Image image={image} />
+
 
               <Modal
                 className="modal modal-desserts modal-picture"
                 id={image.id}
                 actions={<div></div>}
                 modalOptions={{
-                  opacity: 0.6,
+                  opacity: 1,
                   outDuration: 300,
                   startingTop: '9rem',
-                  endingTop: '2rem',
-                  preventScrolling: false,
+                  endingTop: '0rem',
+                  preventScrolling: true,
                   fixedFooter: false,
                 }}
               >

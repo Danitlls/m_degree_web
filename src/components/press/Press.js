@@ -15,6 +15,7 @@ const PressArticles = [
     type: 'Magazine Article',
     description: '',
     country: 'San Francisco, USA',
+    coverPhoto: '/img/press/perfect-s-1cover.png',
     secondaryImages: [
       {
         imageUrl:'/img/press/perfect-s-2.png',
@@ -25,24 +26,32 @@ const PressArticles = [
     ],
   },
   {
-    imageUrl:'/img/press/brick1.jpg',
-    name: 'The Brick Hotel',
-    id: 'Press5',
+    imageUrl:'/img/press/sabor-1.jpg',
+    name: 'Sabor',
+    id: 'Press10',
     className: 'rectangle-image-grid',
     date: 2018,
-    brandImage: '/img/press/brick-brand.jpg',
+    brandImage: '/img/press/sabor-brand1.jpg',
     type: 'Collaboration',
-    description: '6 hands dinner collaboration',
-    country: 'Buenos Aires, Argentina',
+    description: 'Dinner collaboration',
+    country: 'Shanghai, China',
+    coverPhoto: '/img/press/sabor-cover.jpg',
     secondaryImages: [
       {
-        imageUrl:'/img/press/The Brick menu-2.jpg',
-        name: 'The Brick Kitchen',
-        id: 'Press55',
+        imageUrl:'/img/press/Sabor-2.png',
+        name: 'Sabor',
+        id: '1012',
+        className: 'secondary-press-image'
+      },
+      {
+        imageUrl:'/img/press/Sabor-3.png',
+        name: 'Sabor',
+        id: '1013',
         className: 'secondary-press-image'
       },
     ],
   },
+
   {
     imageUrl:'/img/press/dolce-1.jpg',
     name: 'Dolce & Gabbana',
@@ -52,6 +61,7 @@ const PressArticles = [
     brandImage: '/img/press/dandg.png',
     type: 'collaboration',
     description: '',
+    coverPhoto: '/img/press/dolce-1.jpg',
     country: 'China',
     secondaryImages: [
       {
@@ -78,6 +88,7 @@ const PressArticles = [
     brandImage: '/img/press/elle2brand.png',
     type: 'Magazine Article',
     description: '',
+    coverPhoto: '/img/press/elle-place-cover.jpg',
     country: 'China',
     secondaryImages: [
       {
@@ -105,6 +116,7 @@ const PressArticles = [
     type: 'Magazine Article',
     description: '',
     country: 'China',
+    coverPhoto: '/img/press/elle-dessert-png.jpg',
     secondaryImages: [
       {
         imageUrl:'/img/press/elle-decoration-cover-PNG.png',
@@ -124,6 +136,7 @@ const PressArticles = [
     brandImage: '/img/press/timeout-logo.png',
     type: 'Magazine Article',
     description: "",
+    coverPhoto: '/img/press/timeout-cover.png',
     country: 'Shanghai, China',
     secondaryImages: [
       {
@@ -144,6 +157,7 @@ const PressArticles = [
     type: 'Artist & chefs collaboration',
     description: '“We love to present new and interesting events to the Beijing community,” says Mark Passmore, General Manager of The Opposite House. “We are very excited to host Mauro & Maya x K.H. Würtz pop-up, where the beautifully crafted desserts work in concert with timelessly designed plates, making it a perfect fit towards our hotel’s core of providing quality and unique experiences”.',
     country: 'Beijing, China',
+    coverPhoto: '/img/press/IMG_1954.PNG',
     secondaryImages: [
       {
         imageUrl:'/img/press/IMG_1953.png',
@@ -168,6 +182,7 @@ const PressArticles = [
     brandImage: '/img/press/chicalogo.png',
     type: 'collaboration',
     description: "Our tart for Valentine's Day",
+    coverPhoto: '/img/press/tart-2.png',
     country: 'China',
     secondaryImages: [
       {
@@ -187,20 +202,22 @@ const PressArticles = [
     brandImage: '/img/press/logo-elle-man.png',
     type: 'Magazine Article',
     description: "",
+    coverPhoto: '/img/press/press-elle-men-1.jpg',
     country: 'Shanghai, China',
     secondaryImages: [
-      {
-        imageUrl:'/img/press/press-elle-men-2.jpg',
-        name: 'Elle Men',
-        id: 'Press22222',
-        className: 'secondary-press-image'
-      },
       {
         imageUrl:'/img/press/ElleMen SH-1.jpg',
         name: 'Elle Men',
         id: 'Press22223',
         className: 'secondary-press-image'
       },
+      {
+        imageUrl:'/img/press/press-elle-men-2.jpg',
+        name: 'Elle Men',
+        id: 'Press22222',
+        className: 'secondary-press-image'
+      },
+
     ],
   },
 

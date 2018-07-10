@@ -97,12 +97,14 @@ span {
   font-weight: bolder;
 }
 .top-nav-mdegree a:hover{
-  border-bottom: 2px solid  #ef7771;
+  /* border-bottom: 2px solid  #ef7771; */
+  border-bottom: 2px solid  #dddd2d;
   /* border-bottom: 2px solid #f17d7dd6; */
 }
 
 .nav-link-border a {
-  border-bottom: 2px solid  #f37e61;
+  /* border-bottom: 2px solid  #f37e61; */
+  border-bottom: 2px solid  #dddd2d;
   color: grey !important;
 }
 
@@ -120,19 +122,19 @@ nav ul a:hover{
   margin-right: 3rem;
 }
 a.button-collapse {
-  color: #1f1f1f;
-  /* padding-top: 1rem; */
-  padding: 0 1rem;
-  background-color: #fcfbfb;
-  /* padding-bottom: 1rem; */
-  position: fixed;
-  top: 1.5rem;
-  z-index: 25;
-  right: .2rem;
+    color: #000000;
+    /* padding-top: 1rem; */
+    /* padding: 0 1rem; */
+    background-color: #fff;
+    /* padding-bottom: 1rem; */
+    position: fixed;
+    top: 2rem;
+    z-index: 25;
+    right: .3rem;
 }
 nav .button-collapse i {
-    font-size: 35px;
-    color: black;
+  font-size: 30px;
+  color: #585858;
 }
 .side-nav {
   width: 14rem;
@@ -142,11 +144,19 @@ nav .button-collapse i {
 .side-nav .mdegree-logo-container a{
   height: 120px;
 }
+.side-nav .mdegree-logo-container img{
+  height: 130px;
+  opacity: 1;
+}
 .side-nav a {
   margin-right: 0;
   text-transform: uppercase;
   font-size: .85rem;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
+  line-height: 20px;
+  font-weight: lighter;
+  letter-spacing: .04rem;
 }
 .side-nav .subheader a{
   color: lightgrey;
@@ -161,26 +171,24 @@ nav .button-collapse i {
   border-bottom: none;
 }
 
+.second-logo-c {
+    position: fixed;
+    top: 1.5rem;
+    width: 100px;
+    left: 1.6rem;
+    z-index: 35;
+}
+.second-logo-c img{
+  width: 80px;
+}
 
-.second-logo-c{
-  position: fixed;
-  top: 0rem;
-  width: 100px;
-  left: .3rem;
-  z-index: 35;
-}
-.second-logo {
-  transform: scale(.7);
-  /* background-color: white; */
-  border-radius: 50%;
-}
 
 div.empty{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: #fff;
   z-index: 20;
 }
@@ -191,8 +199,8 @@ div.empty{
 
 @media (min-width: 1px) and (max-width: 600px) {
   .mdegree-logo-container .mdegree-logo {
-    transform: scale(.4);
-    opacity: .8;
+    transform: scale(.6);
+    opacity: 1;
   }
 }
 /* @media (min-width: 450px) {
@@ -235,19 +243,18 @@ div.empty{
     float: left;
   }
   .mdegree-logo {
-    height: 60px;
+    /* height: 60px;
     /* margin-left: -50%; */
-    -webkit-transition: all .6s;
+  /*  -webkit-transition: all .6s;
     -o-transition: all .6s;
     transition: all .6s;
-    border-radius: 50%;
+    border-radius: 50%; */
+    width: 90px;
     position: absolute;
     left: 2.5rem;
-    top: .5rem;
+    top: 0rem;
   }
-    .mdegree-logo {
-      opacity: .8;
-    }
+
   .mdegree-logo:hover {
     transform: scale(.9);
     /* background-color: #f9f9f9; */

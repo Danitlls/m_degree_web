@@ -9,6 +9,7 @@ const BakedImages = [
     id: 'Baked1',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 4,
     mCol: 6,
     smCol: 12,
     // secondaryImages: [
@@ -27,6 +28,7 @@ const BakedImages = [
       id: 'Baked4',
       className: 'rectangle-image-grid',
       secondaryImageClassName: 'secondary-image',
+      lCol: 4,
       mCol: 6,
       secondaryImages: [
         // {
@@ -44,6 +46,7 @@ const BakedImages = [
     id: 'Baked7',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 4,
     mCol: 6,
     secondaryImages: [
       // {
@@ -67,6 +70,7 @@ const BakedImages = [
     id: 'Baked13',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 6,
     mCol: 6,
     secondaryImages: [
       {
@@ -84,6 +88,7 @@ const BakedImages = [
     id: 'Baked12',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 6,
     mCol: 6,
     secondaryImages: [
       // {
@@ -102,6 +107,7 @@ const BakedImages = [
     id: 'Baked3',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 3,
     mCol: 6,
     secondaryImages: [
       // {
@@ -121,26 +127,8 @@ const BakedImages = [
     id: 'Baked5',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 3,
     mCol: 6,
-  },
-  {
-    // imageUrl:'/img/baked/chikalicious7651.jpg',
-    imageUrl:'/img/baked/chikalicious7702.jpg',
-    name: 'Dark chocolate brownie',
-    id: 'Baked33',
-    className: 'rectangle-image-grid',
-    secondaryImageClassName: 'secondary-image',
-    smCol: 12,
-    mCol: 6,
-    secondaryImages: [
-      {
-        imageUrl:'/img/baked/chikalicious7640.jpg',
-        name: 'Dark chocolate brownie',
-        id: 'Baked10',
-        className: 'secondary-image',
-        secondaryImageClassName: 'secondary-image',
-      },
-    ],
   },
   {
     imageUrl:'/img/baked/horizontal-baked.jpg',
@@ -148,6 +136,7 @@ const BakedImages = [
     id: 'Baked2',
     className: 'rectangle-image-grid',
     secondaryImageClassName: 'secondary-image',
+    lCol: 3,
     mCol: 6,
     secondaryImages: [
       {
@@ -166,6 +155,27 @@ const BakedImages = [
       },
     ],
   },
+  {
+    // imageUrl:'/img/baked/chikalicious7651.jpg',
+    imageUrl:'/img/baked/chikalicious7702.jpg',
+    name: 'Dark chocolate brownie',
+    id: 'Baked33',
+    className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
+    lCol: 3,
+    smCol: 12,
+    mCol: 6,
+    secondaryImages: [
+      {
+        imageUrl:'/img/baked/chikalicious7640.jpg',
+        name: 'Dark chocolate brownie',
+        id: 'Baked10',
+        className: 'secondary-image',
+        secondaryImageClassName: 'secondary-image',
+      },
+    ],
+  },
+
 ];
 
 

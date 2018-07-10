@@ -12,6 +12,26 @@ export default function Home() {
           <img className="logo-animable" src="/img/second-logo1.svg" />
         </div>
       </div>
+
+      <div className="row home-desserts-container">
+        <div className="card-mm  col s12 m6">
+          <Link to='/about'>
+            <div className="image-container" >
+            <img src="/img/market-home.JPG" />
+
+            </div>
+            <span>About & Contact Us</span>
+          </Link>
+        </div>
+        <div className="card-mm col s12 m6">
+          <Link to='/press'>
+            <div className="image-container" >
+              <img src="/img/press-home.JPG" />
+            </div>
+            <span>Press & Collaborations</span>
+          </Link>
+        </div>
+      </div>
       <div className="row home-desserts-container">
       <Link to='/cakes'>
           <div className="card-mm col s12 m4">
@@ -37,25 +57,6 @@ export default function Home() {
             <span>Baked</span>
           </div>
         </Link>
-      </div>
-      <div className="row home-desserts-container">
-        <div className="card-mm  col s12 m6">
-          <Link to='/about'>
-            <div className="image-container" >
-            <img src="/img/market-home.JPG" />
-
-            </div>
-            <span>About & Contact Us</span>
-          </Link>
-        </div>
-        <div className="card-mm col s12 m6">
-          <Link to='/press'>
-            <div className="image-container" >
-              <img src="/img/press-home.JPG" />
-            </div>
-            <span>Press & Collaborations</span>
-          </Link>
-        </div>
       </div>
     </div>
   );

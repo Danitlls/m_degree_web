@@ -28,7 +28,7 @@ function Header({ location }) {
         <Navbar right className="mdegree-nav">
         {canShowLogo &&
           <NavItem  className="mdegree-logo-container" href='/'>
-            <img className="mdegree-logo"  src="/img/m-degree-logo-med.svg" />
+            <img className="mdegree-logo"  src="img/m-degree-2.jpg" />
           </NavItem>
         }
           <NavItem href='/about' id="about" className={aboutUsStyles}>About Us & <br />
@@ -46,7 +46,7 @@ function Header({ location }) {
 
         <div className="second-logo-c hide-on-med-and-up" >
         {!isHome(pathname) &&
-          <Link to='/' ><img src="/img/m-degree-logo-med.svg" className="second-logo" /></Link>
+          <Link to='/' ><img src="/img/m-degree-2.jpg" className="second-logo" /></Link>
         }
         </div>
       </div>
