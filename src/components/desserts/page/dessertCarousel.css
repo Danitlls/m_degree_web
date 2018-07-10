@@ -24,29 +24,13 @@
   margin: 0 !important;
 }
 .modal-content p {
-    margin: 0 !important;
-    color: #828181;
-    font-size: .9rem;
-    letter-spacing: .05rem;
-    font-weight: lighter;
-    padding: 0 .7rem !important;
-    text-align: center;
-  }
-
-
-.right{
-  text-align: right;
-  background-color: #5656565e;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  border-radius: 20px;
-  height: 21px;
-  width: 21px;
-  color: #ccc8c8;
-}
-.close-modal {
-  cursor: pointer;
+  margin: 0 !important;
+  color: #828181;
+  font-size: .9rem;
+  letter-spacing: .05rem;
+  font-weight: lighter;
+  padding: 0 .7rem !important;
+  text-align: center;
 }
 
 .row-of-images{
@@ -87,7 +71,8 @@
   padding: 0;
   line-height: 0;
 }
-.main-image h5{
+
+.image-description h5 {
   margin-top: .5rem !important;
   padding: 0 0.6rem !important;
   font-size: 1rem;
@@ -97,6 +82,7 @@
   text-align: center;
   /* background-color: black; */
 }
+
 .material-icons {
 
     font-size: 20px ;

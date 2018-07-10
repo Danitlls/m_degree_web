@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from '../Image';
 import { Modal, Icon, Row, Col } from 'react-materialize';
 import './pressGrid.css';
 import PressImageModalContent from './PressImageModalContent';

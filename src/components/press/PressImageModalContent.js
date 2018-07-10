@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Image from '../Image';
+import Image from '../desserts/page/Image';
 import { Icon } from 'react-materialize';
 import './pressImageModalcontent.css';
 

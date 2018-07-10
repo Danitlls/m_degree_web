@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from './Image';
 import { Modal, Row, Col } from 'react-materialize';
-import ImageModalContent from './ImageModalContent';
+import DessertCarousel from './DessertCarousel';
 import './imageGrid.css';
 
 function onClick(imageId){
@@ -42,7 +42,7 @@ export default function ImageGrid({ images }) {
                   fixedFooter: false,
                 }}
               >
-                <ImageModalContent
+                <DessertCarousel
                   image={image}
                   secondaryImages={image.secondaryImages}
                 />
