@@ -34,7 +34,7 @@ export default function PressGrid({ images }) {
                 opacity: 0.2,
                 outDuration: 300,
                 startingTop: '7rem',
-                endingTop: '3rem',
+                endingTop: '0rem',
                 preventScrolling: false,
               }} id={image.id} actions={<div></div>}>
                 <div className="right" onClick={onClick(image.id)}>

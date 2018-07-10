@@ -39,10 +39,12 @@
     justify-content: flex-start;
   }
   .card-img {
-    max-height: 200px;
+      height: 280px;
+      display: flex;
+      justify-content: center;
   }
   .card-img  img{
-   max-width: 99%;
+   max-width: 120%;
   }
   .secondary-press-image {
     width: 40%;
@@ -61,7 +63,7 @@
 
 @media (min-width: 900px) {
   .card-img {
-    max-height: 200px;
+    height: 250px;
   }
   .m-degree-press-modal-footer{
     width: 100% !important;

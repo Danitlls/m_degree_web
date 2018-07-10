@@ -30,7 +30,7 @@
   position: relative;
   /* margin-top: -10px !important; */
   overflow: hidden;
-
+  line-height: 1rem;
 }
 .home-desserts-container .col img{
   width: 100%;

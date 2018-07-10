@@ -13,9 +13,10 @@
 
 .modal .m-degree-press-modal-footer h5{
   margin-top: .1rem !important;
-  color: #242735;
+  color: #e0e0e0;;
   text-shadow: none;
   margin-bottom: 0rem;
+  text-align: center;
 }
 
 .press-card h6{
@@ -24,6 +25,7 @@
 
 .m-degree-press-modal-footer p{
   margin-top: .5rem !important;
+  text-align: center;
 }
 
 .text-press {
@@ -50,7 +52,7 @@
 }
 @media (min-width: 900px) {
   .modal{
-    width: 65vw !important;
+    width: 75vw !important;
     overflow-x: hidden !important;
   }
 

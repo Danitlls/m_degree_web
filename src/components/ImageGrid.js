@@ -34,11 +34,11 @@ export default function ImageGrid({ images }) {
                 id={image.id}
                 actions={<div></div>}
                 modalOptions={{
-                  opacity: 0.6,
+                  opacity: 1,
                   outDuration: 300,
                   startingTop: '9rem',
-                  endingTop: '6rem',
-                  preventScrolling: false,
+                  endingTop: '0rem',
+                  preventScrolling: true,
                   fixedFooter: false,
                 }}
               >
