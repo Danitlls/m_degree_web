@@ -15,6 +15,7 @@ export default function Image({ image }) {
         src={image.imageUrl}
         name={image.name}
       />
+  
     </div>
   );
 }

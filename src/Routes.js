@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Cakes from './components/Cakes';
 import Baked from './components/Baked';
 import Plated from './components/Plated';
-import Press from './components/Press';
+import Press from './components/press/Press';
 import HomeIntro from './components/HomeIntro';
 
 function applyHeaderFooter(Content) {

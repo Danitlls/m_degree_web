@@ -9,51 +9,41 @@ const PlatedImages = [
     name: 'Amaranth-Oolong-Sweet potato',
     id: 'plated1',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     description: 'Puffed amaranth tuile, milky oolong tea cream, sweet potato sorbet and chips with lemon-tequila agar agar',
-    mCol: 6,
-    smCol: 12,
-    lCol: 4,
-    secondaryImages: [
-      {
-        imageUrl:'/img/plated/plated-5.jpg',
-        name: 'Amaranth-Oolong-Sweet potato',
-        id: 'plated2',
-        className: ' secondary-image'
-      },
-      {
-        imageUrl:'/img/plated/GAI_1206.jpg',
-        name: 'Amaranth-Oolong-Sweet potato',
-        id: 'plated22',
-        className: 'secondary-image'
-      },
-    ],
+    // secondaryImages: [
+    //   {
+    //     imageUrl:'/img/plated/plated-5.jpg',
+    //     name: 'Amaranth-Oolong-Sweet potato',
+    //     id: 'plated2',
+    //     secondaryImageClassName: 'secondary-image',
+    //     className: ' secondary-image'
+    //   },
+    // ],
   },
   {
     imageUrl:'/img/plated/DSCF0322.jpg',
-    name: 'Green tea Matcha Tiramisu',
+    name: 'Green tea (Matcha) Tiramisu',
     id: 'plated3',
     className: 'rectangle-image-grid',
-    mCol: 3,
-    lCol: 4,
+    secondaryImageClassName: 'secondary-image',
+    description: 'Matcha syrup soaked Savoiardi sponge, black sesame praline, mascarpone mousse, and matcha ice cream',
   },
   {
     imageUrl:'/img/plated/GAI_1146-2.jpg',
     name: 'Beets-Strawberry-Yogurt',
     id: 'plated4',
     className: 'rectangle-image-grid',
-    description: 'Balsamic glaze compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
-    mCol: 3,
-    lCol: 4,
-
+    secondaryImageClassName: 'secondary-image',
+    description: 'Balsamic reduction, compressed beet, wild strawberry sheets, mousse and sorbet with yogurt foam',
   },
   {
     imageUrl:'/img/plated/DSCF1887.jpg',
     name: 'Latitude of Chocolate',
     id: 'plated5',
     className: 'rectangle-image-grid',
-    description: '32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
-    mCol: 3,
-    lCol: 6,
+    secondaryImageClassName: 'secondary-image',
+    description: 'Valrhona 32%-35%-40%-66% with dulcey chocolate cake and yuzu sorbet',
   },
 
   {
@@ -61,18 +51,16 @@ const PlatedImages = [
     name: 'Watermelon-Mint-Lemon',
     id: 'plated6',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     description: 'Fresh summer watermelon compressed with mint and consommé with Lemon sorbet',
-    mCol: 3,
-    lCol: 3,
   },
   {
     imageUrl:'/img/plated/DSCF1850.jpg',
-    name: 'Pineapple-Apple-Basil',
+    name: 'Pineapple-Apple-Basil-lemon',
     id: 'plated7',
     className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
     description: 'Pineapple compressed and granita, apple compressed and sorbet, with lemon and basil gel',
-    mCol: 3,
-    lCol: 3,
   },
 
   {
@@ -80,21 +68,26 @@ const PlatedImages = [
     name: 'Honey dew-Yogurt-Mint',
     id: 'plated8',
     className: 'rectangle-image-grid',
-    description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint vei',
-    mCol: 3,
-    lCol: 3,
-
+    secondaryImageClassName: 'secondary-image',
+    description: 'Yogurt panna cotta, honeydew melon compressed and sorbet with mint veil and caramelized almonds',
   },
   {
     imageUrl:'/img/plated/DSCF1899.jpg',
-    name: 'Carrot-Brown sugar-Lemon',
+    name: 'Carrot-Ginger-Brown sugar-Lemon',
     id: 'plated9',
     className: 'rectangle-image-grid',
-    description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange yuzu agar agar, and lemonade sorbet',
-    mCol: 6,
-    smCol: 12,
-    lCol: 3,
+    secondaryImageClassName: 'secondary-image',
+    description: 'Orange glazed compressed carrot, brown sugar panna cotta, orange fluid gel, ginger agar agar, and lemonade sorbet',
   },
+  {
+    imageUrl:'/img/press/IMG_1953.PNG',
+    name: 'Tiramisu',
+    id: 'plated18',
+    className: 'rectangle-image-grid',
+    secondaryImageClassName: 'secondary-image',
+    description: '',
+  },
+
 
 ];
 

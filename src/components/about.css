@@ -1,8 +1,10 @@
-
+/* <a href="#"><img src="/img/instagram-logo.svg"/></a>
+<a href="#"><img src="/img/facebook-logo-button.svg"/></a> */
 .about-container{
   position: relative;
   border: 0px solid red;
   padding-top: 2rem;
+
 }
 
 .contact-container img{
@@ -12,19 +14,20 @@
   padding: .3rem;
   margin-top: 3rem;
   border-radius: 3rem;
-  transition: all .3s;
-  border: .1rem solid white;
+  transition: border .3s;
+  border: .05rem solid white;
   border-radius: 50%;
 }
 
 .contact-container img:hover{
-  border: .1rem solid grey;
+  border: .05rem solid #f95c5c;
   /* background-color: #cf3a6e; */
 }
 .text-container, .contact-container{
   width: 85%;
   margin: 0 auto;
   text-align: center;
+  text-transform: none;
 }
 
 .text-container h1{
@@ -52,15 +55,18 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
   .text-container, .contact-container{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
+    font-family: sans-serif;
+
   }
   .text-container{
     position: relative;
-    background-color: #ffffffab;
+    background-color: #fffcc;
+    font-size: 1rem;
   }
   .text-container h1{
     padding-top: 1rem;
@@ -68,17 +74,19 @@
   }
 
   .right-photo{
-    position: fixed;
-    top: 11.9rem;
-    right:-2rem;
-    width: 195px;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    right:-2.7rem;
+    width: 245px;
   }
 
   .left-photo{
-    position: fixed;
-    top: 12rem;
-    left:-1.5rem;
-    width: 210px;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left:-2rem;
+    width: 270px;
   }
 
   .right-photo img , .left-photo img{
@@ -92,20 +100,18 @@
 
 @media screen and (min-width: 1200px) {
   .about-container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
   }
   .right-photo{
-    position: fixed;
-    top: 13.4rem;
+    bottom: 0;
     right:0rem;
-    width: 195px;
+    width: 255px;
   }
 
   .left-photo{
-    position: fixed;
-    top: 13.5rem;
+    bottom: 0;
     left:0rem;
-    width: 210px;
+    width: 270px;
   }
 }

@@ -1,0 +1,124 @@
+/* // <h5>{image.name}</h5>
+// <p>{image.description}</p>
+// <p>{image.country}</p>
+// <p style={{
+//   fontSize: '.7rem',
+//   margin: 0,
+// }}>{image.type}</p>
+// <p style={{
+//   margin: 0,
+// }}>{image.date}</p> */
+
+
+body .press {
+  min-height: 100vh;
+  padding-top: 0rem;
+  background-color: #fff ;
+}
+.row .col {
+  padding: 0 !important;
+}
+
+.press-card {
+  background-color:  #fff ;
+  text-align: center;
+  /* max-width: 400px;
+  padding: 1rem .8rem; */
+  margin: 2rem auto;
+  transition: all .3s;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.press-card span{
+  border: 1px solid black;
+  padding: .5rem 5rem;
+}
+.brand-image{
+  height: 55px;
+  width: 100%;
+  margin: .5rem auto;
+  text-align: center;
+}
+.brand-image img{
+  height: 55px;
+
+}
+.press-card h6{
+  margin: 0 auto;
+  font-size: .8rem;
+  color: grey;
+  letter-spacing: .2rem;
+}
+.press-card p{
+  font-size: .7rem;
+  margin-top: .2rem;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+.press-card  img.rectangle-image-grid {
+  opacity: 1;
+  transition: all .3s;
+}
+.brand-image img{
+  width: 45%;
+}
+.m-degree-press-modal-footer span{
+  color: #272727;
+font-size: .6rem;
+font-weight: lighter;
+}
+
+@media (min-width: 10px ) and (max-width: 600px){
+  .press .row .col {
+    float: none;
+  }
+}
+
+@media (min-width: 601px) {
+  .m-degree-c .row{
+    /* width: 95%;
+    margin-left: 2.5% !important; */
+    width: 100%;
+    margin-left: 0% !important;
+  }
+  .press-card {
+    margin: 2rem 0;
+    transition: all .3s;
+  }
+  .press-card  img.rectangle-image-grid {
+    transform: scale(1);
+    /* opacity: .85; */
+  }
+  .press-card img.rectangle-image-grid:hover, .press-card  span:hover {
+    opacity: 1;
+   background-color: black;
+   color: white;
+  }
+  .brand-image {
+
+    margin: .7rem auto;
+  }
+
+  .brand-image img{
+    width: 35%;
+    height: 80%;
+  }
+  .modal .brand-image img{
+    width: 20%;
+  }
+}
+
+@media (min-width: 1350px) {
+  .m-degree-c .row{
+    width: 80%;
+    margin-left: 10% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .press-card {
+    padding: 0;
+  }
+}
