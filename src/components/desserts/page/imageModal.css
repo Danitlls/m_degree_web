@@ -1,0 +1,14 @@
+.close-modal-icon {
+  text-align: right;
+  background-color: #5656565e;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 20px;
+  height: 21px;
+  width: 21px;
+  color: #ccc8c8;
+}
+.close-modal {
+  cursor: pointer;
+}
