@@ -2,13 +2,32 @@
   text-align: right;
   background-color: #5656565e;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 0px;
+  top: 0px;
   border-radius: 20px;
   height: 21px;
   width: 21px;
   color: #ccc8c8;
+  padding-left: 2px;
+  z-index: 10;
 }
 .close-modal {
   cursor: pointer;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=100);
+    opacity: 1 !important;
+}
+
+.modal-dialog{
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px){
+  .modal-dialog {
+      width: 700px !important;
+      margin: 10px auto;
+  }
 }

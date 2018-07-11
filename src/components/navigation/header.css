@@ -63,6 +63,10 @@ a, span{
 span {
   font-weight: bold;
 }
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
 
 .nav-container{
   margin-bottom: 0rem;
