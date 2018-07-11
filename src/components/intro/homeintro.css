@@ -13,9 +13,9 @@
   position: absolute;
   animation: faint-down ease-in-out;
   animation-iteration-count: 1;
-  animation-duration: 3s;
-  animation-delay: 1s;
-  /* animation-fill-mode: forwards; */
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .logo-animable-container1{
@@ -29,10 +29,10 @@
   animation: pop ease-in-out;
   animation-iteration-count: 1;
   animation-duration: 2s;
-  /* animation-fill-mode: forwards;/ */
+   animation-fill-mode: forwards;
 }
 
-/* @keyframes faint-down {
+ @keyframes faint-down {
   0% {
     top: 0;
     opacity: 1;
@@ -47,13 +47,13 @@
 
   }
   100% {
-    /* margin-left: 50%; */
-    /* height: 0px; */
-    /* opacity: 0; */
-    /* width: 0; */
-    /* bottom: 0; */
-  /* } */
-/* } */
+     margin-left: 50%;
+     height: 0px;
+     opacity: 0;
+     width: 0;
+     bottom: 0;
+   }
+ }
 
 /* @keyframes pop {
   0% {
@@ -76,7 +76,7 @@
   animation-iteration-count: 1;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+
 }
 
 @keyframes popin {

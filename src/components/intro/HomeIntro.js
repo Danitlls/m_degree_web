@@ -1,13 +1,11 @@
 import React from 'react';
 import './homeintro.css';
 
-export default function HomeIntro() {
+export default function HomeIntro({ children }) {
   return (
     <div>
-      <div className="full-back"></div>
-      <div className="logo-animable-container1">
-        <img className="logo-animable1" src="/img/M_Degree-logo-white-1.svg" />
-      </div>
+      {children}
+      <div className="full-back" />
       <div className="logo-animable-container1">
         <img className="logo-in-black" src="/img/M_Degree-logo-black.svg" />
       </div>

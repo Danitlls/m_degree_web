@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 
-
 export default function Home() {
   return (
     <div className="home-container">
@@ -16,7 +15,7 @@ export default function Home() {
         <div className="card-mm  col s12 m6">
           <Link to='/about'>
             <div className="image-container" >
-            <img src="/img/market-home.JPG" />
+              <img src="/img/market-home.JPG" />
 
             </div>
             <span>About & Contact Us</span>
@@ -32,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="row home-desserts-container">
-      <Link to='/cakes'>
+        <Link to='/cakes'>
           <div className="card-mm col s12 m4">
             <div className="image-container" >
               <img src="/img/cakes02small.jpg" />
