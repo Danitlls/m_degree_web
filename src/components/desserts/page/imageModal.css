@@ -1,15 +1,14 @@
 .close-modal-icon {
   text-align: right;
-  background-color: #5656565e;
+  background-color: none;
   position: absolute;
   right: 0px;
   top: 0px;
-  border-radius: 20px;
   height: 21px;
   width: 21px;
-  color: #ccc8c8;
-  padding-left: 2px;
+  color: white;
   z-index: 10;
+  opacity: .5;
 }
 .close-modal {
   cursor: pointer;
@@ -30,4 +29,16 @@
       width: 700px !important;
       margin: 10px auto;
   }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    font-weight: 200;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 980px){
+  .modal-dialog {
+      width: 700px !important;
+      margin: 0px auto;
+  }
+
 }
