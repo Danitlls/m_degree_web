@@ -1,97 +1,54 @@
 .full-back{
-  background: #D66D75;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ff972c, #ff9b9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  background: #D66D75;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top,  #ff9b9b, #ff972c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top,  #ff9b9b, #ff972c) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: white;
   width: 100vw;
   height: 100vh;
   top: 0;
-  position: absolute;
+  position: fixed;
   animation: faint-down ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 6s;
   animation-fill-mode: forwards;
-}
-
-.logo-animable-container1{
   display: flex;
   justify-content: center;
-  margin: 4rem auto;
-  margin-top: 120px;
-
-}
-.logo-animable1{
-  animation: pop ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
-   animation-fill-mode: forwards;
+  z-index: 50;
 }
 
- @keyframes faint-down {
+@keyframes faint-down {
   0% {
     top: 0;
     opacity: 1;
-
   }
-  60%{
-    transform: translateY(110vh);
-    opacity: 0;
-  }
-  70%{
-    transform: scale(0);
-
-  }
-  100% {
-     margin-left: 50%;
-     height: 0px;
-     opacity: 0;
-     width: 0;
-     bottom: 0;
-   }
- }
-
-/* @keyframes pop {
-  0% {
-    opacity: 1;
-    transform: scale(.8);
-  }
-  60%{
-  }
-  100% {
-    transform: scale(.1);
-    opacity: 0;
-  }
-} */
-
-.logo-in-black{
-  position: absolute;
-  top: 120px;
-  opacity: 0;
-  animation: popin ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-
-}
-
-@keyframes popin {
-  0% {
-    opacity: 0;
-    transform: scale(.5);
-  }
-  60%{
-
-  }
-  80% {
-    transform: scale(.8);
+  75%{
     opacity: 1;
   }
   100%{
     opacity: 0;
+  }
+}
+
+.logo-into{
+  position: absolute;
+  top: 20vh;
+  left: 40vw;
+  z-index: 55;
+  animation: gone ease-in-out;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gone {
+  0% {
+    top: 20vh;
+    opacity: 1;
+    transform: scale(1);
+  }
+  70%{
+    opacity: 1;
+    transform: scale(1);
+    top: 20vh;
+  }
+  100%{
+    top: 25vh;
+    opacity: 0;
+    transform: scale(0);
   }
 }

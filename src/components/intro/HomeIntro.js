@@ -6,9 +6,9 @@ export default function HomeIntro({ children }) {
     <div>
       {children}
       <div className="full-back" />
-      <div className="logo-animable-container1">
-        <img className="logo-in-black" src="/img/M_Degree-logo-black.svg" />
-      </div>
-    </div>
+
+    <img className="logo-into" src="/img/mdegree_gif.gif" />
+
+  </div>
   );
 }
