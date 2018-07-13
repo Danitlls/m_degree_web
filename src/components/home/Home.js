@@ -33,7 +33,7 @@ export default function Home() {
         <Link to='/cakes'>
           <div className="card-mm col s12 m6 l4">
             <div className="image-container" >
-              <img src="/img/cakes02small.jpg" />
+              <img src="/img/cakes/cakes01.jpg" />
             </div>
             <span>Cakes</span>
           </div>

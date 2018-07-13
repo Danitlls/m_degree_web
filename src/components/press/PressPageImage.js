@@ -19,10 +19,12 @@ export default function PressPageImage({ image, onClick }) {
       </div>
       <h6>{image.type}</h6>
       <div className="text-press">
-        <p>{image.country}</p>
         <p>{image.date}</p>
+        <p>{image.country}</p>
       </div>
-      <span onClick={onClick(image)}>See More</span>
+      <div>
+        <span onClick={onClick(image)}>See More </span>
+      </div>
     </Col>
   );
 }

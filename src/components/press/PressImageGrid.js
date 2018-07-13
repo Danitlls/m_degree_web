@@ -4,10 +4,8 @@ import './pressGrid.css';
 
 export default function PressImageGrid({ images, children }) {
   return (
-    <div className="m-degree-c" >
-      <Row style={{ margin: '.5rem auto' }}>
-        {children}
-      </Row>
-    </div>
+    <Row>
+      {children}
+    </Row>
   );
 }
