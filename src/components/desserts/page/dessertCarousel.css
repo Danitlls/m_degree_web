@@ -6,7 +6,7 @@
   max-height: 99% !important;
   box-shadow: none !important;
   width: 100%;
-  padding-left: 0 !important; 
+  padding-left: 0 !important;
 }
 .modal-content{
   display: flex !important;
@@ -23,9 +23,9 @@
 }
 .modal-content p {
   margin: 0 !important;
-  color: #828181;
+  color: #9a9090;
   font-size: .9rem;
-  letter-spacing: .05rem;
+  letter-spacing: .07rem;
   font-weight: lighter;
   padding: 0 .7rem !important;
   text-align: center;

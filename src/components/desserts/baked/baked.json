@@ -9,12 +9,6 @@
     "mCol": 6,
     "smCol": 12,
     "secondaryImages": [
-       {
-         "imageUrl":"/img/baked/chikalicious7552.jpg",
-         "name": "Name1",
-         "id": "Baked9",
-         "className": "secondary-image"
-       }
      ]
   },
 
@@ -29,7 +23,7 @@
     "secondaryImages": [
        {
          "imageUrl":"/img/baked/chikalicious7496111.jpg",
-         "name": "Name1",
+         "name": "Banana Pecan Muffin",
          "id": "Baked4",
          "className": "secondary-image",
          "secondaryImageClassName": "secondary-image"
@@ -73,7 +67,7 @@
     ]
   },
   {
-    "imageUrl":"/img/baked/greeentea_puff01 (1).jpg",
+    "imageUrl":"/img/baked/greeentea_puff01.jpg",
     "name": "Green Tea (Macha) Puff",
     "id": "Baked12",
     "className": "rectangle-image-grid",
@@ -81,6 +75,11 @@
     "lCol": 6,
     "mCol": 6,
     "secondaryImages": [
+      {
+        "imageUrl":"/img/baked/greeentea_puff03.jpg",
+        "name": "Green Tea (Macha) Puff",
+        "id": "Baked1222"
+      }
     ]
   },
 
@@ -94,8 +93,8 @@
     "mCol": 6,
     "secondaryImages": [
        {
-         "imageUrl":"/img/baked/chikalicious7496111.jpg",
-         "name": "Name1",
+         "imageUrl":"/img/baked/blk_sesame_puff02.jpg",
+         "name": "Black Sesame Puff",
          "id": "Baked4",
          "className": "secondary-image",
          "secondaryImageClassName": "secondary-image"
@@ -104,15 +103,24 @@
   },
   {
     "imageUrl":"/img/baked/croi1.jpg",
-    "name": "Croissant",
+    "name": "Plain Croissant",
     "id": "Baked5",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 3,
-    "mCol": 6
+    "mCol": 6,
+    "secondaryImages": [
+       {
+         "imageUrl":"/img/baked/choc-croi.jpg",
+         "name": "Chocolate Croissant",
+         "id": "Baked4",
+         "className": "secondary-image",
+         "secondaryImageClassName": "secondary-image"
+       }
+    ]
   },
   {
-    "imageUrl":"/img/baked/horizontal-baked.jpg",
+    "imageUrl":"/img/baked/chocolate-kuigh.jpg",
     "name": "Chocolate Kuigh Amann",
     "id": "Baked2",
     "className": "rectangle-image-grid",
@@ -148,6 +156,13 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/baked/chikalicious7640.jpg",
+        "name": "Dark chocolate brownie",
+        "id": "Baked10",
+        "className": "secondary-image",
+        "secondaryImageClassName": "secondary-image"
+      },
+      {
+        "imageUrl":"/img/baked/chikalicious7651.jpg",
         "name": "Dark chocolate brownie",
         "id": "Baked10",
         "className": "secondary-image",
