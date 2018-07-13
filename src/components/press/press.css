@@ -1,6 +1,6 @@
-body .press {
+.press {
   min-height: 100vh;
-  padding-top: 0rem;
+  padding-top: 1rem;
   background-color: #fff ;
   margin: 2rem 1.8rem !important;
 }
@@ -22,11 +22,11 @@ body .press {
   padding: .5rem 5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-top: 1rem !important;
+  transition: all .2s;
 }
 .press-card span:hover{
   background-color: black;
-  color: #eaeaea;
+  color: #fff;
 }
 
 .brand-image{
@@ -36,9 +36,9 @@ body .press {
   justify-content: center;
 }
 .brand-image img{
-  width: 150px;
+  width: auto;
   height: 60px;
-  border: 1px solid red;
+  transform: scale(.7);
 }
 .press-card h6{
   margin: 0 auto;
@@ -67,6 +67,10 @@ font-weight: lighter;
   opacity: 1 !important;
 }
 
+.text-press{
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 10px ) and (max-width: 600px){
   .press .row .col {
     float: none;
@@ -74,23 +78,6 @@ font-weight: lighter;
 }
 
 @media (min-width: 601px) {
-  .row{
-    /* width: 95%;
-    margin-left: 2.5% !important; */
-    width: 100%;
-    margin-left: 0% !important;
-  }
-  .press-card  img.rectangle-image-grid {
-    transform: scale(1);
-    /* opacity: .85; */
-  }
-  .brand-image {
-    height: 65px;
-    margin: .7rem auto;
-  }
-  .brand-image img{
-
-  }
 
   body .press {
     min-height: 100vh;

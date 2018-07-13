@@ -1,5 +1,6 @@
 .carousel{
   height: auto !important;
+  max-height: 85vh !important;
 }
 .modal {
   background-color: black !important;
@@ -30,6 +31,9 @@
   padding: 0 .7rem !important;
   text-align: center;
 }
+.modal-dialog{
+  background-color: black;
+}
 
 .main-image .secondary-image {
   width: 100%;
@@ -37,10 +41,6 @@
   margin-right: 0rem;
   margin-top: 0rem;
 }
-
-/* .main-image {
-  max-height: 70vh;
-} */
 
 .modal-footer{
   display: none;
@@ -88,6 +88,12 @@
     opacity: .3;
 
 }
+.carousel-inner {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
 
 @media (min-width: 600px) {
 
@@ -105,28 +111,15 @@
 
 
 @media (min-width: 993px) {
-
-  .row-of-images{
-    max-height: auto;
-    /* align-items: center; */
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    padding-top: .5rem;
-  }
-  .secondary-image {
-    width: 200px ;
-    height: 100%;
-  }
   .row .col {
-
     padding: 0rem !important;
-
-}
-}
-
-/* @media (min-width: 1300px) {
-  .secondary-image {
-    width: 100%;
   }
-} */
+
+  .carousel-inner>.item>img {
+    line-height: 1;
+    max-height: 90vh;
+    width: auto;
+    align-self: flex-start;
+    background-color: black;
+  }
+}
