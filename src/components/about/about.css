@@ -1,12 +1,7 @@
-/* <a href="#"><img src="/img/instagram-logo.svg"/></a>
-<a href="#"><img src="/img/facebook-logo-button.svg"/></a> */
 .about-container{
   position: relative;
-  border: 0px solid red;
-  padding-top: 2rem;
-
+  padding-top: 2.5rem;
 }
-
 .contact-container img{
   width: 3.5rem;
   height: 3.5rem;
@@ -20,7 +15,7 @@
 }
 
 .contact-container img:hover{
-  border: .05rem solid #f95c5c;
+  border: .05rem solid #cdcf2c;
   /* background-color: #cf3a6e; */
 }
 .text-container, .contact-container{
@@ -38,14 +33,14 @@
 
 .right-photo{
   position: absolute;
-  top: 2.9rem;
+  top: 3.2rem;
   right:-1rem;
   width: 129px;
 }
 
 .left-photo{
   position: absolute;
-  top: 3rem;
+  top: 3.4rem;
   left:-.7rem;
   width: 138px;
 }
@@ -65,7 +60,7 @@
   }
   .text-container{
     position: relative;
-    background-color: #fffcc;
+    background-color: #ffffff70;
     font-size: 1rem;
   }
   .text-container h1{

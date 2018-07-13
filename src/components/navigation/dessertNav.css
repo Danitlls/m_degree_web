@@ -25,13 +25,13 @@
 .desserts-link:hover{
   color: black !important;
   /* letter-spacing: .1rem; */
-  border-bottom: 2px solid  #f37e61;
+  border-bottom: 2px solid  #dddd2d;
 }
 .desserts-link:focus{
   color: grey;
   font-weight: bolder;
   letter-spacing: 0.2rem;
-  border-bottom: 2px solid  #f37e61;
+  border-bottom: 2px solid  #d5de70;
 }
 
 .selected-desserts-link {
@@ -39,6 +39,7 @@
   font-size: .8rem;
   padding: 10px;
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 
