@@ -59,6 +59,43 @@
       }
     ]
   },
+
+  {
+    "imageUrl":"/img/cakes/STDchoc_coffee_nut02.jpg",
+    "name": "Santo Domingo (70%)",
+    "description": "Chocolate - Hazelnut Praline - Coffee",
+    "id": "cake5",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 6,
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/cakes/STDchoc_coffee_nut01.jpg",
+        "name": "Santo Domingo (70%) Chocolate - Hazelnut Praline - Coffee",
+        "id": "cake55",
+        "className": "secondary-image",
+        "secondaryImageClassName": "secondary-image"
+      }
+    ]
+  },
+  {
+    "imageUrl":"/img/cakes/tiramisu01.jpg",
+    "name": "Tiramisu with Amaretto-Coffee Agar Agar",
+    "id": "cake4",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 6,
+    "mCol": 6,
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/cakes/tiramisu03.jpg",
+        "name": "Tiramisu with Amaretto-Coffee Agar Agar",
+        "id": "cake44",
+        "className": "secondary-image",
+        "secondaryImageClassName": "secondary-image"
+      }
+    ]
+  },
   {
     "imageUrl":"/img/cakes/straw_toltea01.jpg",
     "name": "Strawberry - Mascarpone - Lemon",
@@ -106,42 +143,6 @@
         "imageUrl":"/img/cakes/chikalicious7171.jpg",
         "name": "VANILLA - Caramel Mille Feuille",
         "id": "cake77",
-        "className": "secondary-image",
-        "secondaryImageClassName": "secondary-image"
-      }
-    ]
-  },
-  {
-    "imageUrl":"/img/cakes/STDchoc_coffee_nut02.jpg",
-    "name": "Santo Domingo (70%)",
-    "description": "Chocolate - Hazelnut Praline - Coffee",
-    "id": "cake5",
-    "className": "rectangle-image-grid",
-    "secondaryImageClassName": "secondary-image",
-    "lCol": 6,
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/cakes/STDchoc_coffee_nut01.jpg",
-        "name": "Santo Domingo (70%) Chocolate - Hazelnut Praline - Coffee",
-        "id": "cake55",
-        "className": "secondary-image",
-        "secondaryImageClassName": "secondary-image"
-      }
-    ]
-  },
-  {
-    "imageUrl":"/img/cakes/tiramisu01.jpg",
-    "name": "Tiramisu with Amaretto-Coffee Agar Agar",
-    "id": "cake4",
-    "className": "rectangle-image-grid",
-    "secondaryImageClassName": "secondary-image",
-    "lCol": 6,
-    "mCol": 6,
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/cakes/tiramisu03.jpg",
-        "name": "Tiramisu with Amaretto-Coffee Agar Agar",
-        "id": "cake44",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
       }

@@ -5,17 +5,22 @@
   margin: 0 !important;
   padding: 0 !important;
 }
-#root > div > div > div:nth-child(1) > div.nav-container > nav > div > div > ul.mdegree-nav.right.hide-on-med-and-down {
+nav > div > div > ul.mdegree-nav.right.hide-on-med-and-down {
   padding-right: 2.1rem;
 }
 
 /* LOGO ANIMABLE */
 .logo-animable-container{
-  margin: 1.5rem auto 0rem;
+  margin-top: -45px;
+  margin-bottom: 40px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .logo-animable{
-  transform: scale(.8) translateY(-25px);
+  transform: scale(.7);
+  position: relative;
+  z-index: 30;
 }
 
 /*  DESSERTS NAV */
@@ -121,15 +126,15 @@
   .card-mm:hover span{
     transform: translateY(0px);
   }
+  .home-desserts-container{
+    margin: 0 2rem 2rem !important;
+
+  }
 }
 
 
 @media (min-width: 900px) {
-  .home-desserts-container{
-    margin: 0 auto;
-  }
   .card-dessert{
-
     padding: 0rem;
   }
 }
