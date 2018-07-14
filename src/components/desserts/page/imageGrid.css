@@ -92,13 +92,13 @@
 
   .desserts-container{
     padding-top: 1rem;
-    margin: 2rem !important;
+    margin: 2rem 1.3rem !important;
     margin-bottom: 1rem;
     position: relative;
   }
 
   .m-degree-container{
-    width: 90% !important;
+    width: 100% !important;
     /* width: 90%;
     margin-left: 5%;
     padding-top: 1rem; */
