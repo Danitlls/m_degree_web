@@ -15,7 +15,30 @@
         "imageUrl":"/img/press/perfect-s-2.png",
         "name": "Perfect Strangers",
         "id": "Press77",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2018
+      }
+    ]
+  },
+
+  {
+    "imageUrl":"/img/press/TheBrickmenu-1.jpg",
+    "name": "The Brick Hotel",
+    "id": "Press7",
+    "className": "rectangle-image-grid",
+    "date": 2018,
+    "brandImage": "/img/press/brick-brand.jpg",
+    "type": "Dinner collaboration",
+    "description": "Six hands dinner collaboration, Javier Marrone, Maya Sitti and Mauro Pompili at The Brick Hotel",
+    "country": "Buenos Aires, Argentina",
+    "coverPhoto": "/img/press/brick1.jpg",
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/press/The Brick menu-2.jpg",
+        "name": "The Brick Hotel",
+        "id": "Press77",
+        "className": "secondary-press-image",
+        "date": 2018
       }
     ]
   },
@@ -35,13 +58,15 @@
         "imageUrl":"/img/press/dolce-2.jpg",
         "name": "Dolce & Gabana",
         "id": "Press11",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2018
       },
       {
         "imageUrl":"/img/press/dolce3.jpg",
         "name": "Dolce & Gabana",
         "id": "Press112",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2018
       }
     ]
   },
@@ -61,7 +86,8 @@
         "imageUrl":"/img/press/2016-04cover.jpg",
         "name": "Elle Places",
         "id": "Press33",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2017
       }
     ]
   },
@@ -81,7 +107,36 @@
         "imageUrl":"/img/press/elle-decoration-cover-PNG.png",
         "name": "Elle Decoration",
         "id": "Press22",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2017
+      }
+    ]
+  },
+  {
+    "imageUrl":"/img/press/IMG_1954.PNG",
+    "name": "K.W. Würtz, Mauro & Maya at The opposite House Hotel",
+    "id": "Press4",
+    "className": "rectangle-image-grid",
+    "date": 2017,
+    "brandImage": "/img/press/theophouse-logo.png",
+    "type": "Artist & chefs collaboration",
+    "description": "“We love to present new and interesting events to the Beijing community,” says Mark Passmore, General Manager of The Opposite House. “We are very excited to host Mauro & Maya x K.H. Würtz pop-up, where the beautifully crafted desserts work in concert with timelessly designed plates, making it a perfect fit towards our hotel’s core of providing quality and unique experiences”.",
+    "country": "Beijing, China",
+    "coverPhoto": "/img/press/IMG_1954.PNG",
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/press/IMG_1953.png",
+        "name": "K.W. Würtz + Mauro + Maya at The opposite House Hotel",
+        "id": "Press44",
+        "className": "secondary-press-image",
+        "date": 2017
+      },
+      {
+        "imageUrl":"img/press/IMG_0828.JPG",
+        "name": "K.W. Würtz Artists",
+        "id": "Press44",
+        "className": "secondary-press-image",
+        "date": 2017
       }
     ]
   },
@@ -93,7 +148,7 @@
     "date": 2016,
     "brandImage": "/img/press/sabor-brand1.jpg",
     "type": "Cooking Demostration",
-    "description": "Dinner collaboration",
+    "description": "",
     "country": "Shanghai, China",
     "coverPhoto": "/img/press/sabor-cover.jpg",
     "secondaryImages": [
@@ -101,13 +156,15 @@
         "imageUrl":"/img/press/Sabor-2.png",
         "name": "Sabor",
         "id": "1012",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       },
       {
         "imageUrl":"/img/press/Sabor-3.png",
         "name": "Sabor",
         "id": "1013",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       }
     ]
   },
@@ -127,36 +184,12 @@
         "imageUrl":"/img/press/Timeout SH-2.jpg",
         "name": "Time Out Magazine",
         "id": "Press55",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       }
     ]
   },
-  {
-    "imageUrl":"/img/press/IMG_1954.PNG",
-    "name": "K.W.Würtz, Mauro & Maya at The opposite House Hotel",
-    "id": "Press4",
-    "className": "rectangle-image-grid",
-    "date": 2017,
-    "brandImage": "/img/press/theophouse-logo.png",
-    "type": "Artist & chefs collaboration",
-    "description": "“We love to present new and interesting events to the Beijing community,” says Mark Passmore, General Manager of The Opposite House. “We are very excited to host Mauro & Maya x K.H. Würtz pop-up, where the beautifully crafted desserts work in concert with timelessly designed plates, making it a perfect fit towards our hotel’s core of providing quality and unique experiences”.",
-    "country": "Beijing, China",
-    "coverPhoto": "/img/press/IMG_1954.PNG",
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/press/IMG_1953.png",
-        "name": "K.W.Würtz + The opposite House Hotel",
-        "id": "Press44",
-        "className": "secondary-press-image"
-      },
-      {
-        "imageUrl":"img/press/IMG_0828.JPG",
-        "name": "Artists",
-        "id": "Press44",
-        "className": "secondary-press-image"
-      }
-    ]
-  },
+
   {
     "imageUrl":"/img/press/tart-2.png",
     "name": "Strawberry cream tart",
@@ -173,7 +206,8 @@
         "imageUrl":"/img/press/plated-8-png.png",
         "name": "Tart",
         "id": "Press88",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       }
     ]
   },
@@ -193,13 +227,15 @@
         "imageUrl":"/img/press/ElleMen SH-1.jpg",
         "name": "Elle Men",
         "id": "Press115",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       },
       {
         "imageUrl":"/img/press/press-elle-men-2.jpg",
         "name": "Elle Men",
         "id": "Press1155",
-        "className": "secondary-press-image"
+        "className": "secondary-press-image",
+        "date": 2016
       }
     ]
   }

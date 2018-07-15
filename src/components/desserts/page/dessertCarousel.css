@@ -51,7 +51,7 @@
 }
 .image-description{
   width: 100%;
-  bottom: 10px;
+  bottom: 20px;
   position: absolute;
 }
 .image-description h5 {
@@ -162,7 +162,7 @@
   }
   .image-description{
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
   }
   .image-description h5 {
     margin-top: 1rem !important;
@@ -190,7 +190,7 @@
     max-height: 99vh;
   }
   .carousel-indicators {
-    bottom: 25px !important;
+    bottom: 35px !important;
   }
 
 }
@@ -202,7 +202,8 @@
 
   .carousel-inner>.item>img {
     line-height: 1;
-    max-height: auto;
+    max-height: 85vh;
+    width: auto;
     align-self: flex-start;
     background-color: black;
   }

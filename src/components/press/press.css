@@ -4,10 +4,17 @@
   background-color: #fff ;
   margin: 2rem 1.8rem !important;
 }
+.press .carousel{
+  max-height: 85vh !important;
+}
 .press > .row .col {
   padding: 0 !important ;
 }
-
+.image-description span{
+  color: #ddd;
+  font-weight: lighter;
+  font-size: .7rem;
+}
 .press-card {
   background-color:  #fff ;
   text-align: center;

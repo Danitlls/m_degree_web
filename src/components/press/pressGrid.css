@@ -7,25 +7,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 240px;
+  height: auto;
   overflow: hidden;
 }
 .card-img img{
   width: 100%;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 650px) {
   .press-card .card-img {
-    height: 230px;
+    height: 260px;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-  }
-  .card-img {
-    height: 280px;
-    display: flex;
-    justify-content: center;
-  }
+}
 
   .secondary-press-image {
     width: 40%;
@@ -40,6 +35,11 @@
   .m-degree-press-modal-footer h5{
     margin-top: 0;
   }
+}
+@media (min-width: 651px) and (max-width:980px){
+  .col-md-4 {
+  width: 50% !important;
+}
 }
 
 @media (min-width: 980px) {
