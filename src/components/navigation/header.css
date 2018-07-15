@@ -131,9 +131,11 @@ a.button-collapse {
   color: #000000;
   background-color: #fff;
   position: fixed;
-  top: .1rem;
+  top: 0rem;
   z-index: 35;
   right: 0rem;
+  padding: 5px 20px;
+  height: 60px;
 }
 nav .button-collapse i {
   font-size: 30px;
@@ -175,7 +177,7 @@ nav .button-collapse i {
 }
 
 .second-logo-c {
-    position: fixed;
+    position: absolute;
     top: 1.5rem;
     width: 100px;
     left: 1.6rem;
@@ -187,7 +189,7 @@ nav .button-collapse i {
 
 
 div.empty{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -200,10 +202,16 @@ div.empty{
 
 
 
-@media (min-width: 1px) and (max-width: 600px) {
+@media (min-width: 1px) and (max-width: 450px) {
   .mdegree-logo-container .mdegree-logo {
     transform: scale(.6);
     opacity: 1;
+  }
+  .second-logo-c {
+    position: fixed;
+  }
+  div.empty{
+    position: fixed;
   }
 }
 /* @media (min-width: 450px) {

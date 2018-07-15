@@ -71,7 +71,8 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/STDchoc_coffee_nut01.jpg",
-        "name": "Santo Domingo (70%) Chocolate - Hazelnut Praline - Coffee",
+        "name": "Santo Domingo (70%)",
+        "description": "Chocolate - Hazelnut Praline - Coffee",
         "id": "cake55",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
@@ -150,7 +151,8 @@
   },
   {
     "imageUrl":"/img/cakes/PBJ01.jpg",
-    "name": "PBJ - Peanut Butter - Blueberry - Lemon",
+    "name": "PBJ",
+    "description": "Peanut Butter - Blueberry - Lemon",
     "id": "cake12",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
@@ -159,7 +161,8 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/PBJ02.jpg",
-        "name": "PBJ - Peanut Butter - Blueberry - Lemon",
+        "name": "PBJ",
+        "description": "Peanut Butter - Blueberry - Lemon",
         "id": "cake122",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"

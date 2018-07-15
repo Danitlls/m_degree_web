@@ -7,8 +7,7 @@ export default function HomeIntro({ children }) {
       {children}
       <div className="full-back">
         <div className="logo-into">
-          // <img  src="/img/mdegree_gif.gif" />
-          <img  src="/img/MDegree_LogoTag_Final_small.png" />
+         <img  src="/img/MDegree_Gif.gif" />
         </div>
       </div>
     </div>
