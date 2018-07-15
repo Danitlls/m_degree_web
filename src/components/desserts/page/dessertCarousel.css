@@ -1,5 +1,6 @@
 .carousel{
   height: auto !important;
+  margin-bottom: 2.5rem;
   /* max-height: 85vh !important; */
 }
 
@@ -201,10 +202,7 @@
   }
 
   .carousel-inner>.item>img {
-    line-height: 1;
-    max-height: 85vh;
+    max-height: 90vh !important;
     width: auto;
-    align-self: flex-start;
-    background-color: black;
   }
 }

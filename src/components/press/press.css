@@ -20,7 +20,7 @@
   text-align: center;
   transition: all .3s;
   margin-bottom: 4rem;
-  cursor: pointer;
+
   padding: 0 !important;
 }
 
@@ -30,6 +30,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: all .2s;
+  cursor: pointer;
 }
 .press-card span:hover{
   background-color: black;
@@ -60,9 +61,16 @@
   color: grey;
 }
 
-.press-card  img.rectangle-image-grid {
+.card-img  img{
   opacity: 1;
+  cursor: pointer;
+  filter:  brightness(100%);
   transition: all .3s;
+}
+.card-img  img:hover{
+  filter:  brightness(70%);
+  opacity: 1;
+
 }
 
 .m-degree-press-modal-footer span{
@@ -97,8 +105,8 @@ font-weight: lighter;
     transition: all .3s;
     padding: 0 .2rem !important;
   }
-}
 
+}
 @media (min-width: 1350px) {
   .m-degree-c .row{
     width: 80%;
