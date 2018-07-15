@@ -16,7 +16,8 @@
 
 @media (min-width: 650px) {
   .press-card .card-img {
-    height: 260px;
+    height: auto;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -43,22 +44,11 @@
 }
 
 @media (min-width: 980px) {
-  .card-img {
-    height: 200px !important;
-  }
-  .card-img img{
-
-  }
   .m-degree-press-modal-footer{
     width: 100% !important;
   }
   .secondary-press-image {
     padding: 0;
 
-  }
-}
-@media (min-width: 1200px) {
-  .card-img {
-    height: 250px !important;
   }
 }

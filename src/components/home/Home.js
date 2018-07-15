@@ -16,7 +16,7 @@ export default function Home() {
         <div className="card-mm  col s12 m6">
           <Link to='/about'>
             <div className="image-container" >
-              <img src="/img/market-home.JPG" />
+              <img src="/img/press/IMG_94991.jpg" />
             </div>
             <span>About & Contact Us</span>
           </Link>

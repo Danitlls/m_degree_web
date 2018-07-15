@@ -1,7 +1,7 @@
 [
   {
     "imageUrl":"/img/press/perfect-s-1.png",
-    "name": "Perfect Strangers",
+    "name": "Perfect Strangers Magazine",
     "id": "Press7",
     "className": "rectangle-image-grid",
     "date": 2018,
@@ -9,11 +9,11 @@
     "type": "Magazine Article",
     "description": "",
     "country": "San Francisco, USA",
-    "coverPhoto": "/img/press/perfect-s-1cover.png",
+    "coverPhoto": "/img/press/prefect-cover1.jpg",
     "secondaryImages": [
       {
         "imageUrl":"/img/press/perfect-s-2.png",
-        "name": "Perfect Strangers",
+        "name": "Perfect Strangers Magazine",
         "id": "Press77",
         "className": "secondary-press-image",
         "date": 2018
@@ -51,7 +51,7 @@
     "brandImage": "/img/press/dandg.png",
     "type": "collaboration",
     "description": "",
-    "coverPhoto": "/img/press/dolce-1.jpg",
+    "coverPhoto": "/img/press/dolce-cover.jpg",
     "country": "China",
     "secondaryImages": [
       {
@@ -67,6 +67,28 @@
         "id": "Press112",
         "className": "secondary-press-image",
         "date": 2018
+      }
+    ]
+  },
+
+  {
+    "imageUrl":"/img/press/elle-dessert-png.jpg",
+    "name": "Elle Decoration",
+    "id": "Press2",
+    "className": "rectangle-image-grid",
+    "date": 2017,
+    "brandImage": "/img/press/ELLE-DECOR-LOGO.gif",
+    "type": "Magazine Article",
+    "description": "",
+    "country": "China",
+    "coverPhoto": "/img/press/elle-d-cover.jpg",
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/press/elle-decoration-cover-PNG.png",
+        "name": "Elle Decoration",
+        "id": "Press22",
+        "className": "secondary-press-image",
+        "date": 2017
       }
     ]
   },
@@ -92,27 +114,6 @@
     ]
   },
   {
-    "imageUrl":"/img/press/elle-dessert-png.jpg",
-    "name": "Elle Decoration",
-    "id": "Press2",
-    "className": "rectangle-image-grid",
-    "date": 2017,
-    "brandImage": "/img/press/ELLE-DECOR-LOGO.gif",
-    "type": "Magazine Article",
-    "description": "",
-    "country": "China",
-    "coverPhoto": "/img/press/elle-dessert-png.jpg",
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/press/elle-decoration-cover-PNG.png",
-        "name": "Elle Decoration",
-        "id": "Press22",
-        "className": "secondary-press-image",
-        "date": 2017
-      }
-    ]
-  },
-  {
     "imageUrl":"/img/press/IMG_1954.PNG",
     "name": "K.W. Würtz, Mauro & Maya at The opposite House Hotel",
     "id": "Press4",
@@ -122,7 +123,7 @@
     "type": "Artist & chefs collaboration",
     "description": "“We love to present new and interesting events to the Beijing community,” says Mark Passmore, General Manager of The Opposite House. “We are very excited to host Mauro & Maya x K.H. Würtz pop-up, where the beautifully crafted desserts work in concert with timelessly designed plates, making it a perfect fit towards our hotel’s core of providing quality and unique experiences”.",
     "country": "Beijing, China",
-    "coverPhoto": "/img/press/IMG_1954.PNG",
+    "coverPhoto": "/img/press/house-cover.jpg",
     "secondaryImages": [
       {
         "imageUrl":"/img/press/IMG_1953.png",
@@ -142,7 +143,7 @@
   },
   {
     "imageUrl":"/img/press/sabor-1.jpg",
-    "name": "Sabor",
+    "name": "Sabor Fusion Shanghai",
     "id": "Press10",
     "className": "rectangle-image-grid",
     "date": 2016,
@@ -154,15 +155,36 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/press/Sabor-2.png",
-        "name": "Sabor",
+        "name": "Sabor Fusion Shanghai",
         "id": "1012",
         "className": "secondary-press-image",
         "date": 2016
       },
       {
         "imageUrl":"/img/press/Sabor-3.png",
-        "name": "Sabor",
+        "name": "Sabor Fusion Shanghai",
         "id": "1013",
+        "className": "secondary-press-image",
+        "date": 2016
+      }
+    ]
+  },
+  {
+    "imageUrl":"/img/press/tart-2.png",
+    "name": "Strawberry cream tart",
+    "id": "Press8",
+    "className": "rectangle-image-grid",
+    "date": 2016,
+    "brandImage": "/img/press/chicalogo.png",
+    "type": "collaboration",
+    "description": "Our tart for Valentine's Day",
+    "coverPhoto": "/img/press/tart-cover.jpg",
+    "country": "China",
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/press/plated-8-png.png",
+        "name": "Tart",
+        "id": "Press88",
         "className": "secondary-press-image",
         "date": 2016
       }
@@ -177,7 +199,7 @@
     "brandImage": "/img/press/timeout-logo.png",
     "type": "Magazine Article",
     "description": "",
-    "coverPhoto": "/img/press/timeout-cover.png",
+    "coverPhoto": "/img/press/timeout-cover11.jpg",
     "country": "Shanghai, China",
     "secondaryImages": [
       {
@@ -190,27 +212,7 @@
     ]
   },
 
-  {
-    "imageUrl":"/img/press/tart-2.png",
-    "name": "Strawberry cream tart",
-    "id": "Press8",
-    "className": "rectangle-image-grid",
-    "date": 2016,
-    "brandImage": "/img/press/chicalogo.png",
-    "type": "collaboration",
-    "description": "Our tart for Valentine's Day",
-    "coverPhoto": "/img/press/tart-2.png",
-    "country": "China",
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/press/plated-8-png.png",
-        "name": "Tart",
-        "id": "Press88",
-        "className": "secondary-press-image",
-        "date": 2016
-      }
-    ]
-  },
+
   {
     "imageUrl":"/img/press/press-elle-men-1.jpg",
     "name": "Elle Men",
@@ -220,7 +222,7 @@
     "brandImage": "/img/press/logo-elle-man.png",
     "type": "Magazine Article",
     "description": "",
-    "coverPhoto": "/img/press/press-elle-men-1.jpg",
+    "coverPhoto": "/img/press/press-elle-men-cover11.jpg",
     "country": "Shanghai, China",
     "secondaryImages": [
       {
