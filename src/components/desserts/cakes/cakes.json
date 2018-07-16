@@ -48,7 +48,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 4,
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/yuzu_pist01 (1).jpg",
@@ -68,6 +67,7 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 6,
+    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/STDchoc_coffee_nut01.jpg",
@@ -86,7 +86,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 6,
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/tiramisu03.jpg",
@@ -113,7 +112,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "description": "",
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/GT_chestnut_02.jpg",
@@ -138,7 +136,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 4,
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/chikalicious7171.jpg",
@@ -157,7 +154,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 3,
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/PBJ02.jpg",
@@ -176,7 +172,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 3,
-    "mCol": 6,
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/cakes02.jpg",

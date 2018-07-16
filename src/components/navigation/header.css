@@ -73,7 +73,7 @@ a:focus, a:hover {
 .nav-container{
   margin-bottom: 0rem;
   margin-top: 0;
-  height: 85px;
+  height: 95px;
 }
 
 .mdegree-logo-container {
@@ -131,13 +131,13 @@ nav ul a:hover{
 }
 a.button-collapse {
   color: #000000;
-  background-color: #fff;
+  background-color: #ffffff52;
   position: fixed;
   top: 0rem;
   z-index: 35;
   right: 0rem;
-  padding: 5px 20px;
-  height: 60px;
+  padding: 2px 10px;
+  height: 55px;
 }
 nav .button-collapse i {
   font-size: 30px;
