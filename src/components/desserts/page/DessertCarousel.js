@@ -17,6 +17,8 @@ export default class DessertCarousel extends Component {
     });
   };
 
+  //If no secondary images.. then disable carousel... 
+
   render() {
     const { index, direction, activeImage } = this.state;
     return (

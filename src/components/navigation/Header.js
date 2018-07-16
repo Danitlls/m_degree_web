@@ -17,8 +17,10 @@ function Header({ location }) {
   const pathname = location && location.pathname;
   const topNavAbouUsLinkStyle = applyBorderBottom(pathname, '/about');
   const topNavPressLinkStyle = applyBorderBottom(pathname, '/press');
+  const topNavWorkLinkStyle = applyBorderBottom(pathname, '/cakes');
   const aboutUsStyles = `${topNavAbouUsLinkStyle} top-nav-mdegree nav-text-color hide-on-small-only`;
   const pressStyles = `${topNavPressLinkStyle} top-nav-mdegree nav-text-color hide-on-small-only`;
+  const workStyles = `${topNavWorkLinkStyle} top-nav-mdegree nav-text-color hide-on-small-only`;
   const canShowLogo = !isHome(pathname) ||
   (isHome(pathname) && global.window.innerWidth <= 600);
   return (
@@ -35,6 +37,7 @@ function Header({ location }) {
           Contact
           </NavItem>
           <NavItem href='/press' className={pressStyles}>Press & <br />Collaborations</NavItem>
+          <NavItem href='/cakes' className={workStyles}>Our <br />Work</NavItem>
 
           <NavItem href='/about' className="nav-text-color hide-on-med-and-up">About Us & Contact </NavItem>
           <NavItem href='/press' className="nav-text-color hide-on-med-and-up">Press & Collaborations</NavItem>

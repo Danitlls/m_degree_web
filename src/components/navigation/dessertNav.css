@@ -1,30 +1,28 @@
 .desserts-nav{
   width: 100%;
-  margin-top: .8rem;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
   background-color: #fff;
   position: fixed;
   bottom: 0;
-  padding: 0 5%;
+  padding: 0 6%;
   z-index: 20;
 }
 
 .desserts-link{
-  color: lightgrey !important;
+  color: black !important;
   font-weight: 300;
   border-bottom: 2px solid  #fff;
   transition: all .4s;
   letter-spacing: 0.2rem;
   font-size: .8rem;
-  padding: 10px 5px;
+  padding: 10px 3px;
   padding-bottom: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 .desserts-link:hover{
   color: black !important;
-  /* letter-spacing: .1rem; */
   border-bottom: 2px solid  #dddd2d;
 }
 .desserts-link:focus{
@@ -35,11 +33,13 @@
 }
 
 .selected-desserts-link {
-  color: black;
   font-size: .8rem;
-  padding: 10px;
   letter-spacing: 0.2rem;
-  text-align: center;
+  padding: 0 3px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid  #e4e6186e;
+  color: grey !important;
 }
 
 
@@ -48,11 +48,17 @@
   .desserts-nav{
     width: 100%;
     justify-content: space-around;
-    padding: 0 20%;
+    padding: 15px 20%;
   }
   .desserts-link{
-    padding: 10px;
+    padding: 5px 10px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
+  .selected-desserts-link {
+    padding: 5px 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
 }

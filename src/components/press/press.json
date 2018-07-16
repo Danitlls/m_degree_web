@@ -16,6 +16,7 @@
         "name": "Perfect Strangers Magazine",
         "id": "Press77",
         "className": "secondary-press-image",
+        "country": "San Francisco, USA",
         "date": 2018
       }
     ]
@@ -39,6 +40,7 @@
         "description": "Six hands dinner collaboration, Javier Marrone, Maya Sitti and Mauro Pompili at The Brick Hotel",
         "id": "Press77",
         "className": "secondary-press-image",
+        "country": "Buenos Aires, Argentina",
         "date": 2018
       }
     ]
@@ -60,6 +62,7 @@
         "name": "Dolce & Gabana",
         "id": "Press11",
         "className": "secondary-press-image",
+        "country": "China",
         "date": 2018
       },
       {
@@ -67,6 +70,7 @@
         "name": "Dolce & Gabana",
         "id": "Press112",
         "className": "secondary-press-image",
+        "country": "China",
         "date": 2018
       }
     ]
@@ -89,6 +93,7 @@
         "name": "Elle Decoration",
         "id": "Press22",
         "className": "secondary-press-image",
+        "country": "China",
         "date": 2017
       }
     ]
@@ -98,7 +103,7 @@
     "name": "Elle Places",
     "id": "Press3",
     "className": "rectangle-image-grid",
-    "date": 2017,
+    "date": 2016,
     "brandImage": "/img/press/elle2brand.png",
     "type": "Magazine Article",
     "description": "",
@@ -110,7 +115,8 @@
         "name": "Elle Places",
         "id": "Press33",
         "className": "secondary-press-image",
-        "date": 2017
+        "country": "China",
+        "date": 2016
       }
     ]
   },
@@ -131,6 +137,7 @@
         "name": "K.W. Würtz + Mauro + Maya at The opposite House Hotel",
         "id": "Press44",
         "className": "secondary-press-image",
+        "country": "Beijing, China",
         "date": 2017
       },
       {
@@ -138,6 +145,7 @@
         "name": "K.W. Würtz Artists",
         "id": "Press44",
         "className": "secondary-press-image",
+        "country": "Beijing, China",
         "date": 2017
       }
     ]
@@ -159,6 +167,7 @@
         "name": "Sabor Fusion Shanghai",
         "id": "1012",
         "className": "secondary-press-image",
+        "country": "Shanghai, China",
         "date": 2016
       },
       {
@@ -166,6 +175,7 @@
         "name": "Sabor Fusion Shanghai",
         "id": "1013",
         "className": "secondary-press-image",
+        "country": "Shanghai, China",
         "date": 2016
       }
     ]
@@ -188,6 +198,7 @@
         "id": "Press88",
         "description": "Our tart for Valentine's Day",
         "className": "secondary-press-image",
+        "country": "China",
         "date": 2016
       }
     ]
@@ -209,6 +220,7 @@
         "name": "Time Out Magazine",
         "id": "Press55",
         "className": "secondary-press-image",
+        "country": "Shanghai, China",
         "date": 2016
       }
     ]
@@ -232,6 +244,7 @@
         "name": "Elle Men",
         "id": "Press115",
         "className": "secondary-press-image",
+        "country": "Shanghai, China",
         "date": 2016
       },
       {
@@ -239,6 +252,7 @@
         "name": "Elle Men",
         "id": "Press1155",
         "className": "secondary-press-image",
+        "country": "Shanghai, China",
         "date": 2016
       }
     ]

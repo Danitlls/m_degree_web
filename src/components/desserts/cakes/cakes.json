@@ -1,7 +1,7 @@
  [
   {
     "imageUrl":"/img/cakes/mango_rice02.jpg",
-    "name": "Mango - Jasmin - Rice",
+    "name": "Mango Jasmin Rice",
     "id": "cake9",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
@@ -102,12 +102,22 @@
     "id": "cake3",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
+    "description": "",
     "lCol":4,
-    "mCol": 6
+    "mCol": 6,
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/cakes/red7001.jpg",
+        "name": "Strawberry - Mascarpone - Lemon",
+        "id": "cake33",
+        "className": "secondary-image",
+        "secondaryImageClassName": "secondary-image"
+      }
+    ]
   },
   {
     "imageUrl":"/img/cakes/GT_chestnut_03.jpg",
-    "name": "Green Tea - Chestnut - Cassis",
+    "name": "Green Tea (Matcha) - Chestnut - Cassis",
     "id": "cake1",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
@@ -148,7 +158,7 @@
   },
   {
     "imageUrl":"/img/cakes/PBJ01.jpg",
-    "name": "PBJ",
+    "name": "PB&J",
     "description": "Peanut Butter - Blueberry - Lemon",
     "id": "cake12",
     "className": "rectangle-image-grid",
@@ -157,7 +167,7 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/PBJ02.jpg",
-        "name": "PBJ",
+        "name": "PB&J",
         "description": "Peanut Butter - Blueberry - Lemon",
         "id": "cake122",
         "className": "secondary-image",

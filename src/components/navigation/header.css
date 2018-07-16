@@ -9,7 +9,7 @@
        url('/fonts/Kiona-Regular.ttf')
 }
 html{
-  padding-bottom: 45px;
+  padding-bottom: 70px;
 }
 body{
   font-family: sans-serif;
@@ -96,7 +96,8 @@ a:focus, a:hover {
   margin: 0;
   margin-top: 1.5rem;
   padding: 0;
-  border-bottom: 2px solid #fcfbfb;
+  margin-left: 3rem;
+  border-bottom: 2px solid white;
   transition: border-bottom .2s;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -105,14 +106,17 @@ a:focus, a:hover {
 }
 .top-nav-mdegree a:hover{
   /* border-bottom: 2px solid  #ef7771; */
-  border-bottom: 2px solid  #dddd2d;
+  border-bottom: 2px solid #d2d42f;
   /* border-bottom: 2px solid #f17d7dd6; */
 }
 
 .nav-link-border a {
   /* border-bottom: 2px solid  #f37e61; */
-  border-bottom: 2px solid  #dddd2d;
+  border-bottom: 2px solid  #e4e6186e;
   color: grey !important;
+}
+.nav-link-border a:hover {
+  border-bottom: 2px solid  #e4e6186e;
 }
 
 nav ul a:hover{
@@ -126,22 +130,24 @@ nav ul a:hover{
 }
 
 /* margin right for about link */
-#about {
+/* #about {
   margin-right: 3rem;
-}
+} */
 a.button-collapse {
-  color: #000000;
-  background-color: #ffffff52;
+  color: #232222;
+  background-color: #ffffff54;
   position: fixed;
-  top: 0rem;
+  top: .5rem;
   z-index: 35;
   right: 0rem;
-  padding: 2px 10px;
-  height: 55px;
+  padding: 0px 8px;
+  height: 50px;
 }
 nav .button-collapse i {
   font-size: 30px;
-  color: #585858;
+  color: #171717;
+  height: 50px;
+  line-height: 50px;
 }
 .side-nav {
   width: 16rem;

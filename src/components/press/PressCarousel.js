@@ -29,6 +29,7 @@ export default class PressCarousel extends Component {
         </Carousel>
         <div className="image-description">
           <h5>{activeImage.name}<span> / {activeImage.date}</span></h5>
+          <p className="mb-2">{activeImage.country}</p>
           <p>{activeImage.description}</p>
         </div>
       </div>

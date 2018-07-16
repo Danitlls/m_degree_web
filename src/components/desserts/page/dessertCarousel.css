@@ -30,7 +30,7 @@
   font-size: .9rem;
   letter-spacing: .1rem;
   font-weight: lighter;
-  padding: 0 .7rem !important;
+  padding: 0px .7rem 5px !important;
   text-align: center;
 }
 .modal-dialog{
@@ -190,7 +190,7 @@
   }
 
 }
-
+/* @media all and (min-device-width: 300px) and (orientation:landscape) and (max-device-width: 600px) */
 @media (max-height: 430px) {
   .carousel-inner{
     top: 0;
