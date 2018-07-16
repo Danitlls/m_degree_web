@@ -8,7 +8,9 @@
   src: local('Kiona'), local('Kiona'),
        url('/fonts/Kiona-Regular.ttf')
 }
-
+html{
+  padding-bottom: 45px;
+}
 body{
   font-family: sans-serif;
   color: #010101;

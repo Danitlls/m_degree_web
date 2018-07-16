@@ -52,8 +52,9 @@
 }
 .image-description{
   width: 100%;
-  bottom: 20px;
+  bottom: 10px;
   position: absolute;
+  background-color: black;
 }
 .image-description h5 {
     margin-top: .5rem !important;
@@ -156,6 +157,11 @@
   transition: transform .1s ease-in-out !important;
 }
 
+.carousel-inner>.item>img {
+  width: auto;
+  max-height: 80vh;
+}
+
 @media (min-width: 600px) {
 
   .main-image .secondary-image{
@@ -166,8 +172,8 @@
     bottom: 20px;
   }
   .image-description h5 {
-    margin-top: 1rem !important;
-    padding: 1.6rem 0.6rem .1rem !important;
+    margin-top: .1rem !important;
+    padding: 0.3rem 0.6rem .1rem !important;
     font-size: 1rem;
     color: #e2e2e2;;
   }
@@ -177,6 +183,10 @@
   .carousel-indicators{
     position: absolute;
     bottom: 10px !important;
+  }
+  .carousel-inner>.item>img {
+    width: auto;
+    max-height: 90vh;
   }
 
 }
@@ -202,7 +212,7 @@
   }
 
   .carousel-inner>.item>img {
-    max-height: 90vh !important;
-    /* width: auto; */
+    max-height: 80vh !important;
+    width: auto;
   }
 }

@@ -36,6 +36,7 @@
       {
         "imageUrl":"/img/press/The Brick menu-2.jpg",
         "name": "The Brick Hotel",
+        "description": "Six hands dinner collaboration, Javier Marrone, Maya Sitti and Mauro Pompili at The Brick Hotel",
         "id": "Press77",
         "className": "secondary-press-image",
         "date": 2018
@@ -183,8 +184,9 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/press/plated-8-png.png",
-        "name": "Tart",
+        "name": "Strawberry cream tart",
         "id": "Press88",
+        "description": "Our tart for Valentine's Day",
         "className": "secondary-press-image",
         "date": 2016
       }
