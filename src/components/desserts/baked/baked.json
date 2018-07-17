@@ -34,14 +34,56 @@
     "secondaryImages": [
     ]
   },
-
+  {
+    "imageUrl":"/img/baked/croi1.jpg",
+    "name": "Plain Croissant",
+    "id": "Baked5",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 6,
+    "mCol": 6,
+    "secondaryImages": [
+       {
+         "imageUrl":"/img/baked/choc-croi.jpg",
+         "name": "Chocolate Croissant",
+         "id": "Baked4",
+         "className": "secondary-image",
+         "secondaryImageClassName": "secondary-image"
+       }
+    ]
+  },
+  {
+    "imageUrl":"/img/baked/chocolate-kuigh1.jpg",
+    "name": "Chocolate Kuigh Amann",
+    "id": "Baked2",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 6,
+    "mCol": 6,
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/baked/chikalicious7682.jpg",
+        "name": "Chocolate Kuigh Amann",
+        "id": "Baked13",
+        "secondaryImageClassName": "secondary-image",
+        "className": "secondary-image"
+      },
+      {
+        "imageUrl":"/img/baked/chikalicious7692.jpg",
+        "name": "Chocolate Kuigh Amann",
+        "id": "Baked15",
+        "secondaryImageClassName": "secondary-image",
+        "className": "secondary-image"
+      }
+    ]
+  },
     {
       "imageUrl":"/img/baked/blk_sesame_puff11.jpg",
       "name": "Black Sesame Puff",
       "id": "Baked3",
       "className": "rectangle-image-grid",
       "secondaryImageClassName": "secondary-image",
-      "lCol": 6,
+      "lCol": 3,
       "mCol": 6,
       "secondaryImages": [
          {
@@ -53,25 +95,6 @@
          }
       ]
     },
-    {
-      "imageUrl":"/img/baked/croi1.jpg",
-      "name": "Plain Croissant",
-      "id": "Baked5",
-      "className": "rectangle-image-grid",
-      "secondaryImageClassName": "secondary-image",
-      "lCol": 6,
-      "mCol": 6,
-      "secondaryImages": [
-         {
-           "imageUrl":"/img/baked/choc-croi.jpg",
-           "name": "Chocolate Croissant",
-           "id": "Baked4",
-           "className": "secondary-image",
-           "secondaryImageClassName": "secondary-image"
-         }
-      ]
-    },
-
   {
     "imageUrl":"img/baked/vanil-caramel02.jpg",
     "name": "Vanilla Custard, Salted Caramel Puff",
@@ -107,31 +130,7 @@
     ]
   },
 
-  {
-    "imageUrl":"/img/baked/chocolate-kuigh.jpg",
-    "name": "Chocolate Kuigh Amann",
-    "id": "Baked2",
-    "className": "rectangle-image-grid",
-    "secondaryImageClassName": "secondary-image",
-    "lCol": 3,
-    "mCol": 6,
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/baked/chikalicious7682.jpg",
-        "name": "Chocolate Kuigh Amann",
-        "id": "Baked13",
-        "secondaryImageClassName": "secondary-image",
-        "className": "secondary-image"
-      },
-      {
-        "imageUrl":"/img/baked/chikalicious7692.jpg",
-        "name": "Chocolate Kuigh Amann",
-        "id": "Baked15",
-        "secondaryImageClassName": "secondary-image",
-        "className": "secondary-image"
-      }
-    ]
-  },
+
   {
     "imageUrl":"/img/baked/chikalicious7702.jpg",
     "name": "Dark chocolate brownie",

@@ -55,6 +55,7 @@ export default function Home() {
           </div>
         </Link>
       </div>
+      <h1 className="hidden">M degree, by Mauro Pompili and Maya Sitti, pastry cheff </h1>
     </div>
   );
 }
