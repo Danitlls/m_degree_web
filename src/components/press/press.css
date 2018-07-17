@@ -1,52 +1,52 @@
-/* // <h5>{image.name}</h5>
-// <p>{image.description}</p>
-// <p>{image.country}</p>
-// <p style={{
-//   fontSize: '.7rem',
-//   margin: 0,
-// }}>{image.type}</p>
-// <p style={{
-//   margin: 0,
-// }}>{image.date}</p> */
-
-
-body .press {
+.press {
   min-height: 100vh;
-  padding-top: 0rem;
+  padding-top: 1rem;
   background-color: #fff ;
+  margin: 2rem 1.8rem !important;
+}
+.press .carousel{
+  max-height: 85vh !important;
 }
 .press > .row .col {
   padding: 0 !important ;
 }
-
+.image-description span{
+  color: #ddd;
+  font-weight: lighter;
+  font-size: .7rem;
+}
 .press-card {
   background-color:  #fff ;
   text-align: center;
-  /* max-width: 400px;
-  padding: 1rem .8rem; */
-  margin: 2rem auto;
   transition: all .3s;
   margin-bottom: 4rem;
-  cursor: pointer;
-}
-div.press > div > div > div.press-card{
-  padding: 2px !important;
 
+  padding: 0 !important;
 }
 
-.press-card span{
+.press-card span {
   border: 1px solid black;
   padding: .5rem 5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all .2s;
+  cursor: pointer;
 }
+.press-card span:hover{
+  background-color: black;
+  color: #fff;
+}
+
 .brand-image{
-  height: 65px;
   width: 100%;
   margin: .5rem auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .brand-image img{
-  height: 55px;
-
+  width: auto;
+  height: 60px;
+  transform: scale(.7);
 }
 .press-card h6{
   margin: 0 auto;
@@ -57,17 +57,22 @@ div.press > div > div > div.press-card{
 .press-card p{
   font-size: .7rem;
   margin-top: .2rem;
-  margin-bottom: 1rem;
+  margin-bottom: .2rem;
   color: grey;
 }
 
-.press-card  img.rectangle-image-grid {
+.card-img  img{
   opacity: 1;
+  cursor: pointer;
+  filter:  brightness(100%);
   transition: all .3s;
 }
-.brand-image img{
-  width: 45%;
+.card-img  img:hover{
+  filter:  brightness(70%);
+  opacity: 1;
+
 }
+
 .m-degree-press-modal-footer span{
   color: #e0e0e0;
 font-size: .6rem;
@@ -77,6 +82,10 @@ font-weight: lighter;
   opacity: 1 !important;
 }
 
+.text-press{
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 10px ) and (max-width: 600px){
   .press .row .col {
     float: none;
@@ -84,39 +93,20 @@ font-weight: lighter;
 }
 
 @media (min-width: 601px) {
-  .m-degree-c .row{
-    /* width: 95%;
-    margin-left: 2.5% !important; */
-    width: 100%;
-    margin-left: 0% !important;
+
+  body .press {
+    min-height: 100vh;
+    padding-top: 0rem;
+    background-color: #fff ;
+    margin: 1.6rem !important;
   }
   .press-card {
     margin: 2rem 0;
     transition: all .3s;
-  }
-  .press-card  img.rectangle-image-grid {
-    transform: scale(1);
-    /* opacity: .85; */
-  }
-  .press-card img.rectangle-image-grid:hover, .press-card  span:hover {
-    opacity: 1;
-   background-color: black;
-   color: white;
-  }
-  .brand-image {
-
-    margin: .7rem auto;
+    padding: 0 .2rem !important;
   }
 
-  .brand-image img{
-    width: 35%;
-    height: 80%;
-  }
-  .modal .brand-image img{
-    width: 20%;
-  }
 }
-
 @media (min-width: 1350px) {
   .m-degree-c .row{
     width: 80%;
@@ -124,8 +114,5 @@ font-weight: lighter;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  .press-card {
-    padding: 0;
   }
 }
