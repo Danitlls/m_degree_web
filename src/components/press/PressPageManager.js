@@ -7,7 +7,9 @@ export default class PressPageManager extends Component {
 
   state = {
     show: false,
-    selectedImage: {},
+    selectedImage: {
+      secondaryImages: []
+    },
   }
 
   onShow = (image) => {
@@ -23,7 +25,9 @@ export default class PressPageManager extends Component {
     return () => {
       this.setState({
         show: false,
-        selectedImage: {},
+        selectedImage: {
+          secondaryImages: []
+        },
       });
     }
   };
@@ -37,7 +41,10 @@ export default class PressPageManager extends Component {
         </PressImageGrid>
         <PressImageModal
           onClose={this.onClose}
-          images={[this.state.selectedImage].concat(this.state.selectedImage.secondaryImages)}
+          images={[this.state.selectedImage]
+            .concat(this.state.selectedImage.secondaryImages)
+            .filter(image => !!image)
+          }
           show={this.state.show}
         />
       </div>

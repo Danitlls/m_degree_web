@@ -17,15 +17,21 @@ export default class DessertCarousel extends Component {
     });
   };
 
-  //If no secondary images.. then disable carousel... 
+  //If no secondary images.. then disable carousel...
 
   render() {
     const { index, direction, activeImage } = this.state;
+    console.warn(this.props.images);
     return (
       <div>
-        <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect}>
+        <Carousel
+          activeIndex={index}
+          direction={direction}
+          onSelect={this.handleSelect}
+          controls={(this.props.images.length > 1)}
+        >
           {this.props.images.map(image => image &&
-            <Carousel.Item>
+            <Carousel.Item key={image.id} >
               <img  width={800} height={"100%"} src={image.imageUrl} />
             </Carousel.Item>
           )}

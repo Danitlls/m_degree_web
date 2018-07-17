@@ -7,7 +7,9 @@ export default class PageManager extends Component {
 
   state = {
     show: false,
-    selectedImage: {},
+    selectedImage: {
+      secondaryImages: []
+    },
   }
 
   onShow = (image) => {
@@ -23,7 +25,9 @@ export default class PageManager extends Component {
     return () => {
       this.setState({
         show: false,
-        selectedImage: {},
+        selectedImage: {
+          secondaryImages: []
+        },
       });
     }
   };
@@ -33,11 +37,14 @@ export default class PageManager extends Component {
     return (
       <div>
         <ImageGrid>
-          {this.props.images.map(image => <PageImage onClick={this.onShow} image={image} />)}
+          {this.props.images.map(image => <PageImage key={image.id} onClick={this.onShow} image={image} />)}
         </ImageGrid>
         <ImageModal
           onClose={this.onClose}
-          images={[this.state.selectedImage].concat(this.state.selectedImage.secondaryImages)}
+          images={[this.state.selectedImage]
+            .concat(this.state.selectedImage.secondaryImages)
+            .filter(image => !!image)
+          }
           show={this.state.show}
         />
       </div>
