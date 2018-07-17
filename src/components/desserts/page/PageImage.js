@@ -7,9 +7,10 @@ export default function PageImage({ image, onClick }) {
   return (
     <Col
       key={image.id}
-      xs={image.smCol || 12}
-      sm={image.mCol || 6}
-      md={image.lCol || 4}
+      xs={image.xsCol || 12}
+      sm={image.smCol || 6}
+      md={image.mCol || 6}
+      lg={image.lCol || 4}
       className='dessert-image'
     >
       <span onClick={onClick(image)}>

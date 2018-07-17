@@ -37,7 +37,8 @@
     "id": "plated9",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
-    "description": "Orange glazed compressed carrot, brown sugar panna cotta, orange fluid gel, ginger agar agar, and lemonade sorbet"
+    "description": "Orange glazed compressed carrot, brown sugar panna cotta, orange fluid gel, ginger agar agar, and lemonade sorbet",
+    "smCol": 12
   },
   {
     "imageUrl":"/img/plated/DSCF1850.jpg",

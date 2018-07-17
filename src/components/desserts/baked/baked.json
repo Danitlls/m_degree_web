@@ -7,7 +7,7 @@
     "secondaryImageClassName": "secondary-image",
     "lCol": 4,
     "mCol": 6,
-    "smCol": 12,
+    "sCol": 12,
     "secondaryImages": [
      ]
   },
@@ -20,7 +20,6 @@
     "lCol": 4,
     "mCol": 6,
     "secondaryImages": [
-
     ]
   },
   {
@@ -103,6 +102,7 @@
     "secondaryImageClassName": "secondary-image",
     "lCol": 3,
     "mCol": 6,
+    "smCol": 12,
     "secondaryImages": [
       {
         "imageUrl":"/img/baked/vanil-caramel01.jpg",
@@ -129,8 +129,6 @@
       }
     ]
   },
-
-
   {
     "imageUrl":"/img/baked/chikalicious7702.jpg",
     "name": "Dark chocolate brownie",
@@ -138,7 +136,6 @@
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
     "lCol": 3,
-    "smCol": 12,
     "mCol": 6,
     "secondaryImages": [
       {
