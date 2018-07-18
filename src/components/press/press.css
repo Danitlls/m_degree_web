@@ -2,11 +2,9 @@
   min-height: 100vh;
   padding-top: 1rem;
   background-color: #fff ;
-  margin: 2rem 1.8rem !important;
+  margin: 1.2rem 1.62rem !important;
 }
-.press .carousel{
-  max-height: 85vh !important;
-}
+
 .press > .row .col {
   padding: 0 !important ;
 }
@@ -55,7 +53,7 @@
   letter-spacing: .2rem;
 }
 .press-card p{
-  font-size: .7rem;
+  font-size: .75rem;
   margin-top: .2rem;
   margin-bottom: .2rem;
   color: grey;

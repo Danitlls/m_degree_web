@@ -1,7 +1,7 @@
 .carousel{
   height: auto !important;
-  margin-bottom: 4rem;
-  max-height: 95vh !important;
+  margin-bottom: 6rem;
+  max-height: 90vh !important;
 }
 
 .modal {
@@ -52,14 +52,14 @@
 }
 .image-description{
   width: 100%;
-  top: 80vh;
+  top: 73vh;
   position: absolute;
   background-color: black;
 }
 .image-description h5 {
     margin-top: .5rem !important;
     padding: 0 0.6rem !important;
-    font-size: .8rem;
+    font-size: .85rem;
     /* margin-bottom: 1rem; */
     line-height: 1.2rem;
     color: #e0e0e0;
@@ -92,7 +92,7 @@
 }
 
 .carousel-indicators {
-    bottom: 5px;
+    bottom: 10px;
     opacity: .4;
 
 }
@@ -159,7 +159,7 @@
   max-height: 80vh;
 }
 
-@media all and (min-width: 300px) and (orientation:landscape) and (max-width: 600px) {
+/* @media all and (min-width: 300px) and (orientation:landscape) and (max-width: 600px) {
   .carousel-inner{
     top: 0;
     height: 87vh;
@@ -177,20 +177,20 @@
     background-color: black;
   }
 
-}
+} */
 
 @media (min-width: 600px) {
   .carousel{
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
   }
   .main-image .secondary-image{
     padding: 0rem;
   }
   .image-description{
     width: 100%;
-    top: 83vh;
+    top: 78vh;
     position: absolute;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .image-description h5 {
     margin-top: .1rem !important;
