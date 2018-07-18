@@ -85,6 +85,21 @@ font-weight: lighter;
 .text-press{
   padding-bottom: 1rem;
 }
+.modal .m-degree-press-modal-footer h5{
+  margin-top: .1rem !important;
+  text-shadow: none;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.press-card h6{
+  color: #2d2d2d;
+}
+
+.m-degree-press-modal-footer p{
+  margin-top: .5rem !important;
+  text-align: center;
+}
 
 @media (min-width: 10px ) and (max-width: 600px){
   .press .row .col {

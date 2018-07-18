@@ -1,7 +1,7 @@
  [
   {
     "imageUrl":"/img/cakes/mango_rice02.jpg",
-    "name": "Mango Jasmin Rice",
+    "name": "Mango - Jasmin Rice",
     "id": "cake9",
     "className": "rectangle-image-grid",
     "secondaryImageClassName": "secondary-image",
@@ -9,14 +9,14 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/mango_rice03.jpg",
-        "name": "Mango - Jasmin - Rice",
+        "name": "Mango - Jasmin Rice",
         "id": "cake99",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
       },
       {
         "imageUrl":"/img/cakes/mango_rice01.jpg",
-        "name": "Mango - Jasmin - Rice",
+        "name": "Mango - Jasmin Rice",
         "id": "cake999",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
@@ -125,14 +125,14 @@
     "secondaryImages": [
       {
         "imageUrl":"/img/cakes/GT_chestnut_02.jpg",
-        "name": "Green Tea - Chestnut - Cassis",
+        "name": "Green Tea (Matcha) - Chestnut - Cassis",
         "id": "cake11",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
       },
       {
         "imageUrl":"/img/cakes/GT_chestnut_01.jpg",
-        "name": "Green Tea - Chestnut - Cassis",
+        "name": "Green Tea (Matcha) - Chestnut - Cassis",
         "id": "cake111",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"

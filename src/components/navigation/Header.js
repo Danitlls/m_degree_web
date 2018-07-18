@@ -36,8 +36,8 @@ function Header({ location }) {
           <NavItem href='/about' id="about" className={aboutUsStyles}>About Us & <br />
           Contact
           </NavItem>
-          <NavItem href='/press' className={pressStyles}>Press & <br />Collaborations</NavItem>
           <NavItem href='/cakes' className={workStyles}>Our <br />Work</NavItem>
+          <NavItem href='/press' className={pressStyles}>Press & <br />Collaborations</NavItem>
 
           <NavItem href='/about' className="nav-text-color hide-on-med-and-up">About Us & Contact </NavItem>
           <NavItem href='/press' className="nav-text-color hide-on-med-and-up">Press & Collaborations</NavItem>

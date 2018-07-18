@@ -76,24 +76,42 @@
       }
     ]
   },
-    {
-      "imageUrl":"/img/baked/blk_sesame_puff11.jpg",
-      "name": "Black Sesame Puff",
-      "id": "Baked3",
-      "className": "rectangle-image-grid",
-      "secondaryImageClassName": "secondary-image",
-      "lCol": 3,
-      "mCol": 6,
-      "secondaryImages": [
-         {
-           "imageUrl":"/img/baked/blk_sesame_puff02.jpg",
-           "name": "Black Sesame Puff",
-           "id": "Baked4",
-           "className": "secondary-image",
-           "secondaryImageClassName": "secondary-image"
-         }
-      ]
-    },
+  {
+    "imageUrl":"/img/baked/blk_sesame_puff11.jpg",
+    "name": "Black Sesame Puff",
+    "id": "Baked3",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 3,
+    "mCol": 6,
+    "secondaryImages": [
+       {
+         "imageUrl":"/img/baked/blk_sesame_puff02.jpg",
+         "name": "Black Sesame Puff",
+         "id": "Baked4",
+         "className": "secondary-image",
+         "secondaryImageClassName": "secondary-image"
+       }
+    ]
+  },
+
+  {
+    "imageUrl":"/img/baked/green-puff-7237.jpg",
+    "name": "Green Tea (Matcha) Puff",
+    "id": "Baked12",
+    "className": "rectangle-image-grid",
+    "secondaryImageClassName": "secondary-image",
+    "lCol": 3,
+    "mCol": 6,
+    "secondaryImages": [
+      {
+        "imageUrl":"/img/baked/greeentea_puff03.jpg",
+        "name": "Green Tea (Matcha) Puff",
+        "id": "Baked1222"
+      }
+    ]
+  },
+
   {
     "imageUrl":"img/baked/vanil-caramel02.jpg",
     "name": "Vanilla Custard, Salted Caramel Puff",
@@ -110,22 +128,6 @@
         "id": "Baked14",
         "className": "secondary-image",
         "secondaryImageClassName": "secondary-image"
-      }
-    ]
-  },
-  {
-    "imageUrl":"/img/baked/green-puff-7237.jpg",
-    "name": "Green Tea (Matcha) Puff",
-    "id": "Baked12",
-    "className": "rectangle-image-grid",
-    "secondaryImageClassName": "secondary-image",
-    "lCol": 3,
-    "mCol": 6,
-    "secondaryImages": [
-      {
-        "imageUrl":"/img/baked/greeentea_puff03.jpg",
-        "name": "Green Tea (Matcha) Puff",
-        "id": "Baked1222"
       }
     ]
   },

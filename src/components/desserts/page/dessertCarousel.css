@@ -1,7 +1,7 @@
 .carousel{
   height: auto !important;
-  margin-bottom: 2.5rem;
-  /* max-height: 85vh !important; */
+  margin-bottom: 4rem;
+  max-height: 95vh !important;
 }
 
 .modal {
@@ -30,7 +30,7 @@
   font-size: .9rem;
   letter-spacing: .1rem;
   font-weight: lighter;
-  padding: 0px .7rem 5px !important;
+  padding: 0px .7rem 3px !important;
   text-align: center;
 }
 .modal-dialog{
@@ -52,7 +52,7 @@
 }
 .image-description{
   width: 100%;
-  bottom: 10px;
+  top: 80vh;
   position: absolute;
   background-color: black;
 }
@@ -71,10 +71,7 @@
   text-shadow: 1px 1px 1px black;
 }
 
-
-
 .material-icons {
-
     font-size: 20px ;
   }
 
@@ -162,34 +159,6 @@
   max-height: 80vh;
 }
 
-@media (min-width: 600px) {
-
-  .main-image .secondary-image{
-    padding: 0rem;
-  }
-  .image-description{
-    position: absolute;
-    bottom: 20px;
-  }
-  .image-description h5 {
-    margin-top: .1rem !important;
-    padding: 0.3rem 0.6rem .1rem !important;
-    font-size: 1rem;
-    color: #e2e2e2;;
-  }
-  .item{
-    max-height: 85vh !important;
-  }
-  .carousel-indicators{
-    position: absolute;
-    bottom: 10px !important;
-  }
-  .carousel-inner>.item>img {
-    width: auto;
-    max-height: 90vh;
-  }
-}
-
 @media all and (min-width: 300px) and (orientation:landscape) and (max-width: 600px) {
   .carousel-inner{
     top: 0;
@@ -210,13 +179,47 @@
 
 }
 
+@media (min-width: 600px) {
+  .carousel{
+    margin-bottom: 4rem;
+  }
+  .main-image .secondary-image{
+    padding: 0rem;
+  }
+  .image-description{
+    width: 100%;
+    top: 83vh;
+    position: absolute;
+    padding-bottom: 30px;
+  }
+  .image-description h5 {
+    margin-top: .1rem !important;
+    padding: 0.3rem 0.6rem 0rem !important;
+    font-size: 1rem;
+    color: #e4e4e4;
+  }
+  .item{
+    max-height: 85vh !important;
+  }
+  .carousel-indicators{
+    position: absolute;
+    bottom: 10px !important;
+  }
+  .carousel-inner>.item>img {
+    width: auto;
+    max-height: 80vh;
+  }
+}
+
+
+
 @media (min-width: 993px) {
   .row .col {
     padding: 0rem !important;
   }
 
   .carousel-inner>.item>img {
-    max-height: 80vh !important;
+    max-height: 75vh !important;
     width: auto;
   }
 }
