@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </Link>
       </div>
-      <h1 className="hidden">M degree, by Mauro Pompili and Maya Sitti, pastry cheff </h1>
+      <h1 className="hiddenMM">M degree by Mauro Pompili and Maya Sitti, pastry cheffs</h1>
     </div>
   );
 }

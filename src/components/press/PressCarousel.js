@@ -23,7 +23,7 @@ export default class PressCarousel extends Component {
         <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect}>
           {this.props.images.map(image => image &&
             <Carousel.Item>
-              <img width={900} height={700} src={image.imageUrl} />
+              <img alt="mmdegree.com pastry, desserts and bakery" width={900} height={700} src={image.imageUrl} />
             </Carousel.Item>
           )}
         </Carousel>
