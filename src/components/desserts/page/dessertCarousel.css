@@ -52,7 +52,7 @@
 }
 .image-description{
   width: 100%;
-  top: 70vh;
+  top: 75vh;
   position: absolute;
   background-color: black;
 }
@@ -181,14 +181,14 @@
 
 @media (min-width: 550px) {
   .carousel{
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
   }
   .main-image .secondary-image{
     padding: 0rem;
   }
   .image-description{
     width: 100%;
-    top: 72vh;
+    top: 75vh;
     position: absolute;
     padding-bottom: 10px;
   }
@@ -199,7 +199,7 @@
     color: #e4e4e4;
   }
   .item{
-    max-height: 85vh !important;
+    max-height: 80vh !important;
   }
   .carousel-indicators{
     position: absolute;
@@ -207,13 +207,13 @@
   }
   .carousel-inner>.item>img {
     width: auto;
-    max-height: 73vh;
+    max-height: 65vh;
   }
 }
 
 
 
-@media (min-width: 993px) {
+@media (min-width: 953px) {
   .carousel {
     margin-bottom: 8rem;
 }
@@ -222,7 +222,7 @@
   }
 
   .carousel-inner>.item>img {
-    max-height: 74vh !important;
+    max-height: 70vh !important;
     width: auto;
   }
   .image-description{
