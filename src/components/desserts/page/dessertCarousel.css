@@ -1,7 +1,7 @@
 .carousel{
   height: auto !important;
-  margin-bottom: 7rem;
-  max-height: 90vh !important;
+  margin-bottom: 6rem;
+  max-height: 87vh !important;
 }
 
 .modal {
@@ -79,7 +79,7 @@
   max-height: 80vh;
 }
 .carousel-control {
-    top: 40px !important;
+    top: 0px !important;
     width: 20px;
     z-index: 20;
     font-size: 15px;
@@ -156,7 +156,7 @@
 
 .carousel-inner>.item>img {
   width: auto;
-  max-height: 80vh;
+  max-height: 77vh;
 }
 
 /* @media all and (min-width: 300px) and (orientation:landscape) and (max-width: 600px) {
@@ -179,9 +179,9 @@
 
 } */
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
   .carousel{
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
   }
   .main-image .secondary-image{
     padding: 0rem;
@@ -207,19 +207,22 @@
   }
   .carousel-inner>.item>img {
     width: auto;
-    max-height: 80vh;
+    max-height: 75vh;
   }
 }
 
 
 
 @media (min-width: 993px) {
+  .carousel {
+    margin-bottom: 9rem;
+}
   .row .col {
     padding: 0rem !important;
   }
 
   .carousel-inner>.item>img {
-    max-height: 75vh !important;
+    max-height: 73vh !important;
     width: auto;
   }
 }
