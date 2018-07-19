@@ -1,6 +1,6 @@
 .carousel{
   height: auto !important;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
   max-height: 90vh !important;
 }
 
@@ -52,7 +52,7 @@
 }
 .image-description{
   width: 100%;
-  top: 73vh;
+  top: 75vh;
   position: absolute;
   background-color: black;
 }
@@ -62,7 +62,7 @@
     font-size: .85rem;
     /* margin-bottom: 1rem; */
     line-height: 1.2rem;
-    color: #e0e0e0;
+    color: #eaeaea;
     text-shadow: 1px 1px 1px black;
     text-align: center;
     /* background-color: black; */
@@ -78,8 +78,8 @@
 .col .s12 .main-image{
   max-height: 80vh;
 }
-
 .carousel-control {
+    top: 40px !important;
     width: 20px;
     z-index: 20;
     font-size: 15px;
