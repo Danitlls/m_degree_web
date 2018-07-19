@@ -52,7 +52,7 @@
 }
 .image-description{
   width: 100%;
-  top: 75vh;
+  top: 70vh;
   position: absolute;
   background-color: black;
 }
@@ -156,7 +156,7 @@
 
 .carousel-inner>.item>img {
   width: auto;
-  max-height: 77vh;
+  max-height: 74vh;
 }
 
 /* @media all and (min-width: 300px) and (orientation:landscape) and (max-width: 600px) {
@@ -188,7 +188,7 @@
   }
   .image-description{
     width: 100%;
-    top: 78vh;
+    top: 72vh;
     position: absolute;
     padding-bottom: 10px;
   }
@@ -207,7 +207,7 @@
   }
   .carousel-inner>.item>img {
     width: auto;
-    max-height: 75vh;
+    max-height: 73vh;
   }
 }
 
@@ -215,14 +215,18 @@
 
 @media (min-width: 993px) {
   .carousel {
-    margin-bottom: 9rem;
+    margin-bottom: 8rem;
 }
   .row .col {
     padding: 0rem !important;
   }
 
   .carousel-inner>.item>img {
-    max-height: 73vh !important;
+    max-height: 74vh !important;
     width: auto;
+  }
+  .image-description{
+    width: 100%;
+    top: 80vh;
   }
 }
