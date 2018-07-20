@@ -25,7 +25,14 @@
   text-transform: none;
 }
 
-.text-container h1{
+.text-container h2{
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
   padding-top: 50px;
   padding-bottom: 150px;
 }

@@ -10,6 +10,7 @@ export default function Press() {
   return (
     <div className="press">
       <PressPageManager images={PressArticlePhotos} />
+      <h1 className="hiddenMM">A Sweet Experience, pastry consultant and colaborations</h1>
     </div>
   );
 }

@@ -8,6 +8,7 @@ export default function ImageGrid({ images, children }) {
       <div className="desserts-container">
         {children}
       </div>
+      <h1 className="hiddenMM">M degree by Mauro Pompili and Maya Sitti, Pastry chefs</h1>
     </div>
   );
 }

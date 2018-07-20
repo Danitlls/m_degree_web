@@ -11,7 +11,7 @@ export default function About() {
         <img  src="/img/mauro-final.png" />
       </div>
       <div className="text-container">
-        <h1>Who We Are</h1>
+        <h2>Who We Are</h2>
         <p>
         M Degree was founded by a chef couple, Eugenio Mauro Pompili and Manunya (Maya) Sittisuntorn, who coincidentally met while working in the fine dinning industry in New York City. An extensive ChikaLicious expansion project in 2015 led them to joined hands to brave the new world together in Asia.
         </p>
@@ -27,6 +27,7 @@ export default function About() {
         <a href="https://www.instagram.com/mdegree.mauromaya" target="_blank" ><img src="/img/instagram-logo.svg"/></a>
         <a href="https://www.facebook.com/mmdegree" target="_blank" ><img src="/img/facebook-logo-button.svg"/></a>
       </div>
+      <h1 className="hiddenMM">A Sweet Experience, pastry consultant and colaborations</h1>
     </div>
   );
 }

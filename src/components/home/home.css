@@ -93,6 +93,7 @@ nav > div > div > ul.mdegree-nav.right.hide-on-med-and-down {
 .hiddenMM{
   opacity: 0.1;
   color: white;
+  margin: 0 !important;
 }
 
 @media (min-width: 601px) {

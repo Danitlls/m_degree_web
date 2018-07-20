@@ -21,7 +21,7 @@
 
 .desserts-container{
   /* padding-top: 1rem; */
-  margin: 1.7rem 1.2rem !important;
+  margin: 1.7rem 1.2rem 0 !important;
   margin-bottom: 1rem;
   position: relative;
 }
