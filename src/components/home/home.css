@@ -91,7 +91,7 @@ nav > div > div > ul.mdegree-nav.right.hide-on-med-and-down {
 
 }
 .hiddenMM{
-  opacity: 0.1;
+  display: none !important;
   color: white;
   margin: 0 !important;
 }
